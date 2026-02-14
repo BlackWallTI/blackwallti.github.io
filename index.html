@@ -3,32 +3,180 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence OSINT JSON Feeds</title>
+  <title>Threat Intelligence OSINT Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #1e1e1e; color: #f0f0f0; }
-    h1 { color: #00ffff; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 10px 0; }
-    a { color: #00ffff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .container { max-width: 800px; margin: auto; }
+    /* ------------------------
+       Body & Fonts
+    ------------------------ */
+    body {
+      font-family: "Courier New", monospace;
+      background-color: #0d0d0d;
+      color: #00ff99;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    h1, h2 {
+      color: #00ffff;
+      text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff;
+    }
+
+    /* ------------------------
+       Containers
+    ------------------------ */
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      position: relative;
+      z-index: 2; /* float above matrix background */
+    }
+
+    .feed-container {
+      margin-bottom: 40px;
+    }
+
+    .entry-panel {
+      border: 1px solid #00ff99;
+      padding: 10px 15px;
+      margin: 10px 0;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 10px #00ff99, 0 0 20px #ff00ff;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .entry-panel:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px #00ff99, 0 0 30px #ff00ff;
+    }
+
+    a {
+      color: #00ff99;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    small {
+      display: block;
+      color: #66ff99;
+      margin-top: 5px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #00ff99;
+    }
+
+    /* ------------------------
+       Matrix Background
+    ------------------------ */
+    canvas#matrix {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
+  <canvas id="matrix"></canvas>
   <div class="container">
-    <h1>Threat Intelligence OSINT JSON Feeds</h1>
-    <p>Click on any feed below to view the latest JSON data:</p>
-    <ul id="json-list">
-      <li><a href="bleeping.json" target="_blank">Bleeping Computer</a></li>
-      <li><a href="hackernews.json" target="_blank">The Hacker News</a></li>
-      <li><a href="cisa.json" target="_blank">CISA Advisories</a></li>
-      <li><a href="mandiant.json" target="_blank">Mandiant Reports</a></li>
-      <li><a href="ransomware_live.json" target="_blank">Ransomware Live</a></li>
-      <li><a href="mitre.json" target="_blank">MITRE ATT&CK Actors</a></li>
-    </ul>
-    <footer>
-      <p>Updated daily.</p>
-    </footer>
+    <h1>Threat Intelligence OSINT Dashboard</h1>
+    <p>Latest threat intelligence feeds. Click titles to view original source.</p>
+    <div id="json-list"></div>
+    <footer>Updated daily</footer>
   </div>
+
+  <script>
+    // ------------------------
+    // Feeds config
+    // ------------------------
+    const feeds = [
+      { name: "Bleeping Computer", file: "bleeping.json" },
+      { name: "The Hacker News", file: "hackernews.json" },
+      { name: "CISA Advisories", file: "cisa.json" },
+      { name: "Mandiant Reports", file: "mandiant.json" },
+      { name: "Ransomware Live", file: "ransomware_live.json" },
+      { name: "MITRE ATT&CK Actors", file: "mitre.json" },
+    ];
+
+    const list = document.getElementById("json-list");
+
+    // ------------------------
+    // Load JSON & build panels
+    // ------------------------
+    feeds.forEach(feed => {
+      fetch(feed.file)
+        .then(res => res.json())
+        .then(data => {
+          const container = document.createElement("div");
+          container.className = "feed-container";
+
+          const title = document.createElement("h2");
+          title.textContent = feed.name;
+          container.appendChild(title);
+
+          data.slice(0, 10).forEach(item => {
+            const panel = document.createElement("div");
+            panel.className = "entry-panel";
+            panel.innerHTML = `
+              <a href="${item.link}" target="_blank">${item.title}</a>
+              <p>${item.summary}</p>
+              <small>${new Date(item.published).toLocaleString()}</small>
+            `;
+            container.appendChild(panel);
+          });
+
+          list.appendChild(container);
+        })
+        .catch(err => {
+          console.error(`Failed to load ${feed.file}:`, err);
+        });
+    });
+
+    // ------------------------
+    // Matrix background
+    // ------------------------
+    const c = document.getElementById("matrix");
+    c.width = window.innerWidth;
+    c.height = window.innerHeight;
+    const ctx = c.getContext("2d");
+
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
+    const fontSize = 14;
+    const columns = c.width / fontSize;
+    const drops = Array.from({length: columns}).map(() => 1);
+
+    function draw() {
+      ctx.fillStyle = "rgba(0,0,0,0.05)";
+      ctx.fillRect(0, 0, c.width, c.height);
+      ctx.fillStyle = "#0f0";
+      ctx.font = fontSize + "px monospace";
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = letters.charAt(Math.floor(Math.random() * letters.length));
+        ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+        if(drops[i]*fontSize > c.height && Math.random() > 0.975) drops[i] = 0;
+        drops[i]++;
+      }
+    }
+
+    setInterval(draw, 35);
+
+    window.addEventListener("resize", () => {
+      c.width = window.innerWidth;
+      c.height = window.innerHeight;
+    });
+  </script>
 </body>
 </html>
