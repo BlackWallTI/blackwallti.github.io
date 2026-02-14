@@ -1,34 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence OSINT JSON Feeds</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #1e1e1e; color: #f0f0f0; }
-    h1 { color: #00ffff; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 10px 0; }
-    a { color: #00ffff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .container { max-width: 800px; margin: auto; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlackWall | Threat Intelligence | (OSINT)</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #000;
+    color: #0ff;
+    overflow-x: hidden;
+  }
+
+  canvas#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    color: #0ff;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  }
+
+  #search-box {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    background: #111;
+    border: 1px solid #0ff;
+    color: #0ff;
+  }
+
+  .feed-panel {
+    margin-bottom: 20px;
+    border: 1px solid #0ff;
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px #0ff;
+  }
+
+  .feed-header {
+    padding: 10px;
+    background: #000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #0ff;
+  }
+
+  .feed-entries {
+    display: none;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .entry-card {
+    background: rgba(0,0,0,0.8);
+    border: 1px solid #0ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    white-space: pre-wrap; /* keep markdown-like line breaks */
+  }
+
+  .entry-card:hover {
+    box-shadow: 0 0 10px #0ff;
+    transform: scale(1.02);
+  }
+
+  .entry-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #0ff;
+    text-decoration: none;
+  }
+
+  .entry-meta {
+    font-size: 0.85em;
+    color: #6f6;
+    margin: 5px 0;
+  }
+
+  .entry-desc {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #afa;
+  }
+
+  .feed-entries::-webkit-scrollbar {
+    width: 8px;
+  }
+  .feed-entries::-webkit-scrollbar-thumb {
+    background: #0ff;
+    border-radius: 4px;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Threat Intelligence OSINT JSON Feeds</h1>
-    <p>Click on any feed below to view the latest JSON data:</p>
-    <ul id="json-list">
-      <li><a href="bleeping.json" target="_blank">Bleeping Computer</a></li>
-      <li><a href="hackernews.json" target="_blank">The Hacker News</a></li>
-      <li><a href="cisa.json" target="_blank">CISA Advisories</a></li>
-      <li><a href="mandiant.json" target="_blank">Mandiant Reports</a></li>
-      <li><a href="ransomware_live.json" target="_blank">Ransomware Live</a></li>
-      <li><a href="mitre.json" target="_blank">MITRE ATT&CK Actors</a></li>
-    </ul>
-    <footer>
-      <p>Updated daily via automated ingestion pipeline.</p>
-    </footer>
-  </div>
+
+<canvas id="matrix"></canvas>
+
+<div class="container">
+  <h1>BlackWall | Threat Intelligence | (OSINT)</h1>
+  <input type="text" id="search-box" placeholder="Search feeds...">
+  <div id="feeds-container"></div>
+</div>
+
+<script>
+/* ==== MATRIX EFFECT ==== */
+const canvas = document.getElementById('matrix');
+const ctx = canvas.getContext('2d');
+let width = canvas.width = window.innerWidth;
+let height = canvas.height = window.innerHeight;
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()*&^%'.split('');
+const fontSize = 18;
+const columns = Math.floor(width / fontSize);
+const drops = Array(columns).fill(0);
+
+function drawMatrix() {
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+  ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = '#0ff';
+  ctx.font = fontSize + 'px monospace';
+  for (let i = 0; i < drops.length; i++) {
+    const text = letters[Math.floor(Math.random() * letters.length)];
+    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+    if (drops[i] * fontSize > height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  }
+}
+setInterval(drawMatrix, 50);
+window.addEventListener('resize', () => { width = canvas.width = window.innerWidth; height = canvas.height = window.innerHeight; });
+
+/* ==== FEEDS & SEARCH ==== */
+const feeds = {
+  "Bleeping Computer": "bleeping.json",
+  "The Hacker News": "hackernews.json",
+  "CISA Advisories": "cisa.json",
+  "Mandiant Reports": "mandiant.json",
+  "Ransomware Live": "ransomware_live.json",
+  "MITRE ATT&CK Actors": "mitre.json"
+};
+
+const container = document.getElementById('feeds-container');
+const searchBox = document.getElementById('search-box');
+
+async function loadFeeds() {
+  for (const [feedName, feedFile] of Object.entries(feeds)) {
+    try {
+      const res = await fetch(feedFile);
+      const data = await res.json();
+
+      const panel = document.createElement('div');
+      panel.className = 'feed-panel';
+
+      const header = document.createElement('div');
+      header.className = 'feed-header';
+      header.textContent = `${feedName} (${data.length})`;
+      header.onclick = () => { entriesDiv.style.display = entriesDiv.style.display === 'block' ? 'none' : 'block'; };
+      panel.appendChild(header);
+
+      const entriesDiv = document.createElement('div');
+      entriesDiv.className = 'feed-entries';
+
+      data.forEach(entry => {
+        const card = document.createElement('div');
+        card.className = 'entry-card';
+
+        // Title + attribution
+        const title = document.createElement('a');
+        title.className = 'entry-title';
+        title.href = entry.link || '#';
+        title.target = '_blank';
+        title.textContent = entry.title || entry.actor_name || 'No title';
+        if (entry.attribution) title.textContent += ` (${entry.attribution})`;
+        card.appendChild(title);
+
+        // Meta
+        const meta = document.createElement('div');
+        meta.className = 'entry-meta';
+        const pub = entry.published || entry.last_updated || '';
+        meta.textContent = pub ? `Published (UTC): ${new Date(pub).toISOString().replace('T', ' ').split('.')[0]}Z` : '';
+        card.appendChild(meta);
+
+        // Description / aliases / techniques as markdown-like
+        const desc = document.createElement('div');
+        desc.className = 'entry-desc';
+        let text = entry.summary || entry.description || '';
+        if (entry.aliases) text += `\n\n**Aliases:** ${entry.aliases}`;
+        if (entry.techniques) text += `\n\n**Techniques:** ${entry.techniques}`;
+        if (entry.attribution && feedName !== 'Ransomware Live') text += `\n\n**Attribution:** ${entry.attribution}`;
+        desc.textContent = text;
+        card.appendChild(desc);
+
+        entriesDiv.appendChild(card);
+      });
+
+      panel.appendChild(entriesDiv);
+      container.appendChild(panel);
+
+    } catch (err) {
+      console.error(`Failed to load ${feedFile}:`, err);
+    }
+  }
+}
+
+/* SEARCH */
+searchBox.addEventListener('input', () => {
+  const query = searchBox.value.toLowerCase();
+  document.querySelectorAll('.entry-card').forEach(card => {
+    card.style.display = card.textContent.toLowerCase().includes(query) ? 'block' : 'none';
+  });
+});
+
+/* INIT */
+loadFeeds();
+</script>
+
 </body>
 </html>
