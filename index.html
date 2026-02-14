@@ -40,13 +40,14 @@ h1 {
 }
 
 #search-box {
-  width: calc(100% - 80px);
+  width: calc(100% - 100px);
   padding: 10px;
   font-size: 1em;
   margin-bottom: 10px;
   background: #111;
   border: 1px solid #0ff;
   color: #0ff;
+  display: inline-block;
 }
 
 #feed-note {
@@ -128,14 +129,19 @@ button {
 }
 
 .heading {
-  color: #6f6;
+  color: #6f6;   /* dark green */
   font-weight: bold;
   margin-top: 6px;
 }
 
 .value {
-  color: #afa;
+  color: #afa;   /* light green */
   margin-left: 5px;
+}
+
+mark.highlight {
+  background-color: #0ff;
+  color: #000;
 }
 
 .feed-entries::-webkit-scrollbar {
@@ -145,20 +151,6 @@ button {
   background: #0ff;
   border-radius: 4px;
 }
-
-/* === SEARCH HIGHLIGHT === */
-mark.highlight {
-  background-color: #0ff; /* neon blue */
-  color: #000;
-  padding: 0 2px;
-  border-radius: 2px;
-}
-
-/* === MANUAL TEXT SELECTION === */
-::selection {
-  background-color: #0ff;
-  color: #000;
-}
 </style>
 </head>
 <body>
@@ -167,16 +159,19 @@ mark.highlight {
 
 <div class="container">
   <h1>BlackWall | Threat Intelligence | (OSINT)</h1>
-  <div style="display:flex; gap:10px; margin-bottom:10px;">
-    <input type="text" id="search-box" placeholder="Search feeds...">
-    <button id="clear-search">Clear</button>
-  </div>
+
+  <input type="text" id="search-box" placeholder="Search feeds...">
+  <button id="clear-search">Clear</button>
+
   <div id="feed-note">Titles can be clicked to view the source</div>
+
   <div class="button-bar">
     <button id="expand-all">Expand All</button>
     <button id="collapse-all">Collapse All</button>
   </div>
+
   <div id="search-status">No matches found</div>
+
   <div id="feeds-container"></div>
 </div>
 
@@ -204,7 +199,7 @@ function drawMatrix() {
   }
 }
 setInterval(drawMatrix,50);
-window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;});
+window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;} );
 
 /* ==== FEEDS ==== */
 const feeds = {
@@ -220,6 +215,11 @@ const container = document.getElementById('feeds-container');
 const searchBox = document.getElementById('search-box');
 const searchStatus = document.getElementById('search-status');
 
+/* Utility to escape regex special characters */
+function escapeRegex(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 function addField(card, label, value) {
   if (!value) return;
   const heading = document.createElement('div');
@@ -233,7 +233,38 @@ function addField(card, label, value) {
   card.appendChild(val);
 }
 
-/* ==== LOAD FEEDS ==== */
+/* Recursive highlight for text nodes */
+function highlightText(node, query) {
+  if (!query) return;
+  const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+
+  for (let child of Array.from(node.childNodes)) {
+    if (child.nodeType === 3) { // text node
+      const frag = document.createDocumentFragment();
+      let lastIndex = 0;
+      let match;
+
+      while ((match = regex.exec(child.data)) !== null) {
+        if (match.index > lastIndex) {
+          frag.appendChild(document.createTextNode(child.data.substring(lastIndex, match.index)));
+        }
+        const mark = document.createElement('mark');
+        mark.className = 'highlight';
+        mark.textContent = match[0];
+        frag.appendChild(mark);
+        lastIndex = match.index + match[0].length;
+      }
+      if (lastIndex < child.data.length) {
+        frag.appendChild(document.createTextNode(child.data.substring(lastIndex)));
+      }
+
+      child.parentNode.replaceChild(frag, child);
+    } else {
+      highlightText(child, query);
+    }
+  }
+}
+
 async function loadFeeds() {
   for (const [feedName, feedFile] of Object.entries(feeds)) {
     try {
@@ -258,7 +289,6 @@ async function loadFeeds() {
         const card = document.createElement('div');
         card.className = 'entry-card';
 
-        /* Title */
         const title = document.createElement('a');
         title.className = 'entry-title';
         title.href = entry.link || entry.mitre_url || '#';
@@ -266,14 +296,9 @@ async function loadFeeds() {
         title.textContent = entry.title || entry.actor_name || 'No title';
         card.appendChild(title);
 
-        /* Published */
         const pub = entry.published || entry.last_updated;
-        if (pub) {
-          const iso = new Date(pub).toISOString().replace('T',' ').split('.')[0] + "Z";
-          addField(card, "Published (UTC):", iso);
-        }
+        if (pub) addField(card, "Published (UTC):", new Date(pub).toISOString().replace('T',' ').split('.')[0] + "Z");
 
-        /* Summary */
         let summary = entry.summary || entry.description;
         if (summary) {
           summary = summary.replace(/\.\.\.$/, '');
@@ -291,18 +316,13 @@ async function loadFeeds() {
 
       panel.appendChild(entriesDiv);
       container.appendChild(panel);
-
     } catch (err) {
       console.error(`Failed to load ${feedFile}`, err);
     }
   }
 }
 
-/* ==== SEARCH + AUTO-HIGHLIGHT + AUTO-EXPAND + NO MATCHES ==== */
-function escapeRegex(text) {
-  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
+/* ==== SEARCH + AUTO-EXPAND + HIGHLIGHT + NO MATCHES ==== */
 searchBox.addEventListener('input', () => {
   const query = searchBox.value.toLowerCase();
   let anyMatch = false;
@@ -312,7 +332,7 @@ searchBox.addEventListener('input', () => {
     let panelHasMatch = false;
 
     entriesDiv.querySelectorAll('.entry-card').forEach(card => {
-      // Reset highlights
+      // Remove previous highlights
       card.querySelectorAll('mark.highlight').forEach(m => {
         const parent = m.parentNode;
         parent.replaceChild(document.createTextNode(m.textContent), m);
@@ -325,14 +345,7 @@ searchBox.addEventListener('input', () => {
       if (isMatch) {
         panelHasMatch = true;
         anyMatch = true;
-
-        // Highlight matches
-        const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
-        card.querySelectorAll('*').forEach(el => {
-          if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) {
-            el.innerHTML = el.textContent.replace(regex, '<mark class="highlight">$1</mark>');
-          }
-        });
+        highlightText(card, query);
       }
     });
 
@@ -342,7 +355,7 @@ searchBox.addEventListener('input', () => {
   searchStatus.style.display = query && !anyMatch ? 'block' : 'none';
 });
 
-/* ==== CLEAR SEARCH ==== */
+/* ==== CLEAR SEARCH BUTTON ==== */
 document.getElementById('clear-search').addEventListener('click', () => {
   searchBox.value = '';
   searchBox.dispatchEvent(new Event('input'));
