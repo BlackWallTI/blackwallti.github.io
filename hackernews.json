@@ -1,10 +1,50 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
-    "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
-    "published": "2026-02-15T14:10:00",
-    "summary": "Microsoft has disclosed details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (DNS) lookup to retrieve the next-stage payload.\nSpecifically, the attack relies on using the \"nslookup\" (short for nameserver lookup) command to execute a custom DNS lookup triggered via the Windows.",
+    "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
+    "link": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
+    "published": "2026-02-16T18:43:00",
+    "summary": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environment.\n\"This finding marks a significant milestone in the evolution of infostealer behavior: the transition from stealing browser credentials to harvesting the 'souls' and identities of personal AI [.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
+    "link": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
+    "published": "2026-02-16T18:06:00",
+    "summary": "A new study has found that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.\n\"The attacks range in severity from integrity violations to the complete compromise of all vaults in an organization,\" researchers Matteo Scarlata, Giovanni Torrisi, Matilda Backendal, and Kenneth G. Paterson said.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html",
+    "published": "2026-02-16T12:55:00",
+    "summary": "This week\u2019s recap shows how small gaps are turning into big entry points. Not always through new exploits, often through tools, add-ons, cloud setups, or workflows that people already trust and rarely question.\nAnother signal: attackers are mixing old and new methods.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Safe and Inclusive E\u2011Society: How Lithuania Is Bracing for AI\u2011Driven Cyber Fraud",
+    "link": "https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html",
+    "published": "2026-02-16T11:55:00",
+    "summary": "Presentation of the KTU Consortium Mission \u2018A Safe and Inclusive Digital Society\u2019 at the Innovation Agency event \u2018Innovation Breakfast: How Mission-Oriented Science and Innovation Programmes Will Address Societal Challenges\u2019.\n\nTechnologies are evolving fast, reshaping economies, governance, and daily life. Yet, as innovation accelerates, so do digital risks.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
+    "link": "https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html",
+    "published": "2026-02-16T10:24:00",
+    "summary": "Cybersecurity researchers have disclosed details of a new mobile spyware platform dubbed ZeroDayRAT that's being advertised on Telegram as a way to grab sensitive data and facilitate real-time surveillance on Android and iOS devices.\n\"The developer runs dedicated channels for sales, customer support, and regular updates, giving buyers a single point of access to a fully operational spyware.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack \u2014 Patch Released",
+    "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+    "published": "2026-02-16T06:38:00",
+    "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.\nThe high-severity vulnerability, tracked as CVE-2026-2441 (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim has been credited with discovering and reporting the shortcoming on February 11, 2026.\n\"Use after.",
     "extra": {}
   }
 ]
