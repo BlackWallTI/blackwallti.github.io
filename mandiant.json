@@ -1,0 +1,10 @@
+[
+  {
+    "source": "Mandiant",
+    "title": "From BRICKSTORM to GRIMBOLT: UNC6201 Exploiting a Dell RecoverPoint for Virtual Machines Zero-Day",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day/",
+    "published": "2026-02-17T14:00:00",
+    "summary": "Written by: Peter Ukhanov, Daniel Sislo, Nick Harbour, John Scarbrough, Fernando Tomlinson, Jr., Rich Reece Introduction Mandiant and Google Threat Intelligence Group (GTIG) have identified the zero-day exploitation of a high-risk vulnerability in Dell RecoverPoint for Virtual Machines , tracked as CVE-2026-22769 , with a CVSSv3.1 score of 10.0 . Analysis of incident response engagements revealed that UNC6201 , a suspected PRC-nexus threat cluster, has exploited this flaw since at least mid-2024 to move laterally, maintain persistent access, and deploy malware including SLAYSTYLE , BRICKSTORM , and a novel backdoor tracked as GRIMBOLT .",
+    "extra": {}
+  }
+]
