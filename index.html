@@ -55,7 +55,7 @@ h1 {
   color: #0ff;
 }
 
-#clear-search {
+#clear-search, #search-submit, #last-24h, #archive {
   background:#0ff;
   color:#060;
   border:none;
@@ -72,7 +72,7 @@ h1 {
   text-align: center;
 }
 
-#search-status {
+#search-status, #archive-note {
   text-align:center;
   color:#f66;
   font-weight:bold;
@@ -154,14 +154,13 @@ button {
   margin-left: 5px;
 }
 
-/* NEON BLUE HIGHLIGHT FOR SEARCH & SELECTION */
 mark.highlight {
-  background-color: #0ff; /* neon blue */
+  background-color: #0ff; 
   color: #000;
 }
 
 ::selection {
-  background: #0ff; /* neon blue */
+  background: #0ff; 
   color: #000;
 }
 
@@ -181,20 +180,17 @@ mark.highlight {
 <div class="container">
   <h1>BlackWall | Threat Intelligence | (OSINT)</h1>
 
-  <div id="search-container">
+  <div class="button-bar">
+    <button id="last-24h">Last 24 Hours</button>
+    <button id="archive">Archive</button>
     <input type="text" id="search-box" placeholder="Search feeds...">
+    <button id="search-submit">Search</button>
     <button id="clear-search">Clear</button>
   </div>
 
   <div id="feed-note">Titles can be clicked to view the source</div>
-
-  <div class="button-bar">
-    <button id="expand-all">Expand All</button>
-    <button id="collapse-all">Collapse All</button>
-  </div>
-
+  <div id="archive-note"></div>
   <div id="search-status">No matches found</div>
-
   <div id="feeds-container"></div>
 </div>
 
@@ -224,7 +220,7 @@ function drawMatrix() {
 setInterval(drawMatrix,50);
 window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;});
 
-/* ==== FEEDS ==== */
+/* ==== FEEDS & ARCHIVES ==== */
 const feeds = {
   "Bleeping Computer": "bleeping.json",
   "The Hacker News": "hackernews.json",
@@ -234,9 +230,17 @@ const feeds = {
   "MITRE ATT&CK Actors": "mitre.json"
 };
 
+// Example archive files
+const archives = {
+  "bleeping": ["archive/bleeping_20260217.json","archive/bleeping_20260216.json"],
+  "hackernews": ["archive/hackernews_20260217.json","archive/hackernews_20260216.json"]
+};
+
 const container = document.getElementById('feeds-container');
 const searchBox = document.getElementById('search-box');
+const archiveNote = document.getElementById('archive-note');
 
+/* ==== HELPER ==== */
 function addField(card, label, value) {
   if (!value) return;
   const heading = document.createElement('div');
@@ -250,67 +254,6 @@ function addField(card, label, value) {
   card.appendChild(val);
 }
 
-/* ==== FEED LOADING ==== */
-async function loadFeeds() {
-  for (const [feedName, feedFile] of Object.entries(feeds)) {
-    try {
-      const res = await fetch(feedFile);
-      const data = await res.json();
-
-      const panel = document.createElement('div');
-      panel.className = 'feed-panel';
-
-      const header = document.createElement('div');
-      header.className = 'feed-header';
-      header.textContent = `${feedName} (${data.length})`;
-      panel.appendChild(header);
-
-      const entriesDiv = document.createElement('div');
-      entriesDiv.className = 'feed-entries';
-      header.onclick = () => {
-        entriesDiv.style.display =
-          entriesDiv.style.display === 'block' ? 'none' : 'block';
-      };
-
-      data.forEach(entry => {
-        const card = document.createElement('div');
-        card.className = 'entry-card';
-
-        const title = document.createElement('a');
-        title.className = 'entry-title';
-        title.href = entry.link || entry.mitre_url || '#';
-        title.target = '_blank';
-        title.textContent = entry.title || entry.actor_name || 'No title';
-        card.appendChild(title);
-
-        const pub = entry.published || entry.last_updated;
-        if (pub) {
-          const iso = new Date(pub).toISOString().replace('T',' ').split('.')[0] + "Z";
-          addField(card, "Published (UTC):", iso);
-        }
-
-        let summary = entry.summary || entry.description;
-        if (summary) summary = summary.replace(/\.\.\.$/, '');
-        if (summary) addField(card, "Summary:", summary);
-
-        if (entry.aliases) addField(card, "Aliases:", entry.aliases);
-        if (entry.techniques) addField(card, "Techniques:", entry.techniques);
-        if (entry.attribution) addField(card, "Attribution:", entry.attribution);
-        if (entry.country) addField(card, "Country:", entry.country);
-        if (entry.website) addField(card, "Website:", entry.website);
-
-        entriesDiv.appendChild(card);
-      });
-
-      panel.appendChild(entriesDiv);
-      container.appendChild(panel);
-    } catch (err) {
-      console.error(`Failed to load ${feedFile}`, err);
-    }
-  }
-}
-
-/* ==== SEARCH + HIGHLIGHT ==== */
 function removeHighlights(element) {
   element.querySelectorAll('mark.highlight').forEach(mark => {
     const parent = mark.parentNode;
@@ -344,47 +287,137 @@ function highlightText(element, query) {
   }
 }
 
-searchBox.addEventListener('input', () => {
-  const query = searchBox.value.toLowerCase();
-  let anyMatch = false;
+/* ==== FEED LOADING ==== */
+async function loadFeed(file, feedName) {
+  try {
+    const res = await fetch(file);
+    const data = await res.json();
 
-  document.querySelectorAll('.feed-panel').forEach(panel => {
-    const entriesDiv = panel.querySelector('.feed-entries');
-    let panelHasMatch = false;
+    const panel = document.createElement('div');
+    panel.className = 'feed-panel';
+    const header = document.createElement('div');
+    header.className = 'feed-header';
+    header.textContent = `${feedName} (${data.length})`;
+    panel.appendChild(header);
 
-    entriesDiv.querySelectorAll('.entry-card').forEach(card => {
-      removeHighlights(card);
-      const isMatch = card.textContent.toLowerCase().includes(query);
-      card.style.display = isMatch ? 'block' : 'none';
-      if (isMatch) {
-        highlightText(card, query);
-        panelHasMatch = true;
-      }
+    const entriesDiv = document.createElement('div');
+    entriesDiv.className = 'feed-entries';
+    header.onclick = () => {
+      entriesDiv.style.display = entriesDiv.style.display === 'block' ? 'none' : 'block';
+    };
+
+    data.forEach(entry => {
+      const card = document.createElement('div');
+      card.className = 'entry-card';
+
+      const title = document.createElement('a');
+      title.className = 'entry-title';
+      title.href = entry.link || entry.mitre_url || '#';
+      title.target = '_blank';
+      title.textContent = entry.title || entry.actor_name || 'No title';
+      card.appendChild(title);
+
+      const pub = entry.published || entry.last_updated;
+      if (pub) addField(card, "Published (UTC):", new Date(pub).toISOString().replace('T',' ').split('.')[0] + "Z");
+
+      let summary = entry.summary || entry.description;
+      if (summary) summary = summary.replace(/\.\.\.$/, '');
+      if (summary) addField(card, "Summary:", summary);
+
+      if (entry.aliases) addField(card, "Aliases:", entry.aliases);
+      if (entry.techniques) addField(card, "Techniques:", entry.techniques);
+      if (entry.attribution) addField(card, "Attribution:", entry.attribution);
+      if (entry.country) addField(card, "Country:", entry.country);
+      if (entry.website) addField(card, "Website:", entry.website);
+
+      entriesDiv.appendChild(card);
     });
 
-    entriesDiv.style.display = panelHasMatch ? 'block' : (query === '' ? 'none' : 'none');
-    if (panelHasMatch) anyMatch = true;
-  });
+    panel.appendChild(entriesDiv);
+    container.appendChild(panel);
+  } catch(e) {
+    console.error(`Error loading ${file}`, e);
+    archiveNote.style.display = 'block';
+    archiveNote.textContent = 'Timeframe error';
+  }
+}
 
-  document.getElementById('search-status').style.display = query && !anyMatch ? 'block' : 'none';
+/* ==== INIT FEEDS ==== */
+document.getElementById('last-24h').addEventListener('click', async () => {
+  container.innerHTML = '';
+  archiveNote.style.display = 'none';
+  for (const [name, file] of Object.entries(feeds)) {
+    if (name === "MITRE ATT&CK Actors") {
+      await loadFeed(file, name); // only latest MITRE
+    } else {
+      await loadFeed(file, name);
+    }
+  }
+});
+
+document.getElementById('archive').addEventListener('click', async () => {
+  container.innerHTML = '';
+  archiveNote.style.display = 'block';
+  archiveNote.textContent = 'Only one archive can be accessed at a time';
+  // load first archive file for each feed as example
+  for (const [feedKey, files] of Object.entries(archives)) {
+    if (files.length > 0) {
+      await loadFeed(files[0], feedKey.charAt(0).toUpperCase() + feedKey.slice(1) + " Archive");
+    }
+  }
+});
+
+/* ==== SEARCH ==== */
+document.getElementById('search-submit').addEventListener('click', async () => {
+  const query = searchBox.value.trim().toLowerCase();
+  if (!query) return;
+  container.innerHTML = '';
+  archiveNote.style.display = 'none';
+  let anyMatch = false;
+
+  async function searchFiles(feedFile, feedName) {
+    try {
+      const res = await fetch(feedFile);
+      const data = await res.json();
+      data.forEach(entry => {
+        const text = (entry.title || entry.actor_name || '') + ' ' +
+                     (entry.summary || entry.description || '') + ' ' +
+                     (entry.aliases || '') + ' ' +
+                     (entry.techniques || '') + ' ' +
+                     (entry.attribution || '');
+        if (text.toLowerCase().includes(query)) {
+          anyMatch = true;
+          loadFeed(feedFile, feedName);
+        }
+      });
+    } catch {
+      archiveNote.style.display = 'block';
+      archiveNote.textContent = 'Timeframe error';
+    }
+  }
+
+  for (const [name, file] of Object.entries(feeds)) await searchFiles(file, name);
+  for (const [feedKey, files] of Object.entries(archives)) {
+    for (const f of files) await searchFiles(f, feedKey + " Archive");
+  }
+
+  document.getElementById('search-status').style.display = !anyMatch ? 'block' : 'none';
 });
 
 /* ==== CLEAR SEARCH BUTTON ==== */
 document.getElementById('clear-search').addEventListener('click', () => {
   searchBox.value = '';
-  searchBox.dispatchEvent(new Event('input'));
+  container.innerHTML = '';
+  archiveNote.style.display = 'none';
 });
 
-/* ==== EXPAND / COLLAPSE ALL BUTTONS ==== */
+/* ==== EXPAND / COLLAPSE ALL ==== */
 document.getElementById('expand-all').addEventListener('click', () => {
   document.querySelectorAll('.feed-entries').forEach(div => div.style.display = 'block');
 });
 document.getElementById('collapse-all').addEventListener('click', () => {
   document.querySelectorAll('.feed-entries').forEach(div => div.style.display = 'none');
 });
-
-/* ==== INIT ==== */
-loadFeeds();
 </script>
 </body>
 </html>
