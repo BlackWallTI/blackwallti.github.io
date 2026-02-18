@@ -81,6 +81,11 @@ mark.highlight { background-color: #0ff; color: #000; }
 </div>
 
 <script>
+/* ==== ELEMENT REFERENCES ==== */
+const container = document.getElementById('feeds-container');
+const archiveNote = document.getElementById('archive-note');
+const searchBox = document.getElementById('search-box');
+
 /* ==== MATRIX ==== */
 const canvas = document.getElementById('matrix');
 const ctx = canvas.getContext('2d');
@@ -163,8 +168,8 @@ async function loadFeed(file, feedName) {
 
       let summary = entry.summary || entry.description;
       if(summary) summary=summary.replace(/\.\.\.$/,'');
-      if(summary) addField(card,"Summary:",summary);
 
+      if(summary) addField(card,"Summary:",summary);
       if(entry.aliases) addField(card,"Aliases:",entry.aliases);
       if(entry.techniques) addField(card,"Techniques:",entry.techniques);
       if(entry.attribution) addField(card,"Attribution:",entry.attribution);
@@ -196,18 +201,14 @@ window.addEventListener('load',load24h);
 /* ==== BUTTON HANDLERS ==== */
 document.getElementById('last-24h').addEventListener('click',load24h);
 
-// Bandaid: display all archives at once
 document.getElementById('archive').addEventListener('click', async () => {
-  container.innerHTML = '';
-  archiveNote.style.display = 'block';
-  archiveNote.textContent = 'Displaying all archives';
-
+  container.innerHTML='';
+  archiveNote.style.display='block';
+  archiveNote.textContent='Displaying all archive feeds';
   const {archives: allArchives} = await fetchFeedsIndex();
-  for (const [feedName, files] of Object.entries(allArchives)) {
-    if (Array.isArray(files)) {
-      for (const file of files) {
-        await loadFeed(file, feedName + " Archive");
-      }
+  for(const [feedKey, files] of Object.entries(allArchives)) {
+    for(const f of files) {
+      await loadFeed(f, feedKey.charAt(0).toUpperCase()+feedKey.slice(1)+" Archive");
     }
   }
 });
