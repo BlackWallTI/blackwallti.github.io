@@ -4,49 +4,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BlackWall | Threat Intelligence | (OSINT)</title>
-
 <style>
-body {
-  margin: 0;
-  font-family: 'Courier New', monospace;
-  background: #000;
-  color: #0ff;
-  overflow-x: hidden;
-}
-canvas#matrix { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+body { margin:0; font-family:'Courier New', monospace; background:#000; color:#0ff; overflow-x:hidden; }
+canvas#matrix { position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; pointer-events:none; }
 
-.container { max-width: 1200px; margin: 20px auto; padding: 10px; position: relative; z-index: 1; }
-h1 { color: #0ff; text-align: center; font-size: 2em; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff; }
+.container { max-width:1200px; margin:20px auto; padding:10px; position:relative; z-index:1; }
+h1 { color:#0ff; text-align:center; font-size:2em; text-shadow:0 0 5px #0ff,0 0 10px #0ff; }
 
-#search-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
-}
-#search-box { flex: 1; padding: 10px; font-size: 1em; background: #111; border: 1px solid #0ff; color: #0ff; }
+#search-container { display:flex; align-items:center; gap:10px; margin-bottom:10px; flex-wrap:wrap; }
+#search-box { flex:1; padding:10px; font-size:1em; background:#111; border:1px solid #0ff; color:#0ff; }
 
-button, select {
-  background:#0ff; color:#060; border:none; padding:5px 10px;
-  cursor:pointer; font-weight:bold; border-radius:3px;
-}
+button, select { background:#0ff; color:#060; border:none; padding:5px 10px; cursor:pointer; font-weight:bold; border-radius:3px; }
 
-#feed-note { color: #6f6; font-size: 0.9em; margin-bottom: 10px; text-align: center; }
+#feed-note { color:#6f6; font-size:0.9em; margin-bottom:10px; text-align:center; }
 #search-status, #archive-note { text-align:center; color:#f66; font-weight:bold; margin-bottom:10px; display:none; }
 
-.feed-panel { margin-bottom: 20px; border: 1px solid #0ff; border-radius: 5px; overflow: hidden; background: rgba(0,0,0,0.7); box-shadow: 0 0 10px #0ff; }
-.feed-header { padding: 10px; background: #000; cursor: pointer; font-weight: bold; font-size: 1.2em; text-shadow: 0 0 5px #0ff; }
-.feed-entries { display: none; padding: 10px; max-height: 500px; overflow-y: auto; }
-.entry-card { background: rgba(0,0,0,0.8); border: 1px solid #0ff; padding: 10px; margin-bottom: 10px; border-radius: 5px; transition: 0.3s; }
-.entry-card:hover { box-shadow: 0 0 10px #0ff; transform: scale(1.02); }
-.entry-title { font-size: 1.1em; font-weight: bold; color: #0ff; text-decoration: none; }
-.heading { color: #6f6; font-weight: bold; margin-top: 6px; }
-.value { color: #afa; margin-left: 5px; }
-mark.highlight { background-color: #0ff; color: #000; }
-::selection { background: #0ff; color: #000; }
-.feed-entries::-webkit-scrollbar { width: 8px; }
-.feed-entries::-webkit-scrollbar-thumb { background: #0ff; border-radius: 4px; }
+.feed-panel { margin-bottom:20px; border:1px solid #0ff; border-radius:5px; overflow:hidden; background:rgba(0,0,0,0.7); box-shadow:0 0 10px #0ff; }
+.feed-header { padding:10px; background:#000; cursor:pointer; font-weight:bold; font-size:1.2em; text-shadow:0 0 5px #0ff; }
+.feed-entries { display:none; padding:10px; max-height:500px; overflow-y:auto; }
+.entry-card { background:rgba(0,0,0,0.8); border:1px solid #0ff; padding:10px; margin-bottom:10px; border-radius:5px; transition:0.3s; }
+.entry-card:hover { box-shadow:0 0 10px #0ff; transform:scale(1.02); }
+.entry-title { font-size:1.1em; font-weight:bold; color:#0ff; text-decoration:none; }
+.heading { color:#6f6; font-weight:bold; margin-top:6px; }
+.value { color:#afa; margin-left:5px; }
+mark.highlight { background-color:#0ff; color:#000; }
+::selection { background:#0ff; color:#000; }
+.feed-entries::-webkit-scrollbar { width:8px; }
+.feed-entries::-webkit-scrollbar-thumb { background:#0ff; border-radius:4px; }
 </style>
 </head>
 <body>
@@ -55,7 +39,6 @@ mark.highlight { background-color: #0ff; color: #000; }
 
 <div class="container">
   <h1>BlackWall | Threat Intelligence | (OSINT)</h1>
-
   <div id="search-container">
     <button id="last-24h">Last 24 Hours</button>
     <button id="archive">Archive</button>
@@ -65,7 +48,6 @@ mark.highlight { background-color: #0ff; color: #000; }
     <button id="expand-all">Expand All</button>
     <button id="collapse-all">Collapse All</button>
   </div>
-
   <div id="feed-note">Titles can be clicked to view the source</div>
   <div id="archive-note"></div>
   <div id="search-status">No matches found</div>
@@ -73,7 +55,7 @@ mark.highlight { background-color: #0ff; color: #000; }
 </div>
 
 <script>
-/* ==== MATRIX ==== */
+/* ==== MATRIX EFFECT ==== */
 const canvas = document.getElementById('matrix');
 const ctx = canvas.getContext('2d');
 let width = canvas.width = window.innerWidth;
@@ -87,167 +69,135 @@ function drawMatrix() {
   ctx.fillStyle = 'rgba(0,0,0,0.05)';
   ctx.fillRect(0,0,width,height);
   ctx.fillStyle = '#0ff';
-  ctx.font = fontSize + 'px monospace';
-  for (let i=0;i<drops.length;i++){
+  ctx.font = fontSize+'px monospace';
+  for(let i=0;i<drops.length;i++){
     const text = letters[Math.floor(Math.random()*letters.length)];
-    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
-    if (drops[i]*fontSize > height && Math.random() > 0.975) drops[i]=0;
+    ctx.fillText(text,i*fontSize,drops[i]*fontSize);
+    if(drops[i]*fontSize>height && Math.random()>0.975) drops[i]=0;
     drops[i]++;
   }
 }
 setInterval(drawMatrix,50);
-window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;} );
+window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;});
 
-/* ==== FEEDS & ARCHIVES ==== */
+/* ==== DOM ELEMENTS ==== */
+const container = document.getElementById('feeds-container');
+const archiveNote = document.getElementById('archive-note');
+const searchBox = document.getElementById('search-box');
+
+/* ==== FETCH INDEX ==== */
 async function fetchFeedsIndex() {
   try {
     const res = await fetch('archives_index.json');
-    return await res.json();
+    const data = await res.json();
+    console.log('Loaded archives_index.json:', data);
+    return data;
   } catch(e) {
-    console.error('Failed to load feeds index', e);
+    console.error('Failed to load archives_index.json', e);
     return {};
   }
 }
 
-function addField(card, label, value) {
-  if (!value) return;
-  const heading = document.createElement('div');
-  heading.className = 'heading';
-  heading.textContent = label;
-  card.appendChild(heading);
-  const val = document.createElement('div');
-  val.className = 'value';
-  val.textContent = value;
-  card.appendChild(val);
+/* ==== HELPERS ==== */
+function addField(card,label,value){
+  if(!value) return;
+  const h = document.createElement('div'); h.className='heading'; h.textContent=label; card.appendChild(h);
+  const v = document.createElement('div'); v.className='value'; v.textContent=value; card.appendChild(v);
 }
 
-async function loadFeed(file, feedName) {
-  try {
+async function loadFeed(file,feedName){
+  try{
     const res = await fetch(file);
     const data = await res.json();
-
-    const panel = document.createElement('div');
-    panel.className = 'feed-panel';
-    const header = document.createElement('div');
-    header.className = 'feed-header';
-    header.textContent = `${feedName} (${data.length})`;
+    const panel = document.createElement('div'); panel.className='feed-panel';
+    const header = document.createElement('div'); header.className='feed-header'; header.textContent=`${feedName} (${data.length})`;
     panel.appendChild(header);
-
-    const entriesDiv = document.createElement('div');
-    entriesDiv.className = 'feed-entries';
-    header.onclick = () => {
-      entriesDiv.style.display = entriesDiv.style.display === 'block' ? 'none' : 'block';
-    };
-
-    data.forEach(entry => {
-      const card = document.createElement('div');
-      card.className = 'entry-card';
-      const title = document.createElement('a');
-      title.className = 'entry-title';
-      title.href = entry.link || entry.mitre_url || '#';
-      title.target = '_blank';
-      title.textContent = entry.title || entry.actor_name || 'No title';
-      card.appendChild(title);
-
-      const pub = entry.published || entry.last_updated;
-      if (pub) addField(card,"Published (UTC):",new Date(pub).toISOString().replace('T',' ').split('.')[0]+"Z");
-
-      let summary = entry.summary || entry.description;
-      if(summary) summary=summary.replace(/\.\.\.$/,'');
-      if(summary) addField(card,"Summary:",summary);
-
+    const entriesDiv = document.createElement('div'); entriesDiv.className='feed-entries';
+    header.onclick = ()=>{entriesDiv.style.display = entriesDiv.style.display==='block'?'none':'block';};
+    data.forEach(entry=>{
+      const card = document.createElement('div'); card.className='entry-card';
+      const title = document.createElement('a'); title.className='entry-title'; title.href=entry.link||entry.mitre_url||'#'; title.target='_blank';
+      title.textContent=entry.title||entry.actor_name||'No title'; card.appendChild(title);
+      const pub = entry.published||entry.last_updated;
+      if(pub) addField(card,"Published (UTC):",new Date(pub).toISOString().replace('T',' ').split('.')[0]+"Z");
+      let summary = entry.summary||entry.description;
+      if(summary) summary=summary.replace(/\.\.\.$/,''); if(summary) addField(card,"Summary:",summary);
       if(entry.aliases) addField(card,"Aliases:",entry.aliases);
       if(entry.techniques) addField(card,"Techniques:",entry.techniques);
       if(entry.attribution) addField(card,"Attribution:",entry.attribution);
       if(entry.country) addField(card,"Country:",entry.country);
       if(entry.website) addField(card,"Website:",entry.website);
-
       entriesDiv.appendChild(card);
     });
-
     panel.appendChild(entriesDiv);
     container.appendChild(panel);
-
-  } catch(e) {
-    console.error(`Error loading ${file}`, e);
+  }catch(e){
+    console.error('Error loading feed file', file, e);
     archiveNote.style.display='block';
-    archiveNote.textContent='Timeframe error';
+    archiveNote.textContent='Error loading feed';
   }
 }
 
 /* ==== LOAD 24H DEFAULT ==== */
-async function load24h() {
-  container.innerHTML='';
-  archiveNote.style.display='none';
+async function load24h(){
+  container.innerHTML=''; archiveNote.style.display='none';
   const allFeeds = await fetchFeedsIndex();
-  for(const [name, files] of Object.entries(allFeeds)) {
-    if(files.length > 0) await loadFeed(files[files.length-1], name); // load latest per feed
+  for(const [feedName, files] of Object.entries(allFeeds)){
+    if(Array.isArray(files) && files.length>0){
+      await loadFeed(files[files.length-1], feedName); // load latest file
+    }
   }
 }
 window.addEventListener('load', load24h);
 
-/* ==== ARCHIVE BUTTON ==== */
-document.getElementById('archive').addEventListener('click', async () => {
-  container.innerHTML='';
-  archiveNote.style.display='block';
-  archiveNote.textContent='Select a feed archive to view';
-  const allArchives = await fetchFeedsIndex();
-  for(const [feedKey, files] of Object.entries(allArchives)) {
-    if(files.length>0) {
+/* ==== BUTTONS ==== */
+document.getElementById('last-24h').addEventListener('click',load24h);
+
+document.getElementById('archive').addEventListener('click', async()=>{
+  container.innerHTML=''; archiveNote.style.display='block'; archiveNote.textContent='Select a feed archive to view';
+  const allFeeds = await fetchFeedsIndex();
+  for(const [feedName, files] of Object.entries(allFeeds)){
+    if(Array.isArray(files) && files.length>0){
       const select = document.createElement('select');
-      select.innerHTML = files.map(f=>`<option value="${f}">${f.split("/").pop()}</option>`).join('');
-      select.addEventListener('change', async () => {
-        container.innerHTML='';
-        await loadFeed(select.value, feedKey.charAt(0).toUpperCase()+feedKey.slice(1)+' Archive');
-      });
+      select.innerHTML = files.map(f=>`<option value="${f}">${f.split('/').pop()}</option>`).join('');
+      select.addEventListener('change', async()=>{ container.innerHTML=''; await loadFeed(select.value, feedName+" Archive"); });
       container.appendChild(select);
-      await loadFeed(files[0], feedKey.charAt(0).toUpperCase()+feedKey.slice(1)+' Archive');
+      await loadFeed(files[0], feedName+" Archive");
     }
   }
 });
 
-/* ==== EXPAND/COLLAPSE ==== */
 document.getElementById('expand-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='block');});
 document.getElementById('collapse-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='none');});
 
 /* ==== SEARCH ==== */
-async function searchFeeds() {
-  const query = searchBox.value.trim().toLowerCase();
-  if(!query) return;
-  container.innerHTML='';
-  archiveNote.style.display='none';
-  let anyMatch = false;
-
+async function searchFeeds(){
+  const query = searchBox.value.trim().toLowerCase(); if(!query) return;
+  container.innerHTML=''; archiveNote.style.display='none'; let anyMatch=false;
   const allFeeds = await fetchFeedsIndex();
-
-  async function searchFiles(file, feedName) {
-    try {
-      const res = await fetch(file);
-      const data = await res.json();
-      data.forEach(entry => {
-        const text = (entry.title||entry.actor_name||'')+' '+(entry.summary||entry.description||'')+' '+(entry.aliases||'')+' '+(entry.techniques||'')+' '+(entry.attribution||'');
-        if(text.toLowerCase().includes(query)) {
-          anyMatch=true;
-          loadFeed(file, feedName);
-        }
-      });
-    } catch(e) {
-      archiveNote.style.display='block';
-      archiveNote.textContent='Timeframe error';
+  for(const [feedName, files] of Object.entries(allFeeds)){
+    if(!Array.isArray(files)) continue;
+    for(const f of files){
+      try{
+        const res = await fetch(f);
+        const data = await res.json();
+        data.forEach(entry=>{
+          const text=(entry.title||entry.actor_name||'')+' '+(entry.summary||entry.description||'')+' '+(entry.aliases||'')+' '+(entry.techniques||'')+' '+(entry.attribution||'');
+          if(text.toLowerCase().includes(query)){
+            anyMatch=true;
+            loadFeed(f, feedName);
+          }
+        });
+      }catch(e){
+        console.error('Search error on', f, e);
+      }
     }
   }
-
-  for(const [name, files] of Object.entries(allFeeds)) {
-    for(const f of files) await searchFiles(f, name);
-  }
-
-  document.getElementById('search-status').style.display = !anyMatch ? 'block' : 'none';
+  document.getElementById('search-status').style.display = anyMatch?'none':'block';
 }
-
-document.getElementById('last-24h').addEventListener('click', load24h);
-document.getElementById('search-submit').addEventListener('click', searchFeeds);
-searchBox.addEventListener('keydown', e => { if(e.key==='Enter') searchFeeds(); });
-document.getElementById('clear-search').addEventListener('click', ()=>{ searchBox.value=''; load24h(); archiveNote.style.display='none'; });
+document.getElementById('search-submit').addEventListener('click',searchFeeds);
+searchBox.addEventListener('keydown', e=>{if(e.key==='Enter') searchFeeds();});
+document.getElementById('clear-search').addEventListener('click',()=>{searchBox.value=''; load24h(); archiveNote.style.display='none';});
 </script>
 </body>
 </html>
