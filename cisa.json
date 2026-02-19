@@ -1,37 +1,9 @@
 [
   {
-    "title": "Honeywell CCTV Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-04",
-    "summary": "Successful exploitation of this vulnerability could lead to account takeovers and unauthorized access to camera feeds; an unauthenticated attacker may change the recovery email address, potentially leading to further network compromise. The following versions of Honeywell CCTV Products are affected: I-HIB2PI-UL 2MP IP 6.1.22.1216 (CVE(s)) SMB NDAA MVO-3 WDR_2MP_32M_PTZ_v2.0 (CVE(s)) PTZ WDR 2MP 32M WDR_2MP_32M_PTZ_v2.0 (CVE(s)) 25M IPC WDR_2MP_32M_PTZ_v2.0 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 Honeywell Honeywell CCTV Products Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) The affected product is vulnerable to an unauthenticated API endpoint exposure, which may allow an attacker to remotely change the \"forgot password\" recovery email address.",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/02/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) GitLab Server-Side Request Forgery (SSRF) Vulnerability CVE(s) Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-02-17 12:00:00"
-  },
-  {
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/02/17/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability CVE(s) Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability CVE(s) TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File with Dangerous Type Vulnerability CVE(s) Google Chromium CSS Use-After-Free Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
-    "vendor": "CISA",
-    "published": "2026-02-17 12:00:00"
-  },
-  {
-    "title": "Delta Electronics ASDA-Soft",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-02",
-    "summary": "Successful exploitation of this vulnerability may allow an attacker to write arbitrary data beyond the bounds of a stack-allocated buffer, leading to the corruption of a structured exception handler (SEH). The following versions of Delta Electronics ASDA-Soft are affected: ASDA-Soft <=7.2.0.0 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.8 Delta Electronics Delta Electronics ASDA-Soft Stack-based Buffer Overflow Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Taiwan Vulnerabilities Expand All + CVE(s) A stack-based buffer overflow vulnerability exists in ASDA_Soft version 7.2.0.0 when parsing .par files.",
-    "vendor": "CISA",
-    "published": "2026-02-17 12:00:00"
-  },
-  {
-    "title": "GE Vernova Enervista UR Setup",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-03",
-    "summary": "Successful exploitation of these vulnerabilities may allow code execution with elevated privileges. The following versions of GE Vernova Enervista UR Setup are affected: Enervista UR Setup <8.70 (CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.8 GE Vernova GE Vernova Enervista UR Setup Uncontrolled Search Path Element, Path Traversal: '.../...//' Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Water and Wastewater Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) The GE Vernova Enervista UR Setup Installer for versions prior to 8.70 are vulnerable to DLL hijacking.",
-    "vendor": "CISA",
-    "published": "2026-02-17 12:00:00"
-  },
-  {
-    "title": "Siemens Simcenter Femap and Nastran",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-01",
-    "summary": "Siemens Simcenter Femap and Nastran is affected by multiple file parsing vulnerabilities that could be triggered when the application reads files in NDB and XDB formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution.",
-    "vendor": "CISA",
-    "published": "2026-02-17 12:00:00"
+    "published": "2026-02-18 12:00:00"
   }
 ]
