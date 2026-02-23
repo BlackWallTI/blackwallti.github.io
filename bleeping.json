@@ -1,18 +1,10 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Predator spyware hooks iOS SpringBoard to hide mic, camera activity",
-    "link": "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
-    "published": "2026-02-21T16:13:24",
-    "summary": "Intellexa's Predator spyware can hide iOS recording indicators while secretly streaming camera and microphone feeds to its operators. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Amazon: AI-assisted hacker breached 600 Fortinet firewalls in 5 weeks",
-    "link": "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
-    "published": "2026-02-21T13:50:58",
-    "summary": "Amazon is warning that a Russian-speaking hacker used multiple generative AI services as part of a campaign that breached more than 600 FortiGate firewalls across 55 countries in five weeks. [...]",
+    "title": "Arkanix Stealer pops up as short-lived AI info-stealer experiment",
+    "link": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
+    "published": "2026-02-22T15:33:26",
+    "summary": "An information-stealing malware operation named\u00a0Arkanix Stealer, promoted on multiple dark web forums towards the end\u00a0of 2025, was likely developed as an AI-assisted experiment. [...]",
     "extra": {}
   }
 ]

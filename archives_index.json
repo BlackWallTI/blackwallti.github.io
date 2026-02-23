@@ -1,5 +1,6 @@
 {
   "bleeping": [
+    "archive/bleeping/bleeping_2026-02-23_06-00-05.ndjson",
     "archive/bleeping/bleeping_2026-02-22_06-00-06.ndjson",
     "archive/bleeping/bleeping_2026-02-21_06-00-11.ndjson",
     "archive/bleeping/bleeping_2026-02-20_06-00-11.ndjson",
@@ -24,6 +25,7 @@
     "archive/mandiant/mandiant_2026-02-18_10-03-26.ndjson"
   ],
   "ransomware_live": [
+    "archive/ransomware_live/ransomware_live_2026-02-23_06-00-22.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-22_06-00-25.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-21_06-00-32.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-20_06-00-46.ndjson",
