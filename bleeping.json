@@ -1,10 +1,50 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Arkanix Stealer pops up as short-lived AI info-stealer experiment",
-    "link": "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
-    "published": "2026-02-22T15:33:26",
-    "summary": "An information-stealing malware operation named\u00a0Arkanix Stealer, promoted on multiple dark web forums towards the end\u00a0of 2025, was likely developed as an AI-assisted experiment. [...]",
+    "title": "Android mental health apps with 14.7M installs filled with security flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
+    "published": "2026-02-23T22:59:04",
+    "summary": "Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
+    "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
+    "published": "2026-02-23T21:59:42",
+    "summary": "Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft says bug in classic Outlook hides the mouse pointer",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
+    "published": "2026-02-23T19:40:42",
+    "summary": "Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Ad tech firm Optimizely confirms data breach after vishing attack",
+    "link": "https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/",
+    "published": "2026-02-23T18:04:01",
+    "summary": "New York-based ad tech company Optimizely has notified an undisclosed number of customers of a data breach after threat actors compromised some of its systems in a voice phishing attack. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "When identity isn\u2019t the weak link, access still is",
+    "link": "https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/",
+    "published": "2026-02-23T15:00:10",
+    "summary": "Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "CISA: Recently patched RoundCube flaws now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/",
+    "published": "2026-02-23T11:44:21",
+    "summary": "CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]",
     "extra": {}
   }
 ]
