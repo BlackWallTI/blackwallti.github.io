@@ -1,9 +1,30 @@
 [
   {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/02/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) RoundCube Webmail Deserialization of Untrusted Data Vulnerability CVE(s) RoundCube Webmail Cross-site Scripting Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "title": "InSAT MasterSCADA BUK-TS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-01",
+    "summary": "Successful exploitation of these vulnerabilities may allow remote code execution. The following versions of InSAT MasterSCADA BUK-TS are affected: MasterSCADA BUK-TS vers:all/* (CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 InSAT InSAT MasterSCADA BUK-TS Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'), Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Water and Wastewater Countries/Areas Deployed: Worldwide Company Headquarters Location: Russia Vulnerabilities Expand All + CVE(s) InSAT MasterSCADA BUK-TS is susceptible to SQL Injection through its main web interface.",
     "vendor": "CISA",
-    "published": "2026-02-20 12:00:00"
+    "published": "2026-02-24 12:00:00"
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/02/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Soliton Systems K.K.",
+    "vendor": "CISA",
+    "published": "2026-02-24 12:00:00"
+  },
+  {
+    "title": "Schneider Electric EcoStruxure Building Operation Workstation",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-02",
+    "summary": "Schneider Electric is aware of a vulnerability in EcoStruxure Building Operation Workstation and EcoStruxure Building Operation WebStation. [EcoStruxure Building Operation (EBO)](https://www.se.com/ww/en/product-range/62111-ecostruxure-building-operation-software/#overview) is an open and scalable software platform providing insight, control and management of multiple building systems and devices in one mobile-enabled convenient view.",
+    "vendor": "CISA",
+    "published": "2026-02-24 12:00:00"
+  },
+  {
+    "title": "Gardyn Home Kit",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-03",
+    "summary": "Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control edge devices, access cloud-based devices and user information without authentication, and pivot to other edge devices managed in the Gardyn cloud environment. The following versions of Gardyn Home Kit are affected: Home Kit Firmware Gardyn Home Kit Mobile Application <2.11.0 (CVE(s) CVE(s) CVE(s) CVE(s)) Gardyn Home Kit Cloud API <2.12.2026 (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.1 Gardyn Gardyn Home Kit Cleartext Transmission of Sensitive Information, Use of Default Credentials, Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Use of Hard-coded Credentials Background Critical Infrastructure Sectors: Food and Agriculture Countries/Areas Deployed: United States Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A Gardyn Azure IoT Hub connection string is downloaded over an insecure HTTP connection leaving the string vulnerable to interception and modification through a Man-in-the-Middle attack.",
+    "vendor": "CISA",
+    "published": "2026-02-24 12:00:00"
   }
 ]

@@ -1,5 +1,6 @@
 {
   "bleeping": [
+    "archive/bleeping/bleeping_2026-02-25_06-00-10.ndjson",
     "archive/bleeping/bleeping_2026-02-24_06-00-10.ndjson",
     "archive/bleeping/bleeping_2026-02-23_06-00-05.ndjson",
     "archive/bleeping/bleeping_2026-02-22_06-00-06.ndjson",
@@ -10,6 +11,7 @@
     "archive/bleeping/bleeping_2026-02-18_10-03-15.ndjson"
   ],
   "hackernews": [
+    "archive/hackernews/hackernews_2026-02-25_06-00-14.ndjson",
     "archive/hackernews/hackernews_2026-02-24_06-00-15.ndjson",
     "archive/hackernews/hackernews_2026-02-22_06-00-08.ndjson",
     "archive/hackernews/hackernews_2026-02-21_06-00-16.ndjson",
@@ -18,6 +20,7 @@
     "archive/hackernews/hackernews_2026-02-18_10-03-20.ndjson"
   ],
   "cisa": [
+    "archive/cisa/cisa_2026-02-25_06-00-18.ndjson",
     "archive/cisa/cisa_2026-02-21_06-00-18.ndjson",
     "archive/cisa/cisa_2026-02-20_06-00-21.ndjson",
     "archive/cisa/cisa_2026-02-19_06-00-14.ndjson",
@@ -27,6 +30,7 @@
     "archive/mandiant/mandiant_2026-02-18_10-03-26.ndjson"
   ],
   "ransomware_live": [
+    "archive/ransomware_live/ransomware_live_2026-02-25_06-01-22.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-24_06-00-46.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-23_06-00-22.ndjson",
     "archive/ransomware_live/ransomware_live_2026-02-22_06-00-25.ndjson",

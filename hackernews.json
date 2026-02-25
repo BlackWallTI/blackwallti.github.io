@@ -1,50 +1,50 @@
 [
   {
     "source": "The Hacker News",
-    "title": "APT28 Targeted European Entities Using Webhook-Based Macro Malware",
-    "link": "https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html",
-    "published": "2026-02-23T19:41:00",
-    "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 has been attributed to a new campaign targeting specific entities in Western and Central Europe.\nThe activity, per S2 Grupo's LAB52 threat intelligence team, was active between September 2025 and January 2026. It has been codenamed Operation MacroMaze.",
+    "title": "RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN",
+    "link": "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+    "published": "2026-02-24T18:52:00",
+    "summary": "A vulnerability in GitHub Codespaces could have been exploited by bad actors to seize control of repositories by injecting malicious Copilot instructions in a GitHub issue.\nThe artificial intelligence (AI)-driven vulnerability has been codenamed RoguePilot by Orca Security. It has since been patched by Microsoft following responsible disclosure.\n\"Attackers can craft hidden instructions inside a.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
-    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
-    "published": "2026-02-23T17:59:00",
-    "summary": "Cybersecurity researchers have disclosed details of a new cryptojacking campaign that uses pirated software bundles as lures to deploy a bespoke XMRig miner program on compromised hosts.\n\"Analysis of the recovered dropper, persistence triggers, and mining payload reveals a sophisticated, multi-stage infection prioritizing maximum cryptocurrency mining hashrate, often destabilizing the victim.",
+    "title": "UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware",
+    "link": "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html",
+    "published": "2026-02-24T14:21:00",
+    "summary": "A Russia-aligned threat actor has been observed targeting a European financial institution as part of a social engineering attack to likely facilitate intelligence gathering or financial theft, signaling a possible expansion of the threat actor's targeting beyond Ukraine and into entities supporting the war-torn nation.\nThe activity, which targeted an unnamed entity involved in regional.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "\u26a1 Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
-    "published": "2026-02-23T13:00:00",
-    "summary": "Security news rarely moves in a straight line. This week, it feels more like a series of sharp turns, some happening quietly in the background, others playing out in public view.",
+    "title": "Identity Prioritization isn't a Backlog Problem - It's a Risk Math Problem",
+    "link": "https://thehackernews.com/2026/02/identity-prioritization-isnt-backlog.html",
+    "published": "2026-02-24T11:58:00",
+    "summary": "Most identity programs still prioritize work the way they prioritize IT tickets: by volume, loudness, or \u201cwhat failed a control check.\u201d That approach breaks the moment your environment stops being mostly-human and mostly-onboarded.\nIn modern enterprises, identity risk is created by a compound of factors: control posture, hygiene, business context, and intent. Any one of these can perhaps be.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "How Exposed Endpoints Increase Risk Across LLM Infrastructure",
-    "link": "https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html",
-    "published": "2026-02-23T11:58:00",
-    "summary": "As more organizations run their own Large Language Models (LLMs), they are also deploying more internal services and Application Programming Interfaces (APIs) to support those models. Modern security risks are being introduced less from the models themselves and more from the infrastructure that serves, connects and automates the model.",
+    "title": "Lazarus Group Uses Medusa Ransomware in Middle East and U.S. Healthcare Attacks",
+    "link": "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html",
+    "published": "2026-02-24T11:52:00",
+    "summary": "The North Korea-linked Lazarus Group (aka Diamond Sleet and Pompilus) has been observed using Medusa ransomware in an attack targeting an unnamed entity in the Middle East, according to a new report by the Symantec and Carbon Black Threat Hunter Team.\nBroadcom's threat intelligence division said it also identified the same threat actors mounting an unsuccessful attack against a healthcare.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens",
-    "link": "https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html",
-    "published": "2026-02-23T10:20:00",
-    "summary": "Cybersecurity researchers have disclosed what they say is an active \"Shai-Hulud-like\" supply chain worm campaign that has leveraged a cluster of at least 19 malicious npm packages to enable credential harvesting and cryptocurrency key theft.\nThe campaign has been codenamed SANDWORM_MODE by supply chain security company Socket. As with prior Shai-Hulud attack waves, the malicious code embedded.",
+    "title": "UnsolicitedBooker Targets Central Asian Telecoms With LuciDoor and MarsSnake Backdoors",
+    "link": "https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html",
+    "published": "2026-02-24T09:54:00",
+    "summary": "The threat activity cluster known as UnsolicitedBooker has been observed targeting telecommunications companies in Kyrgyzstan and Tajikistan, marking a shift from prior attacks aimed at Saudi Arabian entities.\nThe attacks involve the deployment of two distinct backdoors codenamed LuciDoor and MarsSnake, according to a report published by Positive Technologies last week.\n\"The group used several.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP",
-    "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
-    "published": "2026-02-23T07:25:00",
-    "summary": "The Iranian hacking group known as MuddyWater (aka Earth Vetala, Mango Sandstorm, and MUDDYCOAST) has targeted several organizations and individuals mainly located across the Middle East and North Africa (MENA) region as part of a new campaign codenamed Operation Olalampo.\nThe activity, first observed on January 26, 2026, has resulted in the deployment of new malware families that share.",
+    "title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
+    "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
+    "published": "2026-02-24T06:04:00",
+    "summary": "Anthropic on Monday said it identified \"industrial-scale campaigns\" mounted by three artificial intelligence (AI) companies, DeepSeek, Moonshot AI, and MiniMax, to illegally extract Claude's capabilities to improve their own models.\nThe distillation attacks generated over 16 million exchanges with its large language model (LLM) through about 24,000 fraudulent accounts in violation of its terms.",
     "extra": {}
   }
 ]

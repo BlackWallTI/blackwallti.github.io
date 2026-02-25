@@ -1,50 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Android mental health apps with 14.7M installs filled with security flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
-    "published": "2026-02-23T22:59:04",
-    "summary": "Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users' sensitive medical information. [...]",
+    "title": "Phishing campaign targets freight and logistics orgs in the US, Europe",
+    "link": "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
+    "published": "2026-02-24T23:57:58",
+    "summary": "A financially motivated threat group dubbed \"Diesel Vortex\" is stealing credentials from freight and logistics operators in the U.S. and Europe in phishing attacks using\u00a052 domains. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Spain arrests suspected hacktivists for DDoSing govt sites",
-    "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
-    "published": "2026-02-23T21:59:42",
-    "summary": "Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. [...]",
+    "title": "Wynn Resorts confirms employee data breach after extortion threat",
+    "link": "https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/",
+    "published": "2026-02-24T21:51:20",
+    "summary": "Wynn Resorts has confirmed that a hacker stole employee data from its systems after the company was listed on the ShinyHunters extortion gang's data leak site. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft says bug in classic Outlook hides the mouse pointer",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
-    "published": "2026-02-23T19:40:42",
-    "summary": "Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. [...]",
+    "title": "1Campaign platform helps malicious Google ads evade detection",
+    "link": "https://www.bleepingcomputer.com/news/security/1campaign-platform-helps-malicious-google-ads-evade-detection/",
+    "published": "2026-02-24T21:45:05",
+    "summary": "A newly identified cybercrime service known as 1Campaign is enabling threat actors to run malicious Google Ads that remain online for extended periods while evading scrutiny from security researchers. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Ad tech firm Optimizely confirms data breach after vishing attack",
-    "link": "https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/",
-    "published": "2026-02-23T18:04:01",
-    "summary": "New York-based ad tech company Optimizely has notified an undisclosed number of customers of a data breach after threat actors compromised some of its systems in a voice phishing attack. [...]",
+    "title": "CarGurus data breach exposes information of 12.4 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/",
+    "published": "2026-02-24T18:08:20",
+    "summary": "The ShinyHunters extortion group has published personal information in more than 12 million records\u00a0allegedly stolen from CarGurus, a U.S.-based digital auto platform. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "When identity isn\u2019t the weak link, access still is",
-    "link": "https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/",
-    "published": "2026-02-23T15:00:10",
-    "summary": "Stolen tokens and compromised devices let attackers reuse trust without breaking authentication. Specops Software explains why identity alone isn't enough and how continuous device verification strengthens Zero Trust. [...]",
+    "title": "Microsoft adds Copilot data controls to all storage locations",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/",
+    "published": "2026-02-24T17:30:10",
+    "summary": "Microsoft is expanding data loss prevention (DLP) controls to block the Microsoft 365 Copilot AI assistant from processing confidential Word, Excel, and PowerPoint documents, regardless of their location. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA: Recently patched RoundCube flaws now exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/",
-    "published": "2026-02-23T11:44:21",
-    "summary": "CISA flagged two Roundcube Webmail vulnerabilities as actively exploited in attacks and ordered U.S. federal agencies to patch them within three weeks. [...]",
+    "title": "Identity-First AI Security: Why CISOs Must Add Intent to the Equation",
+    "link": "https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/",
+    "published": "2026-02-24T15:02:12",
+    "summary": "AI agents now provision infrastructure and approve actions, but many inherit over-scoped privileges without proper governance. Token Security explains why CISOs must treat agents as identities and add intent-based controls so access is granted only when purpose and context align. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "UK fines Reddit $19 million for using children\u2019s data unlawfully",
+    "link": "https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/",
+    "published": "2026-02-24T14:54:24",
+    "summary": "The UK Information Commissioner's Office (ICO) has fined Reddit \u00a314.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Critical SolarWinds Serv-U flaws offer root access to servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/",
+    "published": "2026-02-24T13:00:45",
+    "summary": "SolarWinds has patched four critical Serv-U remote code execution vulnerabilities that could grant attackers root access to unpatched servers. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "ShinyHunters extortion gang claims Odido breach affecting millions",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
+    "published": "2026-02-24T11:40:20",
+    "summary": "The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido and stealing millions of user records from its compromised systems. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "North Korean Lazarus group linked to Medusa ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+    "published": "2026-02-24T11:00:00",
+    "summary": "North Korean state-backed hackers associated with the Lazarus threat group are targeting U.S. healthcare organizations in extortion attacks using the Medusa ransomware. [...]",
     "extra": {}
   }
 ]
