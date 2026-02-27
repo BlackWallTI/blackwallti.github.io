@@ -1,16 +1,72 @@
 [
   {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added\u00a0two\u00a0new\u00a0vulnerabilities\u00a0to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Cisco\u00a0Catalyst\u00a0SD-WAN Path Traversal Vulnerability CVE(s) Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability These\u00a0types\u00a0of vulnerabilities\u00a0are\u00a0frequent attack vectors\u00a0for malicious cyber actors and pose\u00a0significant risks to the federal enterprise.",
+    "title": "Chargemap chargemap.com",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-05",
+    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Chargemap chargemap.com are affected: chargemap.com vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 Chargemap Chargemap chargemap.com Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: France Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
     "vendor": "CISA",
-    "published": "2026-02-25 12:00:00"
+    "published": "2026-02-26 12:00:00"
   },
   {
-    "title": "CISA and Partners Release Guidance for Ongoing Global Exploitation of Cisco SD-WAN Systems",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
-    "summary": "The purpose of this Alert is to provide resources for organizations with Cisco Software-Defined Wide-Area Networking (SD-WAN) systems, including Federal Civilian Executive Branch (FCEB) agencies, to address ongoing exploitation of multiple vulnerabilities. Notably, the Cybersecurity and Infrastructure Security Agency (CISA) has added CVE(s) and CVE(s) to its Known Exploited Vulnerabilities (KEV) Catalog on Feb.",
+    "title": "Yokogawa CENTUM VP R6, R7",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-09",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to terminate the software stack process, cause a denial-of-service condition, or execute arbitrary code. The following versions of Yokogawa CENTUM VP R6, R7 are affected: Vnet/IP Interface Package for CENTUM VP R6 (VP6C3300) <=R1.07.00 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) Vnet/IP Interface Package for CENTUM VP R7 (VP7C3300) <=R1.07.00 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 6.9 Yokogawa Yokogawa CENTUM VP R6, R7 Out-of-bounds Write, Reachable Assertion, Integer Underflow (Wrap or Wraparound), Improper Handling of Length Parameter Inconsistency Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Food and Agriculture Countries/Areas Deployed: Worldwide Company Headquarters Location: Japan Vulnerabilities Expand All + CVE(s) If the affected product receives maliciously crafted packets, a DoS attack may cause Vnet/IP communication functions to stop or arbitrary programs to be executed.",
     "vendor": "CISA",
-    "published": "2026-02-25 12:00:00"
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "Pelco, Inc. Sarix Pro 3 Series IP Cameras",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-02",
+    "summary": "Successful exploitation of this vulnerability could allow attackers to gain unauthorized access to sensitive device data, bypass surveillance controls, and expose facilities to privacy breaches, operational risks, and regulatory compliance issues. The following versions of Pelco, Inc.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "Copeland XWEB and XWEB Pro",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-10",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication, cause a denial-of-service condition, cause memory corruption, and execute arbitrary code. The following versions of Copeland XWEB and XWEB Pro are affected: XWEB 300D PRO <=1.12.1 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) XWEB 500D PRO <=1.12.1 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) XWEB 500B PRO <=1.12.1 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 10 Copeland Copeland XWEB and XWEB Pro Unexpected Status Code or Return Value, Use of a Broken or Risky Cryptographic Algorithm, Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Stack-based Buffer Overflow Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A vulnerability exists in Copeland XWEB Pro version 1.12.1 and prior, in which an unexpected return value from the authentication routine is later on processed as a legitimate value, resulting in an authentication bypass.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "EV Energy ev.energy",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-07",
+    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of EV Energy ev.energy are affected: ev.energy vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 EV Energy EV Energy ev.energy Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United Kingdom Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "Mobility46 mobility46.se",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-08",
+    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Mobility46 mobility46.se are affected: mobility46.se vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 Mobility46 Mobility46 mobility46.se Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Sweden Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "CloudCharge cloudcharge.se",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-03",
+    "summary": "Successful exploitation of these vulnerabilities could allow attackers to impersonate charging stations, hijack sessions, suppress or misroute legitimate traffic to cause large-scale denial of service, and manipulate data sent to the backend. The following versions of CloudCharge cloudcharge.se are affected: cloudcharge.se vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 CloudCharge CloudCharge cloudcharge.se Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Sweden Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "EV2GO ev2go.io",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-04",
+    "summary": "Successful exploitation of these vulnerabilities could allow attackers to impersonate charging stations, hijack sessions, suppress or misroute legitimate traffic to cause large-scale denial of service, and manipulate data sent to the backend. The following versions of EV2GO ev2go.io are affected: ev2go.io vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 EV2GO EV2GO ev2go.io Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United Kingdom Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "SWITCH EV swtchenergy.com",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-06",
+    "summary": "Successful exploitation of these vulnerabilities could allow attackers to impersonate charging stations, hijack sessions, suppress or misroute legitimate traffic to cause large-scale denial of service, and manipulate data sent to the backend. The following versions of SWITCH EV swtchenergy.com are affected: swtchenergy.com vers:all/* (CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 SWITCH EV SWITCH EV swtchenergy.com Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
+  },
+  {
+    "title": "Johnson Controls, Inc. Frick Controls Quantum HD",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-01",
+    "summary": "Successful exploitation of these vulnerabilities can lead to pre-authentication remote code execution, information leak or denial of service. The following versions of Johnson Controls, Inc.",
+    "vendor": "CISA",
+    "published": "2026-02-26 12:00:00"
   }
 ]
