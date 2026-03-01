@@ -1,50 +1,18 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft testing Windows 11 batch file security improvements",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
-    "published": "2026-02-27T20:00:27",
-    "summary": "Microsoft is rolling out new Windows 11 Insider Preview builds that improve security and performance during batch file or CMD script execution. [...]",
+    "title": "QuickLens Chrome extension steals crypto, shows ClickFix attack",
+    "link": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
+    "published": "2026-02-28T19:18:52",
+    "summary": "A Chrome extension named \"QuickLens - Search Screen with Google Lens\" has been removed from the Chrome Web Store after it was compromised to push malware and attempt\u00a0to steal crypto from\u00a0thousands of users. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "APT37 hackers use new malware to breach air-gapped networks",
-    "link": "https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/",
-    "published": "2026-02-27T19:21:25",
-    "summary": "North Korean hackers are deploying newly uncovered tools to move data between internet-connected and air-gapped systems, spread via removable drives, and conduct covert surveillance. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Europol-led crackdown on The Com hackers leads to 30 arrests",
-    "link": "https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/",
-    "published": "2026-02-27T18:20:15",
-    "summary": "A yearlong Europol-coordinated operation dubbed \"Project Compass\" has led to 30 arrests and 179 suspects being tied to \"The Com,\" an online cybercrime collective that targets children and teenagers. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA warns that RESURGE malware can be dormant on Ivanti devices",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/",
-    "published": "2026-02-27T15:57:04",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has released new details about RESURGE, a malicious implant used in zero-day attacks exploiting CVE-2025-0282 to breach Ivanti Connect Secure devices. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Third-Party Patching and the Business Footprint We All Share",
-    "link": "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
-    "published": "2026-02-27T15:00:10",
-    "summary": "Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit risk and why consistent patching reduces exposure across endpoints. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Ukrainian man pleads guilty to running AI-powered fake ID site",
-    "link": "https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/",
-    "published": "2026-02-27T12:30:07",
-    "summary": "A Ukrainian man has pleaded guilty to operating OnlyFake, an AI-powered website that generated and sold more than 10,000 photos of fake identification documents to customers worldwide. [...]",
+    "title": "$4.8M in crypto stolen after Korean tax agency exposes wallet seed",
+    "link": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
+    "published": "2026-02-28T15:17:23",
+    "summary": "South Korea's National Tax Service accidentally exposed the mnemonic recovery phrase of a seized cryptocurrency wallet in an official press release, allowing hackers to steal 6.4 billion won ($4.8M) worth in cryptocurrency. [...]",
     "extra": {}
   }
 ]
