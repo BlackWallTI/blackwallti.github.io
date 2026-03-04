@@ -1,50 +1,74 @@
 [
   {
     "source": "The Hacker News",
-    "title": "New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel",
-    "link": "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
-    "published": "2026-03-02T17:08:00",
-    "summary": "Cybersecurity researchers have disclosed details of a now-patched security flaw in Google Chrome that could have permitted attackers to escalate privileges and gain access to local files on the system.\nThe vulnerability, tracked as CVE-2026-0628 (CVSS score: 8.8), has been described as a case of insufficient policy enforcement in the WebView tag. It was patched by Google in early January 2026.",
+    "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
+    "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
+    "published": "2026-03-04T04:35:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a recently disclosed security flaw impacting Broadcom VMware Aria Operations to its Known Exploited Vulnerabilities (KEV) catalog, citing active exploitation in the wild.\nThe high-severity vulnerability, CVE-2026-22719 (CVSS score: 8.1), has been described as a case of command injection that could allow an.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google Develops Merkle Tree Certificates to Enable Quantum-Resistant HTTPS in Chrome",
-    "link": "https://thehackernews.com/2026/03/google-develops-merkle-tree.html",
-    "published": "2026-03-02T16:52:00",
-    "summary": "Google has announced a new program in its Chrome browser to ensure that HTTPS certificates are secure against the future risk posed by quantum computers.\n\"To ensure the scalability and efficiency of the ecosystem, Chrome has no immediate plan to add traditional X.509 certificates containing post-quantum cryptography to the Chrome Root Store,\" the Chrome Secure Web and Networking Team said.\n\".",
+    "title": "Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations",
+    "link": "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html",
+    "published": "2026-03-03T17:15:00",
+    "summary": "Threat hunters have called attention to a new campaign as part of which bad actors masqueraded as fake IT support to deliver the Havoc command-and-control (C2) framework as a precursor to data exfiltration or ransomware attack.\nThe intrusions, identified by Huntress last month across five partner organizations, involved the threat actors using email spam as lures, followed by a phone call from.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "\u26a1 Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More",
-    "link": "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
-    "published": "2026-03-02T13:26:00",
-    "summary": "This week is not about one big event. It shows where things are moving.",
+    "title": "Building a High-Impact Tier 1: The 3 Steps CISOs Must Follow",
+    "link": "https://thehackernews.com/2026/03/building-high-impact-tier-1-3-steps.html",
+    "published": "2026-03-03T14:30:00",
+    "summary": "Every CISO knows the uncomfortable truth about their Security Operations Center: the people most responsible for catching threats in real time are the people with the least experience. Tier 1 analysts sit at the front line of detection, and yet they are also the most vulnerable to the cognitive and organizational pressures that quietly erode SOC performance over time.\nThe Paradox at the Gate:.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "How to Protect Your SaaS from Bot Attacks with SafeLine WAF",
-    "link": "https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html",
-    "published": "2026-03-02T11:55:00",
-    "summary": "Most SaaS teams remember the day their user traffic started growing fast. Few notice the day bots started targeting them.\nOn paper, everything looks great: more sign-ups, more sessions, more API calls.",
+    "title": "Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries",
+    "link": "https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html",
+    "published": "2026-03-03T14:29:00",
+    "summary": "The threat actor behind the recently disclosed artificial intelligence (AI)-assisted campaign targeting Fortinet FortiGate appliances leveraged an open-source, AI-native security testing platform called CyberStrikeAI to execute the attacks.\nThe new findings come from Team Cymru, which detected its use following an analysis of the IP address (\"212.11.64[.]250\") that was used by the suspected.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
-    "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
-    "published": "2026-03-02T10:36:00",
-    "summary": "A recently disclosed security flaw patched by Microsoft may have been exploited by the Russia-linked state-sponsored threat actor known as APT28, according to new findings from Akamai.\nThe vulnerability in question is CVE-2026-21513 (CVSS score: 8.8), a high-severity security feature bypass affecting the MSHTML Framework.\n\"Protection mechanism failure in MSHTML Framework allows an unauthorized.",
+    "title": "AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and Unmanaged",
+    "link": "https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html",
+    "published": "2026-03-03T11:30:00",
+    "summary": "The Rise of MCPs in the Enterprise\nThe Model Context Protocol (MCP) is quickly becoming a practical way to push LLMs from \u201cchat\u201d into real work. By providing structured access to applications, APIs, and data, MCP enables prompt-driven AI agents that can retrieve information, take action, and automate end-to-end business workflows across the enterprise.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
-    "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
-    "published": "2026-03-02T08:44:00",
-    "summary": "Cybersecurity researchers have disclosed a new iteration of the ongoing Contagious Interview campaign, where the North Korean threat actors have published a set of 26 malicious packages to the npm registry.\nThe packages masquerade as developer tools, but contain functionality to extract the actual command-and-control (C2) by using seemingly harmless Pastebin content as a dead drop resolver and.",
+    "title": "Starkiller Phishing Suite Uses AitM Reverse Proxy to Bypass Multi-Factor Authentication",
+    "link": "https://thehackernews.com/2026/03/starkiller-phishing-suite-uses-aitm.html",
+    "published": "2026-03-03T11:10:00",
+    "summary": "Cybersecurity researchers have disclosed details of a new phishing suite called Starkiller that proxies legitimate login pages to bypass multi-factor authentication (MFA) protections.\nIt's advertised as a cybercrime platform by a threat group calling itself Jinkusu, granting customers access to a dashboard that lets them select a brand to impersonate or enter a brand's real URL. It also lets.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Warns OAuth Redirect Abuse Delivers Malware to Government Targets",
+    "link": "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html",
+    "published": "2026-03-03T09:20:00",
+    "summary": "Microsoft on Monday warned of phishing campaigns that employ phishing emails and OAuth URL redirection mechanisms to bypass conventional phishing defenses implemented in email and browsers.\nThe activity, the company said, targets government and public-sector organizations with the end goal of redirecting victims to attacker-controlled infrastructure without stealing their tokens. It described.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited",
+    "link": "https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html",
+    "published": "2026-03-03T07:08:00",
+    "summary": "Google on Monday disclosed that a high-severity security flaw impacting an open-source Qualcomm component used in Android devices has been exploited in the wild.\nThe vulnerability in question is CVE-2026-21385 (CVSS score: 7.8), a buffer over-read in the Graphics component.\n\"Memory corruption when adding user-supplied data without checking available buffer space,\" Qualcomm said in an advisory,.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SloppyLemming Targets Pakistan and Bangladesh Governments Using Dual Malware Chains",
+    "link": "https://thehackernews.com/2026/03/sloppylemming-targets-pakistan-and.html",
+    "published": "2026-03-03T06:53:00",
+    "summary": "The threat activity cluster known as SloppyLemming has been attributed to a fresh set of attacks targeting government entities and critical infrastructure operators in Pakistan and Bangladesh.\nThe activity, per Arctic Wolf, took place between January 2025 and January 2026. It involves the use of two distinct attack chains to deliver malware families tracked as BurrowShell and a Rust-based.",
     "extra": {}
   }
 ]
