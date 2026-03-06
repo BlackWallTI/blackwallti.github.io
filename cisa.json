@@ -1,65 +1,16 @@
 [
   {
-    "title": "Mobiliti e-mobi.hu",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-06",
-    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Mobiliti e-mobi.hu are affected: e-mobi.hu vers:all/* CVSS Vendor Equipment Vulnerabilities v3 9.4 Mobiliti Mobiliti e-mobi.hu Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Hungary Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
+    "title": "Delta Electronics CNCSoft-G2",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01",
+    "summary": "Successful exploitation of this vulnerability could result in an attacker achieving remote code execution on the device. The following versions of Delta Electronics CNCSoft-G2 are affected: CNCSoft-G2 CVSS Vendor Equipment Vulnerabilities v3 7.8 Delta Electronics Delta Electronics CNCSoft-G2 Out-of-bounds Write Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Taiwan Vulnerabilities Expand All + CVE(s) Delta Electronics CNCSoft-G2 devices prior to version V2.1.0.39 are vulnerable to an Out-of-Bounds Write while parsing DPAX files in the DOPSoft component.",
     "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
+    "published": "2026-03-05 12:00:00"
   },
   {
-    "title": "Hitachi Energy RTU500 Product",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-03",
-    "summary": "Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. Successful exploitation of these vulnerabilities can result in the exposure of low-value user management information and device outage.",
+    "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+    "summary": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Hikvision Multiple Products Improper Authentication Vulnerability CVE(s) Rockwell Multiple Products Insufficient Protected Credentials Vulnerability CVE(s) Apple Multiple Products Integer Overflow or Wraparound Vulnerability CVE(s) Apple iOS and iPadOS Use-After-Free Vulnerability CVE(s) Apple Multiple products Use-After-Free Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "Labkotec LID-3300IP",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05",
-    "summary": "Successful exploitation of this vulnerability could allow attackers to gain unauthorized control over system operations, leading to disruption of normal functionality and potential safety hazards. The following versions of Labkotec LID-3300IP are affected: LID-3300IP vers:all/* LID-3300IP Type 2 CVSS Vendor Equipment Vulnerabilities v3 9.4 Labkotec Labkotec LID-3300IP Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Communications, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Finland Vulnerabilities Expand All + CVE(s) The Labkotec LID-3300IP has an existing vulnerability in the ice detector software that enables an unauthenticated attacker to alter device parameters and run operational commands when specially crafted packets are sent to the device.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "ePower epower.ie",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07",
-    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of ePower epower.ie are affected: epower.ie vers:all/* CVSS Vendor Equipment Vulnerabilities v3 9.4 ePower ePower epower.ie Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Ireland Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "Portwell Engineering Toolkits",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-04",
-    "summary": "Successful exploitation of this vulnerability could allow a local attacker to escalate privileges or cause a denial-of-service condition. The following versions of Portwell Engineering Toolkits are affected: Portwell Engineering Toolkits 4.8.2 CVSS Vendor Equipment Vulnerabilities v3 8.8 Portwell Portwell Engineering Toolkits Improper Restriction of Operations within the Bounds of a Memory Buffer Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Taiwan Vulnerabilities Expand All + CVE(s) An Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability in Portwell Engineering Toolkits version 4.8.2 could allow a local authenticated attacker to read and write to arbitrary memory via the Portwell Engineering Toolkits driver.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01",
-    "summary": "Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products. The following versions of Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module are affected: MELSEC iQ-F Series FX5-ENET/IP Ethernet Module FX5-ENET/IP <=1.106, vers:all/* (CVE(s) CVE(s)) MELSEC iQ-F Series FX5-EIP EtherNet/IP Module FX5-EIP vers:all/* (CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.5 Mitsubishi Electric Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module Always-Incorrect Control Flow Implementation, Improper Resource Shutdown or Release Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Japan Vulnerabilities Expand All + CVE(s) An always-incorrect control flow implementation vulnerability may allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "Hitachi Energy Relion REB500 Product",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-02",
-    "summary": "Hitachi Energy is aware of vulnerabilities that affect the Relion REB500 product versions listed in this document. Authenticated users with certain roles can exploit the vulnerabilities to access and modify the directory contents they are not authorized to do so.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "Everon OCPP Backends",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08",
-    "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Everon OCPP Backends are affected: api.everon.io vers:all/* CVSS Vendor Equipment Vulnerabilities v3 9.4 Everon Everon OCPP Backends Missing Authentication for Critical Function, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration, Insufficiently Protected Credentials Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Netherlands Vulnerabilities Expand All + CVE(s) WebSocket endpoints lack proper authentication mechanisms, enabling attackers to perform unauthorized station impersonation and manipulate data sent to the backend.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
-  },
-  {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Qualcomm Multiple Chipsets Memory Corruption Vulnerability CVE(s) Broadcom VMware Aria Operations Command Injection Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
-    "vendor": "CISA",
-    "published": "2026-03-03 12:00:00"
+    "published": "2026-03-05 12:00:00"
   }
 ]

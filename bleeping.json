@@ -1,90 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Bitwarden adds support for passkey login on Windows 11",
-    "link": "https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/",
-    "published": "2026-03-04T22:34:58",
-    "summary": "Bitwarden announced support for logging into Windows 11 devices using passkeys stored in the manager's vault, enabling\u00a0phishing-resistant authentication. [...]",
+    "title": "Chinese state hackers target telcos with new malware toolkit",
+    "link": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
+    "published": "2026-03-05T23:19:49",
+    "summary": "A China-linked advanced persistent threat actor\u00a0tracked as UAT-9244\u00a0has been targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Mail2Shell zero-click attack lets hackers hijack FreeScout mail servers",
-    "link": "https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/",
-    "published": "2026-03-04T21:51:32",
-    "summary": "A maximum severity\u00a0vulnerability in the FreeScout helpdesk platform allows hackers to achieve remote code execution without any user interaction or authentication. [...]",
+    "title": "Bing AI promoted fake OpenClaw GitHub repo pushing info-stealing malware",
+    "link": "https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/",
+    "published": "2026-03-05T22:37:34",
+    "summary": "Fake OpenClaw installers hosted in GitHub repositories and promoted by Microsoft Bing's AI-enhanced search feature instructed users to run commands that deployed information stealers and proxy malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Windows 10 KB5075039 update fixes broken Recovery Environment",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment/",
-    "published": "2026-03-04T21:03:39",
-    "summary": "Microsoft has released the\u00a0KB5075039\u00a0Windows Recovery Environment update for Windows 10 to fix a long-standing issue\u00a0that prevented some users from accessing the Recovery environment. [...]",
+    "title": "Wikipedia hit by self-propagating JavaScript worm that vandalized pages",
+    "link": "https://www.bleepingcomputer.com/news/security/wikipedia-hit-by-self-propagating-javascript-worm-that-vandalized-pages/",
+    "published": "2026-03-05T20:42:25",
+    "summary": "The Wikimedia Foundation suffered a security incident today after a self-propagating JavaScript worm began vandalizing pages and modifying user scripts across multiple wikis. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Fake LastPass support email threads try to steal vault passwords",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords/",
-    "published": "2026-03-04T20:44:21",
-    "summary": "Password management software provider LastPass is warning users of a phishing campaign targeting its users with fake unauthorized account access alerts. [...]",
+    "title": "WordPress membership plugin bug exploited to create admin accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/",
+    "published": "2026-03-05T18:44:58",
+    "summary": "Hackers are exploiting a critical vulnerability in the User Registration & Membership plugin, which is installed on more than 60,000 WordPress sites. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Cisco warns of max severity Secure FMC flaws giving root access",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access/",
-    "published": "2026-03-04T19:12:43",
-    "summary": "Cisco has released security updates to patch two maximum-severity vulnerabilities in its Secure Firewall Management Center (FMC) software. [...]",
+    "title": "FBI arrests suspect linked to $46M crypto theft from US Marshals",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/",
+    "published": "2026-03-05T18:36:18",
+    "summary": "\u200bA U.S. government contractor's son, accused of stealing more than $46 million in cryptocurrency from the U.S. Marshals Service, was arrested Wednesday on the island of Saint Martin. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Spyware-grade Coruna iOS exploit kit now used in crypto theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/",
-    "published": "2026-03-04T19:06:13",
-    "summary": "A previously undocumented set of 23 iOS exploits named \"Coruna\" has been deployed by multiple threat actors in targeted espionage campaigns and financially motivated attacks. [...]",
+    "title": "Google says 90 zero-days were exploited in attacks last year",
+    "link": "https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/",
+    "published": "2026-03-05T15:03:43",
+    "summary": "Google Threat Intelligence Group (GTIG) tracked 90 zero-day vulnerabilities actively exploited throughout 2025, almost half of them in enterprise software and appliances. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hacker mass-mails HungerRush extortion emails to restaurant patrons",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-mass-mails-hungerrush-extortion-emails-to-restaurant-patrons/",
-    "published": "2026-03-04T18:44:14",
-    "summary": "Customers of restaurants using the HungerRush point-of-sale (POS) platform say they received emails from a threat actor attempting to extort the company, warning that restaurant and customer data could be exposed if HungerRush fails to respond. [...]",
+    "title": "2026 Browser Data Reveals Major Enterprise Security Blind Spots",
+    "link": "https://www.bleepingcomputer.com/news/security/2026-browser-data-reveals-major-enterprise-security-blind-spots/",
+    "published": "2026-03-05T15:01:11",
+    "summary": "The browser is becoming the operating system for modern work, yet many enterprises still treat it as an extension of network or endpoint security. Keep Aware's 2026 State of Browser Security Report shows 41% of employees used AI web tools while browser-based phishing, extensions, and social engineering drive new security blind spots. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "FBI seizes LeakBase cybercrime forum, data of 142,000 members",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members/",
-    "published": "2026-03-04T17:44:46",
-    "summary": "The FBI has seized the LeakBase cybercrime forum, a major online forum used by cybercriminals buy and sell hacking tools and stolen data. [...]",
+    "title": "Police dismantles online gambling ring exploiting Ukrainian women",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-online-gambling-ring-exploiting-ukrainian-women/",
+    "published": "2026-03-05T12:39:20",
+    "summary": "Spanish and Ukrainian law enforcement authorities dismantled a criminal ring that exploited war-displaced Ukrainian women to run an online gambling scheme that laundered nearly \u20ac4.75 million in illicit proceeds. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Europol-coordinated action disrupts Tycoon2FA phishing platform",
-    "link": "https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/",
-    "published": "2026-03-04T17:01:26",
-    "summary": "An international law enforcement operation coordinated by Europol has disrupted Tycoon2FA, a major phishing-as-a-service (PhaaS) platform linked to tens of millions of phishing messages each month. [...]",
+    "title": "Cisco flags more SD-WAN flaws as actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/",
+    "published": "2026-03-05T10:32:19",
+    "summary": "\u200bCisco has flagged two Catalyst SD-WAN Manager security flaws as actively exploited in the wild, urging administrators to upgrade vulnerable devices. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Mississippi medical center reopens clinics hit by ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/",
-    "published": "2026-03-04T15:28:56",
-    "summary": "The University of Mississippi Medical Center (UMMC) says it has resumed normal operations, nine days after a ransomware attack blocked access to electronic medical records and took down many of its IT systems. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "How a Brute Force Attack Unmasked a Ransomware Infrastructure Network",
-    "link": "https://www.bleepingcomputer.com/news/security/how-a-brute-force-attack-unmasked-a-ransomware-infrastructure-network/",
-    "published": "2026-03-04T15:02:12",
-    "summary": "A routine RDP brute-force alert led to unusual credential hunting and a geo-distributed VPN-linked infrastructure. Huntress Labs explains how one compromised login unraveled a suspected ransomware-as-a-service ecosystem tied to initial access brokers. [...]",
+    "title": "Phobos ransomware admin pleads guilty to wire fraud conspiracy",
+    "link": "https://www.bleepingcomputer.com/news/security/phobos-ransomware-admin-pleads-guilty-to-wire-fraud-conspiracy/",
+    "published": "2026-03-05T08:34:42",
+    "summary": "A Russian national pleaded guilty to a wire fraud conspiracy charge related to his role in administering the Phobos ransomware operation, which breached hundreds of victims worldwide. [...]",
     "extra": {}
   }
 ]
