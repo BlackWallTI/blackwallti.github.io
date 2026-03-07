@@ -1,82 +1,58 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Chinese state hackers target telcos with new malware toolkit",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
-    "published": "2026-03-05T23:19:49",
-    "summary": "A China-linked advanced persistent threat actor\u00a0tracked as UAT-9244\u00a0has been targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. [...]",
+    "title": "Cognizant TriZetto breach exposes health data of 3.4 million patients",
+    "link": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
+    "published": "2026-03-06T19:50:21",
+    "summary": "TriZetto Provider Solutions, a healthcare IT company that develops software and services used by health insurers and healthcare providers, has suffered a data breach that exposed the sensitive information of over 3.4 million people. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Bing AI promoted fake OpenClaw GitHub repo pushing info-stealing malware",
-    "link": "https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/",
-    "published": "2026-03-05T22:37:34",
-    "summary": "Fake OpenClaw installers hosted in GitHub repositories and promoted by Microsoft Bing's AI-enhanced search feature instructed users to run commands that deployed information stealers and proxy malware. [...]",
+    "title": "CISA warns feds to patch iOS flaws exploited in crypto-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/",
+    "published": "2026-03-06T15:57:16",
+    "summary": "CISA ordered U.S. federal agencies to patch three iOS security flaws targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Wikipedia hit by self-propagating JavaScript worm that vandalized pages",
-    "link": "https://www.bleepingcomputer.com/news/security/wikipedia-hit-by-self-propagating-javascript-worm-that-vandalized-pages/",
-    "published": "2026-03-05T20:42:25",
-    "summary": "The Wikimedia Foundation suffered a security incident today after a self-propagating JavaScript worm began vandalizing pages and modifying user scripts across multiple wikis. [...]",
+    "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+    "link": "https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/",
+    "published": "2026-03-06T15:00:10",
+    "summary": "EC-Council, creator of the world-renowned Certified Ethical Hacker (CEH) credential and a global leader in applied cybersecurity education, today launched its Enterprise AI Credential Suite, with four new role-based AI certifications debuting alongside Certified CISO v4, an overhauled executive cyber leadership program. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "WordPress membership plugin bug exploited to create admin accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/",
-    "published": "2026-03-05T18:44:58",
-    "summary": "Hackers are exploiting a critical vulnerability in the User Registration & Membership plugin, which is installed on more than 60,000 WordPress sites. [...]",
+    "title": "Fake Claude Code install guides push infostealers in InstallFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-code-install-guides-push-infostealers-in-installfix-attacks/",
+    "published": "2026-03-06T15:00:00",
+    "summary": "Threat actors are employing a new variation of the ClickFix social engineering technique called InstallFix to convince users into running malicious commands under the pretext of installing legitimate command line interface (CLI) tools. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "FBI arrests suspect linked to $46M crypto theft from US Marshals",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/",
-    "published": "2026-03-05T18:36:18",
-    "summary": "\u200bA U.S. government contractor's son, accused of stealing more than $46 million in cryptocurrency from the U.S. Marshals Service, was arrested Wednesday on the island of Saint Martin. [...]",
+    "title": "Microsoft 365 Backup to add file-level restore for faster recovery",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-backup-to-add-file-level-restore-for-faster-recovery/",
+    "published": "2026-03-06T14:21:09",
+    "summary": "Microsoft will soon begin rolling out a significant upgrade to Microsoft 365 Backup to speed up recovery by allowing administrators to restore individual files and folders. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Google says 90 zero-days were exploited in attacks last year",
-    "link": "https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/",
-    "published": "2026-03-05T15:03:43",
-    "summary": "Google Threat Intelligence Group (GTIG) tracked 90 zero-day vulnerabilities actively exploited throughout 2025, almost half of them in enterprise software and appliances. [...]",
+    "title": "Ghanain man pleads guilty to role in $100 million fraud ring",
+    "link": "https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role-in-100-million-fraud-ring/",
+    "published": "2026-03-06T10:08:00",
+    "summary": "A Ghanaian national pleaded guilty to his role in a massive fraud ring that stole over $100 million from victims across the United States through business email compromise attacks and romance scams. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "2026 Browser Data Reveals Major Enterprise Security Blind Spots",
-    "link": "https://www.bleepingcomputer.com/news/security/2026-browser-data-reveals-major-enterprise-security-blind-spots/",
-    "published": "2026-03-05T15:01:11",
-    "summary": "The browser is becoming the operating system for modern work, yet many enterprises still treat it as an extension of network or endpoint security. Keep Aware's 2026 State of Browser Security Report shows 41% of employees used AI web tools while browser-based phishing, extensions, and social engineering drive new security blind spots. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Police dismantles online gambling ring exploiting Ukrainian women",
-    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-online-gambling-ring-exploiting-ukrainian-women/",
-    "published": "2026-03-05T12:39:20",
-    "summary": "Spanish and Ukrainian law enforcement authorities dismantled a criminal ring that exploited war-displaced Ukrainian women to run an online gambling scheme that laundered nearly \u20ac4.75 million in illicit proceeds. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Cisco flags more SD-WAN flaws as actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/",
-    "published": "2026-03-05T10:32:19",
-    "summary": "\u200bCisco has flagged two Catalyst SD-WAN Manager security flaws as actively exploited in the wild, urging administrators to upgrade vulnerable devices. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Phobos ransomware admin pleads guilty to wire fraud conspiracy",
-    "link": "https://www.bleepingcomputer.com/news/security/phobos-ransomware-admin-pleads-guilty-to-wire-fraud-conspiracy/",
-    "published": "2026-03-05T08:34:42",
-    "summary": "A Russian national pleaded guilty to a wire fraud conspiracy charge related to his role in administering the Phobos ransomware operation, which breached hundreds of victims worldwide. [...]",
+    "title": "FBI investigates breach of surveillance and wiretap systems",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/",
+    "published": "2026-03-06T08:44:53",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) confirmed on Thursday that it's investigating a breach that affected systems used to manage surveillance and wiretap warrants. [...]",
     "extra": {}
   }
 ]

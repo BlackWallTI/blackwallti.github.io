@@ -1,76 +1,23 @@
 {
   "bleeping": [
-    "archive/bleeping/bleeping_2026-03-06_06-00-17.ndjson",
-    "archive/bleeping/bleeping_2026-03-05_06-00-22.ndjson",
-    "archive/bleeping/bleeping_2026-03-04_06-00-17.ndjson",
-    "archive/bleeping/bleeping_2026-03-03_06-00-11.ndjson",
-    "archive/bleeping/bleeping_2026-03-02_06-00-07.ndjson",
-    "archive/bleeping/bleeping_2026-03-01_06-00-06.ndjson",
-    "archive/bleeping/bleeping_2026-02-28_06-00-11.ndjson",
-    "archive/bleeping/bleeping_2026-02-27_06-00-10.ndjson",
-    "archive/bleeping/bleeping_2026-02-26_06-00-17.ndjson",
-    "archive/bleeping/bleeping_2026-02-25_06-00-10.ndjson",
-    "archive/bleeping/bleeping_2026-02-24_06-00-10.ndjson",
-    "archive/bleeping/bleeping_2026-02-23_06-00-05.ndjson",
-    "archive/bleeping/bleeping_2026-02-22_06-00-06.ndjson",
-    "archive/bleeping/bleeping_2026-02-21_06-00-11.ndjson",
-    "archive/bleeping/bleeping_2026-02-20_06-00-11.ndjson",
-    "archive/bleeping/bleeping_2026-02-19_06-00-09.ndjson",
-    "archive/bleeping/bleeping_2026-02-18_10-56-15.ndjson",
-    "archive/bleeping/bleeping_2026-02-18_10-03-15.ndjson"
+    "archive/bleeping/bleeping_2026_03.ndjson",
+    "archive/bleeping/bleeping_2026_02.ndjson"
   ],
   "hackernews": [
-    "archive/hackernews/hackernews_2026-03-06_06-00-26.ndjson",
-    "archive/hackernews/hackernews_2026-03-05_06-00-28.ndjson",
-    "archive/hackernews/hackernews_2026-03-04_06-00-25.ndjson",
-    "archive/hackernews/hackernews_2026-03-03_06-00-17.ndjson",
-    "archive/hackernews/hackernews_2026-03-01_06-00-07.ndjson",
-    "archive/hackernews/hackernews_2026-02-28_06-00-18.ndjson",
-    "archive/hackernews/hackernews_2026-02-27_06-00-16.ndjson",
-    "archive/hackernews/hackernews_2026-02-26_06-00-25.ndjson",
-    "archive/hackernews/hackernews_2026-02-25_06-00-14.ndjson",
-    "archive/hackernews/hackernews_2026-02-24_06-00-15.ndjson",
-    "archive/hackernews/hackernews_2026-02-22_06-00-08.ndjson",
-    "archive/hackernews/hackernews_2026-02-21_06-00-16.ndjson",
-    "archive/hackernews/hackernews_2026-02-20_06-00-18.ndjson",
-    "archive/hackernews/hackernews_2026-02-19_06-00-13.ndjson",
-    "archive/hackernews/hackernews_2026-02-18_10-03-20.ndjson"
+    "archive/hackernews/hackernews_2026_03.ndjson",
+    "archive/hackernews/hackernews_2026_02.ndjson"
   ],
   "cisa": [
-    "archive/cisa/cisa_2026-03-06_06-00-29.ndjson",
-    "archive/cisa/cisa_2026-03-04_06-00-34.ndjson",
-    "archive/cisa/cisa_2026-02-27_06-00-25.ndjson",
-    "archive/cisa/cisa_2026-02-26_06-00-28.ndjson",
-    "archive/cisa/cisa_2026-02-25_06-00-18.ndjson",
-    "archive/cisa/cisa_2026-02-21_06-00-18.ndjson",
-    "archive/cisa/cisa_2026-02-20_06-00-21.ndjson",
-    "archive/cisa/cisa_2026-02-19_06-00-14.ndjson",
-    "archive/cisa/cisa_2026-02-18_10-03-24.ndjson"
+    "archive/cisa/cisa_2026_03.ndjson",
+    "archive/cisa/cisa_2026_02.ndjson"
   ],
   "mandiant": [
-    "archive/mandiant/mandiant_2026-03-06_06-00-32.ndjson",
-    "archive/mandiant/mandiant_2026-03-04_06-00-36.ndjson",
-    "archive/mandiant/mandiant_2026-02-26_06-00-32.ndjson",
-    "archive/mandiant/mandiant_2026-02-18_10-03-26.ndjson"
+    "archive/mandiant/mandiant_2026_03.ndjson",
+    "archive/mandiant/mandiant_2026_02.ndjson"
   ],
   "ransomware_live": [
-    "archive/ransomware_live/ransomware_live_2026-03-06_06-01-01.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-03-05_06-01-07.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-03-04_06-01-22.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-03-03_06-00-45.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-03-02_06-00-40.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-03-01_06-00-25.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-28_06-00-50.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-27_06-00-48.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-26_06-00-52.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-25_06-01-22.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-24_06-00-46.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-23_06-00-22.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-22_06-00-25.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-21_06-00-32.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-20_06-00-46.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-19_06-00-31.ndjson",
-    "archive/ransomware_live/ransomware_live_2026-02-18_10-01-31.ndjson"
+    "archive/ransomware_live/ransomware_live_2026_03.ndjson",
+    "archive/ransomware_live/ransomware_live_2026_02.ndjson"
   ],
   "mitre": []
 }
