@@ -1,18 +1,18 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Termite ransomware breaches linked to ClickFix CastleRAT attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/",
-    "published": "2026-03-07T16:14:32",
-    "summary": "Ransomware threat actors tracked as Velvet Tempest are using the ClickFix technique and legitimate Windows utilities to deploy the DonutLoader malware and the CastleRAT backdoor. [...]",
+    "title": "EU court adviser says banks must immediately refund phishing victims",
+    "link": "https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/",
+    "published": "2026-03-08T15:25:37",
+    "summary": "Athanasios Rantos, the Advocate General of the Court of Justice of the EU (CJEU), has issued a formal opinion suggesting that banks must immediately refund account holders affected by unauthorized transactions, even when it's their fault. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft: Hackers abusing AI at every stage of cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/",
-    "published": "2026-03-07T15:15:25",
-    "summary": "Microsoft says threat actors are increasingly using artificial intelligence in their operations to accelerate attacks, scale malicious activity, and lower technical barriers across all aspects of a cyberattack. [...]",
+    "title": "Hackers abuse .arpa DNS and ipv6 to evade phishing defenses",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/",
+    "published": "2026-03-08T14:12:22",
+    "summary": "Threat actors are abusing the special-use \".arpa\" domain and IPv6 reverse DNS in phishing campaigns that more easily evade domain reputation checks and email security gateways. [...]",
     "extra": {}
   }
 ]
