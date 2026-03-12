@@ -1,30 +1,9 @@
 [
   {
-    "title": "Honeywell IQ4x BMS Controller",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-03",
-    "summary": "Successful exploitation of this vulnerability could allow an unauthorized attacker to access controller management settings, control components, disclose information, or cause a denial-of-service condition. The following versions of Honeywell IQ4x BMS Controller are affected: IQ4E >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQ412 >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQ422 >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQ4NC >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQ41x >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQ3 >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) IQECO >=Firmware_v3.50_3.44|<4.36_build_4.3.7.9 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 10 Honeywell Honeywell IQ4x BMS Controller Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Commercial Facilities, Critical Manufacturing, Government Services and Facilities, Healthcare and Public Health Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) The Honeywell IQ4x building management controller, exposes its full web-based HMI without authentication in its factory-default configuration.",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) n8n Improper Control of Dynamically-Managed Code Resources Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-03-10 12:00:00"
-  },
-  {
-    "title": "Ceragon Siklu MultiHaul and EtherHaul Series",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-04",
-    "summary": "Successful exploitation of this vulnerability could result in arbitrary file upload to the target equipment. The following versions of Ceragon Siklu MultiHaul and EtherHaul Series are affected: MultiHaul MH-B100-CCS MultiHaul MH-T200-CCC MultiHaul MH-T200-CNN MultiHaul MH-T201-CNN EtherHaul EH-8010FX EtherHaul EH-500TX EtherHaul EH-600TX EtherHaul EH-614TX EtherHaul EH-700TX EtherHaul EH-710TX EtherHaul EH-1200TX EtherHaul EH-1200FX EtherHaul EH-2200FX EtherHaul EH-2500FX EtherHaul EH-5500FD CVSS Vendor Equipment Vulnerabilities v3 5.3 Ceragon Ceragon Siklu MultiHaul and EtherHaul Series Unrestricted Upload of File with Dangerous Type Background Critical Infrastructure Sectors: Communications Countries/Areas Deployed: Worldwide Company Headquarters Location: Israel Vulnerabilities Expand All + CVE(s) The rfpiped service on TCP port 555 in Ceragon Networks / Siklu Communication EtherHaul and MultiHaul Series microwave antennas allow unauthenticated file uploads to any writable location on the device.",
-    "vendor": "CISA",
-    "published": "2026-03-10 12:00:00"
-  },
-  {
-    "title": "Apeman Cameras",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-01",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to take control of the device or view camera feeds. The following versions of Apeman Cameras are affected: ID71 vers:all/* (CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 Apeman Apeman Cameras Insufficiently Protected Credentials, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: China Vulnerabilities Expand All + CVE(s) A security flaw has been discovered in Apeman ID71 218.53.203.117.",
-    "vendor": "CISA",
-    "published": "2026-03-10 12:00:00"
-  },
-  {
-    "title": "Lantronix EDS3000PS and EDS5000",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-02",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and execute code with root-level privileges. The following versions of Lantronix EDS3000PS and EDS5000 are affected: EDS3000PS 3.1.0.0R2 (CVE(s) CVE(s) CVE(s)) EDS5000 2.1.0.0R3 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 Lantronix Lantronix EDS3000PS and EDS5000 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Authentication Bypass Using an Alternate Path or Channel, Unverified Password Change Background Critical Infrastructure Sectors: Communications, Information Technology, Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) An issue was discovered in Lantronix EDS5000 2.1.0.0R3.",
-    "vendor": "CISA",
-    "published": "2026-03-10 12:00:00"
+    "published": "2026-03-11 12:00:00"
   }
 ]
