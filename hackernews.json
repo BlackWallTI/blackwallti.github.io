@@ -1,66 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
-    "link": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
-    "published": "2026-03-11T16:38:00",
-    "summary": "Agentic web browsers that leverage artificial intelligence (AI) capabilities to autonomously execute actions across multiple websites on behalf of a user could be trained and tricked into falling prey to phishing and scam traps.\nThe attack, at its core, takes advantage of AI browsers' tendency to reason their actions and use it against the model itself to lower their security guardrails, Guardio.",
+    "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+    "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+    "published": "2026-03-12T17:31:00",
+    "summary": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware families associated with the Latin American cybercrime ecosystem.\nThe malware, which is designed to infect Windows systems and was first discovered last month, has been codenamed VENON by Brazilian.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-    "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-    "published": "2026-03-11T14:51:00",
-    "summary": "Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n workflow automation platform, including two critical bugs that could result in arbitrary command execution.\nThe vulnerabilities are listed below -\n\nCVE-2026-27577 (CVSS score: 9.4) - Expression sandbox escape leading to remote code execution (RCE)\nCVE-2026-27493 (CVSS score: 9.5) - Unauthenticated.",
+    "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+    "published": "2026-03-12T17:02:00",
+    "summary": "Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163.\n\"Although still relatively unspectacular, AI-generated malware such as Slopoly shows how easily threat actors can weaponize AI to develop new malware frameworks in a fraction of the time it used to take.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
-    "link": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
-    "published": "2026-03-11T13:15:00",
-    "summary": "Meta on Wednesday said it disabled over 150,000 accounts associated with scam centers in Southeast Asia as part of a coordinated effort in partnership with authorities from Thailand, the U.S., the U.K., Canada, Korea, Japan, Singapore, the Philippines, Australia, New Zealand, and Indonesia.\nThe effort also led to 21 arrests made by the Royal Thai Police, the company said. The action builds upon.",
+    "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
+    "link": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
+    "published": "2026-03-12T13:30:00",
+    "summary": "Phishing has quietly turned into one of the hardest enterprise threats to expose early. Instead of crude lures and obvious payloads, modern campaigns rely on trusted infrastructure, legitimate-looking authentication flows, and encrypted traffic that conceals malicious behavior from traditional detection layers.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
-    "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
-    "published": "2026-03-11T12:26:00",
-    "summary": "SAP has released security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.\nThe vulnerabilities in question listed below -\n\nCVE-2019-17571 (CVSS score: 9.8) - A code injection vulnerability in SAP Quotation Management Insurance application (FS-QUO)\nCVE-2026-27685 (CVSS score: 9.1) - An insecure deserialization.",
+    "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
+    "published": "2026-03-12T13:14:00",
+    "summary": "Another Thursday, another pile of weird security stuff that somehow happened in just seven days. Some of it is clever.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
-    "link": "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
-    "published": "2026-03-11T11:30:00",
-    "summary": "\u201cYou knew, and you could have acted. Why didn\u2019t you?\u201d\u00a0\nThis is the question you do not want to be asked.",
+    "title": "Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload",
+    "link": "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html",
+    "published": "2026-03-12T11:30:00",
+    "summary": "The most dangerous phishing campaigns aren\u2019t just designed to fool employees. Many are designed to exhaust the analysts investigating them.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
-    "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
-    "published": "2026-03-11T09:15:00",
-    "summary": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities affecting various software components, including two that have been listed as publicly known.\nOf these, eight are rated Critical, and 76 are rated Important in severity. Forty-six of the patched vulnerabilities relate to privilege escalation, followed by 18 remote code execution, 10 information disclosure, four.",
+    "title": "Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit",
+    "link": "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
+    "published": "2026-03-12T09:58:00",
+    "summary": "Apple on Wednesday backported fixes for a security flaw in iOS, iPadOS, and macOS Sonoma to older versions after it was found to be used as part of the Coruna exploit kit.\nThe vulnerability, tracked as CVE-2023-43010, relates to an unspecified vulnerability in WebKit that could result in memory corruption when processing maliciously crafted web content. The iPhone maker said the issue was.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
-    "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
-    "published": "2026-03-11T07:31:00",
-    "summary": "A threat actor known as UNC6426 leveraged keys stolen following the supply chain compromise of the nx npm package last year to completely breach a victim's cloud environment within a span of 72 hours.\nThe attack started with the theft of a developer's GitHub token, which the threat actor then used to gain unauthorized access to the cloud and steal data.\n\"The threat actor, UNC6426, then used this.",
+    "title": "Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
+    "published": "2026-03-12T07:56:00",
+    "summary": "Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud.\nThe Android malware range from traditional banking trojans like PixRevolution, TaxiSpy RAT, BeatBanker, Mirax, and Oblivion RAT to full-fledged remote administration tools such as SURXRAT.\nPixRevolution, according to.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
-    "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
-    "published": "2026-03-11T05:12:00",
-    "summary": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors.\nThe Rust packages, published to crates.io, are listed below -\n\nchrono_anchor\ndnp3times\ntime_calibrator\ntime_calibrators\ntime-sync\n\nThe crates, per Socket, impersonate timeapi.io and were published between late February and early March.",
+    "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+    "published": "2026-03-12T05:18:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting n8n to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerability, tracked as CVE-2025-68613 (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution.",
     "extra": {}
   }
 ]
