@@ -1,44 +1,9 @@
 [
   {
-    "title": "Siemens SIDIS Prime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
-    "summary": "SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new version of SIDIS Prime and recommends to update to the latest version.",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Google Skia Out-of-Bounds Write Vulnerability CVE(s) Google Chromium V8 Unspecified Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
-  },
-  {
-    "title": "Siemens RUGGEDCOM APE1808 Devices",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
-    "summary": "Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products.",
-    "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
-  },
-  {
-    "title": "Siemens SIMATIC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
-    "summary": "SIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web interface. Siemens has released new versions for several affected products and recommends to update to the latest versions.",
-    "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
-  },
-  {
-    "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the product. The following versions of Trane Tracer SC, Tracer SC+, and Tracer Concierge are affected: Tracer SC Tracer SC+ Tracer Concierge CVSS Vendor Equipment Vulnerabilities v3 8.1 Trane Trane Tracer SC, Tracer SC+, and Tracer Concierge Use of a Broken or Risky Cryptographic Algorithm, Memory Allocation with Excessive Size Value, Missing Authorization, Use of Hard-coded Credentials, Use of Hard-coded, Security-relevant Constants Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Ireland Vulnerabilities Expand All + CVE(s) A Use of a Broken or Risky Cryptographic Algorithm vulnerability in Trane Tracer SC, Tracer SC+, and Tracer Concierge could allow an attacker to bypass authentication and gain root-level access to the device.",
-    "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
-  },
-  {
-    "title": "Siemens Heliox EV Chargers",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
-    "summary": "Heliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
-    "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
-  },
-  {
-    "title": "Inductive Automation Ignition Software",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
-    "summary": "Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged application user did not intend on running. The following versions of Inductive Automation Ignition Software are affected: Ignition Software <8.3.0 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 6.3 Inductive Automation Inductive Automation Ignition Software Deserialization of Untrusted Data Background Critical Infrastructure Sectors: Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A privileged Ignition user, intentionally or otherwise, imports an external file with a specially crafted payload, which executes embedded malicious code during deserialization.",
-    "vendor": "CISA",
-    "published": "2026-03-12 12:00:00"
+    "published": "2026-03-13 12:00:00"
   }
 ]

@@ -1,82 +1,74 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Canadian retail giant Loblaw notifies customers of data breach",
-    "link": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
-    "published": "2026-03-12T21:32:21",
-    "summary": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to log in again. [...]",
+    "title": "Microsoft: Windows 11 users can't access C: drive on some Samsung PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/",
+    "published": "2026-03-13T22:11:57",
+    "summary": "Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\\ drive and are unable to launch applications. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "England Hockey investigating ransomware data breach",
-    "link": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
-    "published": "2026-03-12T20:37:16",
-    "summary": "England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]",
+    "title": "FBI seeks victims of Steam games used to spread malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
+    "published": "2026-03-13T20:52:31",
+    "summary": "The FBI\u00a0is asking gamers who installed Steam titles containing malware to provide information as part of an ongoing investigation into eight malicious games uploaded to the gaming platform. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "AI-generated Slopoly malware used in Interlock ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
-    "published": "2026-03-12T20:01:27",
-    "summary": "A new malware strain dubbed Slopoly, likely created using generative AI tools, allowed a threat actor to remain on a compromised server for more than a week and steal data in an Interlock ransomware attack. [...]",
+    "title": "Poland's nuclear research centre targeted by cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
+    "published": "2026-03-13T17:11:37",
+    "summary": "Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
-    "published": "2026-03-12T16:59:20",
-    "summary": "Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]",
+    "title": "Microsoft investigates classic Outlook sync and connection issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+    "published": "2026-03-13T16:53:02",
+    "summary": "\u200bMicrosoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "US disrupts SocksEscort proxy network powered by Linux malware",
-    "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
-    "published": "2026-03-12T16:19:56",
-    "summary": "Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]",
+    "title": "From VMware to what\u2019s next: Protecting data during hypervisor migration",
+    "link": "https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/",
+    "published": "2026-03-13T14:15:25",
+    "summary": "Hypervisor migrations can introduce hidden risks that threaten data availability and recovery. Acronis explains why verified backups and cross-platform recovery are essential during VMware transitions. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Google paid $17.1 million for vulnerability reports in 2025",
-    "link": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
-    "published": "2026-03-12T15:22:35",
-    "summary": "Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]",
+    "title": "Police sinkholes 45,000 IP addresses in cybercrime crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/",
+    "published": "2026-03-13T13:28:33",
+    "summary": "An international law enforcement action codenamed \"Operation Synergia III\" has sinkholed tens of thousands of IP addresses and seized servers linked to cybercrime operations worldwide. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Telus Digital confirms breach after hacker claims 1 petabyte data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/",
-    "published": "2026-03-12T14:40:14",
-    "summary": "Canadian business process outsourcing\u00a0giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]",
+    "title": "Fake enterprise VPN sites used to steal company credentials",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
+    "published": "2026-03-13T13:23:28",
+    "summary": "A threat actor tracked as Storm-2561 is distributing fake\u00a0enterprise VPN clients from Ivanti, Cisco, and Fortinet to steal VPN credentials from unsuspecting users. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
-    "link": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
-    "published": "2026-03-12T14:05:15",
-    "summary": "Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]",
+    "title": "Starbucks discloses data breach affecting hundreds of employees",
+    "link": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
+    "published": "2026-03-13T08:16:55",
+    "summary": "Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Apple patches older iPhones and iPads against Coruna exploits",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
-    "published": "2026-03-12T13:43:46",
-    "summary": "\u200bApple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "US charges another ransomware negotiator linked to BlackCat attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
-    "published": "2026-03-12T11:31:57",
-    "summary": "The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]",
+    "title": "Google fixes two new Chrome zero-days exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+    "published": "2026-03-13T06:56:58",
+    "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]",
     "extra": {}
   }
 ]
