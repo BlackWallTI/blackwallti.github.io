@@ -1,50 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Stryker attack wiped tens of thousands of devices, no malware needed",
-    "link": "https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/",
-    "published": "2026-03-16T19:17:20",
-    "summary": "Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remotely wiped tens of thousands of employee devices. [...]",
+    "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
+    "published": "2026-03-18T01:06:31",
+    "summary": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA flags Wing FTP Server flaw as actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/",
-    "published": "2026-03-16T18:00:22",
-    "summary": "CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerability that may be chained in remote code execution attacks. [...]",
+    "title": "GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX",
+    "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/",
+    "published": "2026-03-17T21:42:54",
+    "summary": "The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm,\u00a0and VSCode/OpenVSX extensions. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "UK\u2019s Companies House confirms security flaw exposed business data",
-    "link": "https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/",
-    "published": "2026-03-16T17:07:25",
-    "summary": "Companies House, a British government agency that operates\u00a0the registry for all U.K. companies, says its WebFiling service is back online after it was closed on Friday to fix a\u00a0security flaw that exposed companies' information since October 2025. [...]",
+    "title": "Europe sanctions Chinese and Iranian firms for cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/",
+    "published": "2026-03-17T18:41:59",
+    "summary": "The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft Exchange Online outage blocks access to mailboxes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/",
-    "published": "2026-03-16T16:05:02",
-    "summary": "Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mailboxes and calendars. [...]",
+    "title": "Top 5 Things CISOs Need to Do Today to Secure AI Agents",
+    "link": "https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/",
+    "published": "2026-03-17T14:02:12",
+    "summary": "AI agents are autonomous actors with real access to data and systems, not just copilots. Token Security explains why identity-based access control is critical to prevent misuse and data exposure. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Shadow AI is everywhere. Here\u2019s how to find and secure it.",
-    "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/",
-    "published": "2026-03-16T14:01:11",
-    "summary": "Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and govern risky AI activity. [...]",
+    "title": "New font-rendering trick hides malicious commands from AI tools",
+    "link": "https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/",
+    "published": "2026-03-17T13:59:12",
+    "summary": "A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingly harmless HTML. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft pulls Samsung app blocking Windows C: drive from Store",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/",
-    "published": "2026-03-16T13:14:32",
-    "summary": "\u200bMicrosoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]",
+    "title": "Microsoft stops force-installing the Microsoft 365 Copilot app",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
+    "published": "2026-03-17T13:54:37",
+    "summary": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
+    "published": "2026-03-17T12:09:35",
+    "summary": "The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments\u00a0and deploys a malware loader based on the open-source Deno runtime for JavaScript and TypeScript. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft shares fix for Windows C: drive access issues on Samsung PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
+    "published": "2026-03-17T12:03:38",
+    "summary": "Microsoft has shared guidance to fix C:\\ drive access issues and app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New Windows 11 hotpatch fixes Bluetooth device visibility issue",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/",
+    "published": "2026-03-17T11:07:05",
+    "summary": "Microsoft has released an emergency update to fix a Bluetooth device visibility issue on hotpatch-enabled Windows 11 Enterprise devices. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/",
+    "published": "2026-03-17T10:37:19",
+    "summary": "Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Meeting Add-in. [...]",
     "extra": {}
   }
 ]
