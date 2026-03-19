@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "Ransomware Under Pressure: Tactics, Techniques, and Procedures in a Shifting Threat Landscape",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/ransomware-ttps-shifting-threat-landscape/",
-    "published": "2026-03-16T14:00:00",
-    "summary": "Written by: Bavi Sadayappan, Zach Riddle, Ioana Teaca, Kimberly Goody, Genevieve Stark Introduction Since 2018, when many financially motivated threat actors began shifting their monetization strategy to post-compromise ransomware deployments, ransomware has become one of the most pervasive threats to organizations across almost every industry vertical and region. In recent years ransomware operations have evolved, creating a robust ecosystem that has lowered the barrier to entry via the commoditization and specialization of the supporting underground communities, which is exemplified by the proliferation of the ransomware-as-a-service (RaaS) business model.",
+    "title": "The Proliferation of DarkSword: iOS Exploit Chain Adopted by Multiple Threat Actors",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/",
+    "published": "2026-03-18T14:00:00",
+    "summary": "Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword.",
     "extra": {}
   }
 ]
