@@ -1,66 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Aura confirms data breach exposing 900,000 marketing contacts",
-    "link": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
-    "published": "2026-03-18T22:56:50",
-    "summary": "Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]",
+    "title": "Navia discloses data breach impacting 2.7 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/",
+    "published": "2026-03-19T20:43:54",
+    "summary": "Navia Benefit Solutions, Inc. (Navia) is informing nearly 2.7 million individuals of a data breach that exposed their sensitive information to attackers. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA orders feds to patch Zimbra XSS flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
-    "published": "2026-03-18T19:57:13",
-    "summary": "CISA has ordered U.S. government agencies to secure their servers against an actively exploited vulnerability in the Zimbra Collaboration Suite (ZCS). [...]",
+    "title": "New \u2018PolyShell\u2019 flaw allows unauthenticated RCE on Magento e-stores",
+    "link": "https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/",
+    "published": "2026-03-19T20:01:03",
+    "summary": "A newly disclosed vulnerability dubbed 'PolyShell' affects all Magento Open Source and Adobe Commerce stable version 2 installations, allowing unauthenticated code execution and account takeover. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "ConnectWise patches new flaw allowing ScreenConnect hijacking",
-    "link": "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
-    "published": "2026-03-18T18:10:35",
-    "summary": "ConnectWise is warning ScreenConnect customers of a\u00a0cryptographic signature verification vulnerability that could lead to unauthorized access and privilege escalation. [...]",
+    "title": "Bitrefill blames North Korean Lazarus group for cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/bitrefill-blames-north-korean-lazarus-group-for-cyberattack/",
+    "published": "2026-03-19T17:08:24",
+    "summary": "Crypto-powered gift card store Bitrefill says that the attack it suffered at the beginning of the month was likely perpetrated by North Korean hackers of the\u00a0Bluenoroff group. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Ransomware gang exploits Cisco flaw in zero-day attacks since January",
-    "link": "https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/",
-    "published": "2026-03-18T16:53:42",
-    "summary": "The Interlock ransomware gang has been exploiting a maximum severity remote code execution (RCE) vulnerability in Cisco's Secure Firewall Management Center (FMC) software in zero-day attacks since late January. [...]",
+    "title": "FBI seizes Handala data leak site after Stryker cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-handala-data-leak-site-after-stryker-cyberattack/",
+    "published": "2026-03-19T16:14:13",
+    "summary": "The FBI has seized two websites used by the Handala hacktivist group after the threat actors conducted a destructive cyberattack on medical technology giant Stryker that wiped approximately 80,000 devices. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Marquis: Ransomware gang stole data of 672K people in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/",
-    "published": "2026-03-18T15:32:39",
-    "summary": "Marquis, a Texas-based financial services provider, revealed this week that a ransomware gang stole the data of over 670,000 individuals in an August 2025 cyberattack that also disrupted operations\u00a0at 74 banks\u00a0across the United States. [...]",
+    "title": "Russian hackers exploit Zimbra flaw in Ukrainian govt attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-apt28-military-hackers-exploit-zimbra-flaw-in-ukrainian-govt-attacks/",
+    "published": "2026-03-19T14:55:50",
+    "summary": "Hackers part of APT28, a state-backed threat\u00a0group linked to Russia's military intelligence service (GRU), are exploiting a Zimbra Collaboration Suite (ZCS) vulnerability in attacks targeting Ukrainian government entities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms",
-    "link": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
-    "published": "2026-03-18T14:05:15",
-    "summary": "Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]",
+    "title": "7 Ways to Prevent Privilege Escalation via Password Resets",
+    "link": "https://www.bleepingcomputer.com/news/security/7-ways-to-prevent-privilege-escalation-via-password-resets/",
+    "published": "2026-03-19T14:00:10",
+    "summary": "Password resets are often weaker than login security, making them a prime target for privilege escalation. Specops Software explains how attackers abuse reset workflows and how to secure them. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New \u201cDarksword\u201d iOS exploit used in infostealer attack on iPhones",
-    "link": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
-    "published": "2026-03-18T14:02:08",
-    "summary": "A new exploit kit for iOS devices and delivery framework dubbed \"Darksword\" has been used to steal a wide range of personal information, including data from cryptocurrency wallet app. [...]",
+    "title": "Max severity Ubiquiti UniFi flaw may allow account takeover",
+    "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-unifi-flaw-that-may-enable-account-takeover/",
+    "published": "2026-03-19T13:00:22",
+    "summary": "Ubiquiti has patched two vulnerabilities in the UniFi Network Application, including a maximum-severity flaw that may allow attackers to take over user accounts. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Nordstrom's email system abused to send crypto scams to customers",
-    "link": "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
-    "published": "2026-03-18T13:55:49",
-    "summary": "Customers of upscale department store chain Nordstrom received fraudulent messages from a legitimate company email address that promoted cryptocurrency scams disguised as a St. Patrick's Day promotion. [...]",
+    "title": "CISA urges US orgs to secure Microsoft Intune systems after Stryker breach",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-businesses-to-secure-microsoft-intune-systems-after-stryker-breach/",
+    "published": "2026-03-19T11:02:27",
+    "summary": "CISA warned U.S. organizations to follow Microsoft guidance to strengthen the Intune endpoint management tool after a cyberattack exploited it to wipe medical technology giant Stryker's systems. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New \u2018Perseus\u2019 Android malware checks user notes for secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/",
+    "published": "2026-03-19T10:13:23",
+    "summary": "A new Android malware called Perseus is checking user-curated notes to steal \u00a0sensitive information, like passwords, recovery phrases, or financial data. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Critical Microsoft SharePoint flaw now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/critical-microsoft-sharepoint-flaw-now-exploited-in-attacks/",
+    "published": "2026-03-19T10:06:38",
+    "summary": "A critical Microsoft SharePoint vulnerability patched in January is now being exploited in attacks, the Cybersecurity and Infrastructure Security Agency (CISA) warned. [...]",
     "extra": {}
   }
 ]
