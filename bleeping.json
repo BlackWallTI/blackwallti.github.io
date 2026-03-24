@@ -1,10 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "VoidStealer malware steals Chrome master key via debugger trick",
-    "link": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
-    "published": "2026-03-22T14:32:46",
-    "summary": "An information stealer called VoidStealer uses a new approach to bypass Chrome's Application-Bound Encryption (ABE) and extract the master key for decrypting sensitive data stored in the browser. [...]",
+    "title": "OpenAI rolls out ChatGPT Library to store your personal files",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/",
+    "published": "2026-03-23T23:47:14",
+    "summary": "OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future chat. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Mazda discloses security breach exposing employee and partner data",
+    "link": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
+    "published": "2026-03-23T22:12:52",
+    "summary": "Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Tycoon2FA phishing platform returns after recent police disruption",
+    "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
+    "published": "2026-03-23T21:52:58",
+    "summary": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
+    "published": "2026-03-23T20:09:10",
+    "summary": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Crunchyroll probes breach after hacker claims to steal 6.8M users' data",
+    "link": "https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/",
+    "published": "2026-03-23T19:21:04",
+    "summary": "Popular anime streaming platform Crunchyroll\u00a0is investigating a breach after hackers claimed to have stolen personal information for approximately\u00a06.8 million people. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Trivy supply-chain attack spreads to Docker, GitHub repos",
+    "link": "https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/",
+    "published": "2026-03-23T17:40:27",
+    "summary": "The TeamPCP hackers behind the Trivy supply-chain attack continued to target Aqua Security, pushing malicious Docker images and hijacking the company's GitHub organization to tamper with dozens of repositories. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Varonis Atlas: Securing AI and the Data That Powers It",
+    "link": "https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/",
+    "published": "2026-03-23T14:02:12",
+    "summary": "AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atlas helps orgs see, secure, and control AI systems and the data they can reach. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft Exchange Online service change causes email access issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/",
+    "published": "2026-03-23T12:17:18",
+    "summary": "Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing their cloud-based Exchange Online mailboxes via Outlook mobile and Mac desktop clients since Thursday. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "FBI warns of Handala hackers using Telegram in malware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
+    "published": "2026-03-23T09:45:55",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
+    "published": "2026-03-23T08:37:28",
+    "summary": "CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/",
+    "published": "2026-03-23T08:04:30",
+    "summary": "Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive. [...]",
     "extra": {}
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "The Proliferation of DarkSword: iOS Exploit Chain Adopted by Multiple Threat Actors",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/",
-    "published": "2026-03-18T14:00:00",
-    "summary": "Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword.",
+    "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
+    "published": "2026-03-23T14:00:00",
+    "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year.",
     "extra": {}
   }
 ]
