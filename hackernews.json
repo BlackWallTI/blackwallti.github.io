@@ -1,50 +1,58 @@
 [
   {
     "source": "The Hacker News",
-    "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace",
-    "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
-    "published": "2026-03-25T17:35:00",
-    "summary": "The alleged administrator of the LeakBase cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday.\nAccording to TASS and MVD Media, a news website linked to the Russian Interior Ministry, the suspect is a resident of the city of Taganrog. The suspect is said to have been detained for creating and managing a criminal site that allowed stolen.",
+    "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
+    "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
+    "published": "2026-03-26T17:40:00",
+    "summary": "A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks.\nThe strategic positioning activity, which involves implanting and maintaining stealthy access mechanisms within critical environments, has been attributed to Red Menshen, a threat cluster that's also tracked as Earth Bluecrow,.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
-    "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
-    "published": "2026-03-25T14:26:00",
-    "summary": "Cybersecurity researchers have flagged a new evolution of the GlassWorm campaign that delivers a multi-stage framework capable of comprehensive data theft and installing a remote access trojan (RAT), which deploys an information-stealing Google Chrome extension masquerading as an offline version of Google Docs.\n\"It logs keystrokes, dumps cookies and session tokens, captures screenshots, and.",
+    "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
+    "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
+    "published": "2026-03-26T13:12:00",
+    "summary": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat",
-    "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
-    "published": "2026-03-25T11:58:00",
-    "summary": "In September 2025, Anthropic disclosed that a state-sponsored threat actor used an AI coding agent to execute an autonomous cyber espionage campaign against 30 global targets. The AI handled 80-90% of tactical operations on its own, performing reconnaissance, writing exploit code, and attempting lateral movement at machine speed.\nThis incident is worrying, but there's a scenario that should.",
+    "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
+    "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+    "published": "2026-03-26T13:11:00",
+    "summary": "Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page.\nThe flaw \"allowed any website to silently inject prompts into that assistant as if the user wrote them,\" Koi Security researcher Oren Yomtov said in a report shared with The Hacker News. \"No clicks, no.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks",
-    "link": "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
-    "published": "2026-03-25T11:52:00",
-    "summary": "The U.S. Department of Justice (DoJ) said a Russian national has been sentenced to two years in prison for managing a botnet that was used to launch ransomware attacks against U.S.",
+    "title": "Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception",
+    "link": "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
+    "published": "2026-03-26T11:58:00",
+    "summary": "Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During the 1960s, de Hory gained infamy as a premier forger, passing off counterfeit masterworks of Picasso, Matisse, and Renoir to unsuspecting collectors and renowned museums.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse",
-    "link": "https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html",
-    "published": "2026-03-25T11:34:00",
-    "summary": "Cybersecurity researchers are calling attention to an active device code phishing campaign that's targeting Microsoft 365 identities across more than 340 organizations in the U.S., Canada, Australia, New Zealand, and Germany.\nThe activity, per Huntress, was first spotted on February 19, 2026, with subsequent cases appearing at an accelerated pace since then. Notably, the campaign leverages.",
+    "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+    "published": "2026-03-26T11:45:00",
+    "summary": "Some weeks in security feel loud. This one feels sneaky.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
-    "link": "https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html",
-    "published": "2026-03-25T07:11:00",
-    "summary": "The U.S. Federal Communications Commission (FCC) said on Monday that it was banning the import of new, foreign-made consumer routers, citing \"unacceptable\" risks to cyber and national security.\nThe action was designed to safeguard Americans and the underlying communications networks the country relies on, FCC Chairman Brendan Carr said in a post on X.",
+    "title": "Coruna iOS Kit Reuses 2023 Triangulation Exploit Code in Recent Mass Attacks",
+    "link": "https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html",
+    "published": "2026-03-26T11:07:00",
+    "summary": "The kernel exploit for two security vulnerabilities used in the recently uncovered Apple iOS exploit kit known as Coruna is an updated version of the same exploit that was used in the Operation Triangulation campaign back in 2023, according to new findings from Kaspersky.\n\"When Coruna was first reported, the public evidence wasn't sufficient to link its code to Triangulation \u2014 shared.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites",
+    "link": "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
+    "published": "2026-03-26T06:53:00",
+    "summary": "Cybersecurity researchers have discovered a new payment skimmer that uses WebRTC data channels as a means to receive payloads and exfiltrate data, effectively bypassing security controls.\n\"Instead of the usual HTTP requests or image beacons, this malware uses WebRTC data channels to load its payload and exfiltrate stolen payment data,\" Sansec said in a report published this week.\nThe attack,.",
     "extra": {}
   }
 ]

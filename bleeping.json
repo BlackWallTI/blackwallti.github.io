@@ -1,74 +1,74 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "GitHub adds AI-powered bug detection to expand security coverage",
-    "link": "https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/",
-    "published": "2026-03-25T23:23:39",
-    "summary": "GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the\u00a0CodeQL static analysis\u00a0and cover\u00a0more languages and frameworks. [...]",
+    "title": "Ajax football club hack exposed fan data, enabled ticket hijack",
+    "link": "https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/",
+    "published": "2026-03-26T20:37:25",
+    "summary": "Dutch professional football club Ajax Amsterdam (AFC Ajax) disclosed that a hacker exploited vulnerabilities in its IT systems and accessed data belonging to a few hundred people. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "PolyShell attacks target 56% of all vulnerable Magento stores",
-    "link": "https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/",
-    "published": "2026-03-25T21:40:21",
-    "summary": "Attacks leveraging the 'PolyShell' vulnerability in version 2 of Magento Open Source and Adobe Commerce installations are underway, targeting more than half of all vulnerable stores. [...]",
+    "title": "CISA: New Langflow flaw actively exploited to hijack AI workflows",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-new-langflow-flaw-actively-exploited-to-hijack-ai-workflows/",
+    "published": "2026-03-26T19:17:43",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are actively exploiting a critical vulnerability identified as\u00a0CVE-2026-33017, which affects the Langflow\u00a0framework for building AI agents. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Bubble AI app builder abused to steal Microsoft account credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/",
-    "published": "2026-03-25T19:48:36",
-    "summary": "Threat actors are evading phishing detection in campaigns targeting Microsoft accounts by abusing the no-code app-building platform Bubble to generate and host malicious web apps. [...]",
+    "title": "UK sanctions Xinbi marketplace linked to Asian scam centers",
+    "link": "https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-linked-to-asian-scam-centers/",
+    "published": "2026-03-26T15:42:43",
+    "summary": "The United Kingdom's Foreign, Commonwealth and Development Office (FCDO) has sanctioned\u00a0Xinbi, a\u00a0Chinese-language cryptocurrency-based online marketplace that sells stolen data and\u00a0satellite internet equipment to scam networks in\u00a0Southeast Asia. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Torg Grabber infostealer malware targets 728 crypto wallets",
-    "link": "https://www.bleepingcomputer.com/news/security/new-torg-grabber-infostealer-malware-targets-728-crypto-wallets/",
-    "published": "2026-03-25T18:32:37",
-    "summary": "A new info-stealing malware called Torg Grabber is stealing sensitive data from 850 browser extensions, more than 700 of them for cryptocurrency wallets. [...]",
+    "title": "TikTok for Business accounts targeted in new phishing campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/",
+    "published": "2026-03-26T14:09:17",
+    "summary": "Threat actors are targeting TikTok for Business accounts in a phishing campaign that prevents security bots from analyzing malicious pages. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Citrix urges admins to patch NetScaler flaws as soon as possible",
-    "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/",
-    "published": "2026-03-25T15:52:10",
-    "summary": "Citrix has patched two NetScaler ADC and NetScaler Gateway vulnerabilities, one of which is very similar to the CitrixBleed and CitrixBleed2 flaws exploited in zero-day attacks in recent years. [...]",
+    "title": "WhatsApp rolls out more AI features, iOS multi-account support",
+    "link": "https://www.bleepingcomputer.com/news/software/whatsapp-rolls-out-more-ai-features-ios-multi-account-support/",
+    "published": "2026-03-26T14:06:27",
+    "summary": "WhatsApp is rolling out multiple features designed to make the app easier to use, including AI-powered message replies and photo retouching, support for two accounts on iOS, and chat history transfer between iOS and Android devices. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Paid AI Accounts Are Now a Hot Underground Commodity",
-    "link": "https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/",
-    "published": "2026-03-25T14:02:12",
-    "summary": "AI accounts are becoming part of the cybercrime supply chain, sold like email accounts or VPS access. Flare Systems shows how underground markets bundle and resell premium AI access at scale. [...]",
+    "title": "Inside a Modern Fraud Attack: From Bot Signups to Account Takeovers",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-a-modern-fraud-attack-from-bot-signups-to-account-takeovers/",
+    "published": "2026-03-26T14:00:10",
+    "summary": "Multi-stage fraud attacks chain bots, proxies, and stolen credentials from signup to takeover. IPQS shows why correlating IP, device, identity, and behavior is critical to stop it. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Kali Linux 2026.1 released with 8 new tools, new BackTrack mode",
-    "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/",
-    "published": "2026-03-25T12:31:26",
-    "summary": "Kali Linux 2026.1, the first release of the year, is now available for download, featuring 8 new tools, a theme refresh, and a new BackTrack mode for Kali-Undercover. [...]",
+    "title": "Coruna iOS exploit framework linked to Triangulation attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/coruna-ios-exploit-framework-linked-to-triangulation-attacks/",
+    "published": "2026-03-26T13:10:14",
+    "summary": "The Coruna exploit kit is an evolution of the framework used in the Operation Triangulation espionage campaign, which in 2023 targeted iPhones via zero-click iMessage exploits. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "TP-Link warns users to patch critical router auth bypass flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/",
-    "published": "2026-03-25T11:11:00",
-    "summary": "TP-Link has patched several vulnerabilities in its Archer NX router series, including a critical-severity flaw that may allow attackers to bypass authentication and upload new firmware. [...]",
+    "title": "Russia arrests suspected owner of LeakBase cybercrime forum",
+    "link": "https://www.bleepingcomputer.com/news/security/russia-arrests-suspected-owner-and-admin-of-leakbase-cybercrime-forum/",
+    "published": "2026-03-26T12:50:17",
+    "summary": "Russian police arrested a Taganrog resident believed to be the owner of LeakBase, a major online forum used by cybercriminals to buy and sell stolen data and hacking tools. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Manager of botnet used in ransomware attacks gets 2 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/",
-    "published": "2026-03-25T08:47:29",
-    "summary": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]",
+    "title": "Suspected RedLine infostealer malware admin extradited to US",
+    "link": "https://www.bleepingcomputer.com/news/security/suspected-redline-infostealer-administrator-extradited-to-us/",
+    "published": "2026-03-26T11:51:59",
+    "summary": "An Armenian suspect was extradited to the United States to face criminal charges for allegedly helping manage RedLine, one of the most prolific infostealer malware operations in recent years. [...]",
     "extra": {}
   }
 ]
