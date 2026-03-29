@@ -1,58 +1,10 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
-    "link": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
-    "published": "2026-03-27T21:13:26",
-    "summary": "TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Fake VS Code alerts on GitHub spread malware to developers",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
-    "published": "2026-03-27T16:51:52",
-    "summary": "A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloading malware. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Agentic GRC: Teams Get the Tech. The Mindset Shift Is What's Missing.",
-    "link": "https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/",
-    "published": "2026-03-27T14:02:12",
-    "summary": "Agentic GRC automates workflows, forcing teams to rethink their role beyond operations. Anecdotes explains why the biggest challenge is shifting from execution to risk leadership. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "European Commission investigating breach after Amazon cloud account hack",
-    "link": "https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-account-hack/",
-    "published": "2026-03-27T12:22:19",
-    "summary": "The European Commission, the European Union's main executive body, is investigating a security breach after a threat actor gained\u00a0access to the Commission's Amazon cloud environment. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Anti-piracy coalition takes down AnimePlay app with 5 million users",
-    "link": "https://www.bleepingcomputer.com/news/security/anti-piracy-coalition-takes-down-animeplay-app-with-5-million-users/",
-    "published": "2026-03-27T10:40:17",
-    "summary": "The Alliance for Creativity and Entertainment (ACE) announced the shutdown of AnimePlay, a major anime streaming platform with over 5 million users. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/",
-    "published": "2026-03-27T09:20:59",
-    "summary": "\u200bMicrosoft has released the KB5079391 preview cumulative update for Windows 11 24H2 and 25H2, which includes 29 changes, such as Smart App Control and Display improvements. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Dutch Police discloses security breach after phishing attack",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
-    "published": "2026-03-27T08:20:11",
-    "summary": "The Dutch National Police (Politie) says a security breach resulting from a successful phishing attack has had a limited impact and hasn't affected citizens' data. [...]",
+    "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
+    "link": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+    "published": "2026-03-28T14:35:10",
+    "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
     "extra": {}
   }
 ]
