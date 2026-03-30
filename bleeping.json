@@ -1,10 +1,18 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
-    "link": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
-    "published": "2026-03-28T14:35:10",
-    "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
+    "title": "FBI confirms hack of Director Patel's personal email inbox",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
+    "published": "2026-03-29T21:09:50",
+    "summary": "The Handala hackers associated with Iran have breached the personal email account of FBI Director Kash Patel and published photos and documents. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "File read flaw in Smart Slider plugin impacts 500K WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+    "published": "2026-03-29T14:38:25",
+    "summary": "A vulnerability in the Smart Slider 3 WordPress plugin, active on more than 800,000 websites, can be exploited to allow subscriber-level users access to arbitrary files on the server. [...]",
     "extra": {}
   }
 ]
