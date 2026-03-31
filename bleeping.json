@@ -1,18 +1,74 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "FBI confirms hack of Director Patel's personal email inbox",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
-    "published": "2026-03-29T21:09:50",
-    "summary": "The Handala hackers associated with Iran have breached the personal email account of FBI Director Kash Patel and published photos and documents. [...]",
+    "title": "Healthcare tech firm CareCloud says hackers stole patient data",
+    "link": "https://www.bleepingcomputer.com/news/security/healthcare-tech-firm-carecloud-says-hackers-stole-patient-data/",
+    "published": "2026-03-30T21:44:31",
+    "summary": "Healthcare IT firm CareCloud has disclosed a data breach incident that exposed sensitive data and caused a network disruption lasting approximately eight hours. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "File read flaw in Smart Slider plugin impacts 500K WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
-    "published": "2026-03-29T14:38:25",
-    "summary": "A vulnerability in the Smart Slider 3 WordPress plugin, active on more than 800,000 websites, can be exploited to allow subscriber-level users access to arbitrary files on the server. [...]",
+    "title": "New RoadK1ll WebSocket implant used to pivot on breached networks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-roadk1ll-websocket-implant-used-to-pivot-on-breached-networks/",
+    "published": "2026-03-30T20:49:22",
+    "summary": "A newly identified malicious implant named RoadK1ll is enabling threat actors to quietly move from a compromised host to other systems on the network. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/",
+    "published": "2026-03-30T18:28:37",
+    "summary": "Hackers are exploiting a critical severity vulnerability, tracked as\u00a0CVE-2026-3055,\u00a0in Citrix\u00a0 NetScaler ADC and NetScaler Gateway appliances to obtain sensitive data. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Apple adds macOS Terminal warning to block ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/",
+    "published": "2026-03-30T14:32:34",
+    "summary": "Apple has introduced a security feature in macOS Tahoe 26.4 that blocks pasting and executing potentially harmful commands in Terminal and alerts users to possible risks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking",
+    "link": "https://www.bleepingcomputer.com/news/security/how-to-evaluate-ai-soc-agents-7-questions-gartner-says-you-should-be-asking/",
+    "published": "2026-03-30T14:01:11",
+    "summary": "AI SOC agents can reduce alert fatigue, but most teams fail to measure real outcomes. Prophet Security breaks down Gartner's questions for evaluating AI SOC agents and separating real impact from hype. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Hackers now exploit critical F5 BIG-IP flaw in attacks, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/",
+    "published": "2026-03-30T10:59:38",
+    "summary": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpatched devices. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft pulls KB5079391 Windows update over install issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/",
+    "published": "2026-03-30T09:38:45",
+    "summary": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Critical Fortinet Forticlient EMS flaw now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
+    "published": "2026-03-30T07:48:17",
+    "summary": "Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "European Commission confirms data breach after Europa.eu hack",
+    "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/",
+    "published": "2026-03-30T06:42:58",
+    "summary": "The European Commission has confirmed a data breach after its Europa.eu web platform was hacked in a cyberattack claimed by the\u00a0ShinyHunters extortion gang. [...]",
     "extra": {}
   }
 ]
