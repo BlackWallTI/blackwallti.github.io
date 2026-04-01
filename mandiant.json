@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
-    "published": "2026-03-23T14:00:00",
-    "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year.",
+    "title": "North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package in Supply Chain Attack",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package/",
+    "published": "2026-03-31T14:00:00",
+    "summary": "Written by: Austin Larsen, Dima Lenz, Adrian Hernandez, Tyler McLellan, Christopher Gardner, Ashley Zaya, Michael Rudden, Mon Liclican Introduction Google Threat Intelligence Group (GTIG) is tracking an active software supply chain attack targeting the popular Node Package Manager (NPM) package \" axios .\" Between March 31, 2026, 00:21 and 03:20 UTC, an attacker introduced a malicious dependency named \" plain-crypto-js \" into axios NPM releases versions 1.14.1 and 0.30.4. Axios is the most popular JavaScript library used to simplify HTTP requests, and these packages typically have over 100 million and 83 million weekly downloads, respectively.",
     "extra": {}
   }
 ]
