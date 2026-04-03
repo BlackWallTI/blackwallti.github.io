@@ -1,98 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Claude Code source code accidentally leaked in NPM package",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
-    "published": "2026-04-01T00:32:25",
-    "summary": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]",
+    "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+    "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+    "published": "2026-04-03T06:33:34",
+    "summary": "The European Union's Cybersecurity Service (CERT-EU) has attributed\u00a0the European Commission cloud hack to the TeamPCP threat group, saying the resulting\u00a0breach exposed the data of\u00a0at least 29 other Union entities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Google now allows you to change your @gmail.com address",
-    "link": "https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/",
-    "published": "2026-03-31T23:13:56",
-    "summary": "Google is rolling out a new feature in the U.S. that allows users to change their @gmail address or create a new alias. [...]",
+    "title": "Claude Code leak used to push infostealer malware on GitHub",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
+    "published": "2026-04-02T20:30:55",
+    "summary": "Threat actors are exploiting the recent Claude Code source code leak by using fake GitHub repositories to deliver Vidar information-stealing malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Proton launches new \"Meet\" privacy-focused conferencing platform",
-    "link": "https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/",
-    "published": "2026-03-31T22:42:07",
-    "summary": "Proton has announced a new video conferencing service named Meet and positioned it as a privacy-focused alternative to mainstream services like Google Meet, Zoom, and Microsoft Teams. [...]",
+    "title": "Drift loses $280 million North Korean hackers seize Security Council powers",
+    "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/",
+    "published": "2026-04-02T19:03:39",
+    "summary": "The Drift Protocol lost at least $280 million after a threat actor took control of its Security Council administrative powers in a planned, sophisticated operation. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "GIGABYTE Control Center vulnerable to arbitrary file write flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/",
-    "published": "2026-03-31T22:28:02",
-    "summary": "The GIGABYTE Control Center is vulnerable to an arbitrary file-write flaw that could allow a remote, unauthenticated attacker to access files on vulnerable hosts. [...]",
+    "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
+    "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
+    "published": "2026-04-02T15:21:02",
+    "summary": "Researchers warn that residential proxies used to route malicious traffic are a big problem for\u00a0IP reputation systems, as there is no clear distinction between attackers and legitimate users. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Claude AI finds Vim, Emacs RCE bugs that trigger on file open",
-    "link": "https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/",
-    "published": "2026-03-31T21:45:14",
-    "summary": "Vulnerabilities in the Vim and GNU Emacs text editors, discovered using simple prompts with the Claude assistant, allow remote code execution simply by opening a file. [...]",
+    "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
+    "link": "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/",
+    "published": "2026-04-02T14:01:11",
+    "summary": "Threat actors are exploiting vacant homes as \"drop addresses\" to intercept mail and enable fraud. Flare shows how postal services and fake identities are abused to turn mail into a fraud vector. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Cisco source code stolen in Trivy-linked dev environment breach",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
-    "published": "2026-03-31T17:53:04",
-    "summary": "Cisco has suffered a cyberattack after threat actors used stolen credentials from the recent Trivy supply chain attack to breach its internal development environment and steal source code belonging to the company and its customers. [...]",
+    "title": "New Progress ShareFile flaws can be chained in pre-auth RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
+    "published": "2026-04-02T13:33:11",
+    "summary": "Two vulnerabilities in Progress ShareFile, an enterprise-grade secure file transfer solution, can be chained to enable unauthenticated file exfiltration from affected environments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "How to Categorize AI Agents and Prioritize Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/",
-    "published": "2026-03-31T14:00:10",
-    "summary": "AI agent risk isn't equal, it scales with access to systems and level of autonomy. Token Security explains how CISOs should categorize agents and prioritize what to secure first. [...]",
+    "title": "Medtech giant Stryker fully operational after data-wiping attack",
+    "link": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/",
+    "published": "2026-04-02T13:28:39",
+    "summary": "Stryker Corporation, one of the world's leading medical technology companies, says it's fully operational three weeks after many of its systems were wiped out in a cyberattack claimed by the Iranian-linked Handala hacktivist group. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers compromise Axios npm package to drop cross-platform malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/",
-    "published": "2026-03-31T13:53:43",
-    "summary": "Hackers hijacked the npm account of the Axios package, a JavaScript HTTP client with 100M+ weekly downloads, to deliver remote access trojans to Linux, Windows, and macOS systems. [...]",
+    "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
+    "published": "2026-04-02T11:01:14",
+    "summary": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
-    "published": "2026-03-31T12:04:15",
-    "summary": "\u200bMicrosoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
+    "title": "Microsoft links Classic Outlook issue to email delivery problems",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/",
+    "published": "2026-04-02T09:12:12",
+    "summary": "Microsoft is investigating a known issue that prevents some Classic Outlook users from sending emails via Outlook.com. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/",
-    "published": "2026-03-31T09:15:45",
-    "summary": "U.S. prosecutors have charged a Maryland man with stealing more than $53 million after hacking the Uranium Finance crypto exchange twice and laundering the proceeds through a cryptocurrency mixer. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/",
-    "published": "2026-03-31T07:52:15",
-    "summary": "The Dutch Ministry of Finance took some of its systems offline, including the digital portal for treasury banking, while investigating a cyberattack detected two weeks ago. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/",
-    "published": "2026-03-31T07:05:25",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their Citrix NetScaler appliances against an actively exploited vulnerability by Thursday. [...]",
+    "title": "Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/over-14-000-f5-big-ip-apm-instances-still-exposed-to-rce-attacks/",
+    "published": "2026-04-02T08:25:50",
+    "summary": "Internet security watchdog Shadowserver has found over 14,000 BIG-IP APM instances exposed online amid ongoing attacks exploiting a critical-severity remote code execution (RCE) vulnerability. [...]",
     "extra": {}
   }
 ]
