@@ -1,50 +1,18 @@
 [
   {
     "source": "The Hacker News",
-    "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
-    "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-    "published": "2026-04-03T17:34:00",
-    "summary": "A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025,\u00a0following a two-year\u00a0period of minimal targeting in the\u00a0region.\nThe campaign has been attributed\u00a0to TA416, a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo\u00a0Panda.\n\"This TA416 activity included multiple.",
+    "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+    "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+    "published": "2026-04-05T18:25:00",
+    "summary": "Drift\u00a0has revealed that the April 1, 2026, attack that led to\u00a0the theft of $285\u00a0million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of\u00a02025.\nThe\u00a0Solana-based decentralized exchange described it as \"an attack six months in the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
-    "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
-    "published": "2026-04-03T15:32:00",
-    "summary": "Threat\u00a0actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research\u00a0Team.\n\"Instead of exposing command execution through URL parameters or request bodies, these web shells rely on threat actor-supplied cookie values to gate execution,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-    "published": "2026-04-03T11:04:00",
-    "summary": "The\u00a0maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors tracked\u00a0as UNC1069.\nMaintainer Jason Saayman said the attackers tailored their social engineering efforts \"specifically to me\" by first approaching him under the guise of the founder of a.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
-    "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
-    "published": "2026-04-03T11:00:00",
-    "summary": "The next major\u00a0breach hitting your clients probably won't come\u00a0from inside their\u00a0walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcontractor nobody in IT knows about.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images",
-    "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
-    "published": "2026-04-03T09:10:00",
-    "summary": "Cybersecurity researchers\u00a0have discovered a new version of\u00a0the SparkCat malware on the Apple App Store and Google Play Store, more than a year after the\u00a0trojan was discovered targeting both the mobile operating\u00a0systems.\nThe\u00a0malware\u00a0has\u00a0been found to conceal itself within seemingly benign apps, such as enterprise messengers and food delivery services, while.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK",
-    "link": "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
-    "published": "2026-04-03T08:35:00",
-    "summary": "Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1,\u00a02026.\n\"Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving durable nonces, resulting in a rapid takeover of Drift\u2019s Security Council administrative powers,\" the&.",
+    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+    "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+    "published": "2026-04-05T05:07:00",
+    "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent\u00a0implant.\n\"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,.",
     "extra": {}
   }
 ]
