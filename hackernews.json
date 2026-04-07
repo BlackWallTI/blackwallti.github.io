@@ -1,18 +1,58 @@
 [
   {
     "source": "The Hacker News",
-    "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
-    "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-    "published": "2026-04-05T18:25:00",
-    "summary": "Drift\u00a0has revealed that the April 1, 2026, attack that led to\u00a0the theft of $285\u00a0million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of\u00a02025.\nThe\u00a0Solana-based decentralized exchange described it as \"an attack six months in the.",
+    "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations",
+    "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
+    "published": "2026-04-06T18:37:00",
+    "summary": "An\u00a0Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid\u00a0ongoing conflict in the Middle\u00a0East.\nThe\u00a0activity, assessed to be ongoing, was carried out in three distinct attack waves that took place on March 3, March 13, and March 23, 2026, per Check\u00a0Point.\n\"The campaign is primarily.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
-    "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-    "published": "2026-04-05T05:07:00",
-    "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent\u00a0implant.\n\"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,.",
+    "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
+    "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+    "published": "2026-04-06T16:24:00",
+    "summary": "Threat\u00a0actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting organizations in South\u00a0Korea.\nThe\u00a0attack chain,\u00a0per Fortinet FortiGuard\u00a0Labs, involves obfuscated Windows shortcut (LNK) files acting as the starting point to drop a decoy PDF.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps",
+    "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+    "published": "2026-04-06T13:00:00",
+    "summary": "Your attack surface no\u00a0longer lives\u00a0on one operating system, and neither do the campaigns targeting\u00a0it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many SOC\u00a0workflows are still fragmented by\u00a0platform.\u00a0\nFor security leaders, this creates\u00a0a.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "\u26a1 Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+    "published": "2026-04-06T12:46:00",
+    "summary": "This\u00a0week had real hits. The\u00a0key software got tampered with.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+    "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+    "published": "2026-04-06T11:45:00",
+    "summary": "The\u00a0most active piece of enterprise infrastructure in the company is the developer workstation. That\u00a0laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI\u00a0agents.\nIn\u00a0March 2026, the TeamPCP threat\u00a0actor proved just how\u00a0valuable developer\u00a0machines are.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+    "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+    "published": "2026-04-06T10:07:00",
+    "summary": "Threat actors associated\u00a0with Qilin\u00a0and Warlock ransomware operations\u00a0have been\u00a0observed using the bring your own vulnerable driver\u00a0(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend\u00a0Micro.\nQilin attacks analyzed by Talos\u00a0have been\u00a0found to deploy a malicious DLL named \"msimg32.dll,\".",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+    "published": "2026-04-06T06:59:00",
+    "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nOne of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum.",
     "extra": {}
   }
 ]
