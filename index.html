@@ -6,6 +6,7 @@
 <title>BlackWall | Threat Intelligence | (OSINT)</title>
 <style>
 :root {
+  /* Default (Cyberpunk) */
   --bg-color: #000;
   --text-color: #0ff;
   --matrix-color: #0ff;
@@ -62,9 +63,9 @@ mark.highlight {background-color:var(--highlight-color); color:#000;}
     <button id="search-submit">Search</button>
     <button id="clear-search">Clear</button>
     <div id="theme-button">
-      <button id="theme-current">Theme: Matrix Teal ▼</button>
+      <button id="theme-current">Theme: Cyberpunk ▼</button>
       <div id="theme-dropdown">
-        <button data-theme="default">Matrix Teal</button>
+        <button data-theme="default">Cyberpunk</button>
         <button data-theme="corporate-dark">Corporate Dark</button>
         <button data-theme="corporate-light">Corporate Light</button>
       </div>
@@ -94,28 +95,28 @@ const drops = Array(columns).fill(0);
 let matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
 
 function drawMatrix() {
-  // translucent black overlay for fade effect
-  ctx.fillStyle = 'rgba(0,0,0,0.05)';
-  ctx.fillRect(0, 0, width, height);
-
-  // letters color from theme
-  matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
-  ctx.fillStyle = matrixColor;
-  ctx.font = fontSize + 'px monospace';
-
-  for (let i = 0; i < drops.length; i++) {
-    const text = letters[Math.floor(Math.random() * letters.length)];
-    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-    if (drops[i] * fontSize > height && Math.random() > 0.975) drops[i] = 0;
-    drops[i]++;
+  // Only draw falling letters for Cyberpunk theme
+  const themeName = themeButton.dataset.currentTheme || 'default';
+  if(themeName === 'default'){
+    ctx.fillStyle = 'rgba(0,0,0,0.05)';
+    ctx.fillRect(0,0,width,height);
+    matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
+    ctx.fillStyle = matrixColor;
+    ctx.font = fontSize + 'px monospace';
+    for(let i=0;i<drops.length;i++){
+      const text = letters[Math.floor(Math.random() * letters.length)];
+      ctx.fillText(text,i*fontSize,drops[i]*fontSize);
+      if(drops[i]*fontSize>height && Math.random()>0.975) drops[i]=0;
+      drops[i]++;
+    }
+  } else {
+    // fill static background for other themes
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--bg-color').trim();
+    ctx.fillRect(0,0,width,height);
   }
 }
-
-setInterval(drawMatrix, 50);
-window.addEventListener('resize', () => {
-  width = canvas.width = window.innerWidth;
-  height = canvas.height = window.innerHeight;
-});
+setInterval(drawMatrix,50);
+window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;});
 
 // ================= FEEDS & SEARCH LOGIC =================
 const container = document.getElementById('feeds-container');
@@ -156,7 +157,6 @@ async function loadFeedData(data, feedName){
   panel.appendChild(entriesDiv); container.appendChild(panel);
 }
 
-// LOAD 24H
 async function load24h(){
   container.innerHTML='';
   for(const [name,file] of Object.entries(feeds)){
@@ -167,7 +167,6 @@ async function load24h(){
   }
 }
 
-// LOAD ARCHIVE
 async function loadArchive(){
   container.innerHTML='';
   try{
@@ -224,6 +223,8 @@ document.getElementById('clear-search').addEventListener('click',()=>{searchBox.
 const themeButton = document.getElementById('theme-current');
 const themeDropdown = document.getElementById('theme-dropdown');
 
+themeButton.dataset.currentTheme = 'default'; // default Cyberpunk
+
 themeButton.addEventListener('click',()=>{themeDropdown.style.display = themeDropdown.style.display==='block'?'none':'block';});
 themeDropdown.querySelectorAll('button').forEach(btn=>{
   btn.addEventListener('click',()=>{
@@ -255,7 +256,7 @@ const themes = {
   "corporate-dark": {
     "--bg-color": "#000",
     "--text-color": "#e6e6e6",
-    "--matrix-color": "#000",
+    "--matrix-color": "#000", // no falling letters
     "--heading-color": "#ccc",
     "--value-color": "#999",
     "--highlight-color": "#ffcc00",
@@ -271,22 +272,22 @@ const themes = {
     "--search-placeholder": "#999"
   },
   "corporate-light": {
-    "--bg-color": "#f8f8f8",
-    "--text-color": "#222",
-    "--matrix-color": "#f8f8f8",
-    "--heading-color": "#444",
-    "--value-color": "#666",
+    "--bg-color": "#ffffff",
+    "--text-color": "#222222", // dark gray instead of black
+    "--matrix-color": "#555555", // dark gray letters visible but soft
+    "--heading-color": "#444444",
+    "--value-color": "#666666",
     "--highlight-color": "#ffcc00",
     "--alert-color": "#f66",
     "--button-bg": "#ddd",
-    "--button-text": "#222",
-    "--panel-bg": "#e6e6e6",
-    "--card-bg": "#fff",
+    "--button-text": "#222222",
+    "--panel-bg": "#f0f0f0",
+    "--card-bg": "#ffffff",
     "--header-bg": "#ddd",
-    "--note-color": "#444",
-    "--search-bg": "#fff",
-    "--search-text": "#222",
-    "--search-placeholder": "#888"
+    "--note-color": "#444444",
+    "--search-bg": "#ffffff",
+    "--search-text": "#222222",
+    "--search-placeholder": "#888888"
   }
 };
 
@@ -294,10 +295,11 @@ function applyTheme(name){
   const theme = themes[name];
   for(let prop in theme) document.documentElement.style.setProperty(prop, theme[prop]);
   matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
-  themeButton.textContent = 'Theme: ' + (name==='default'?'Matrix Teal':name==='corporate-dark'?'Corporate Dark':'Corporate Light') + ' ▼';
+  themeButton.textContent = 'Theme: ' + (name==='default'?'Cyberpunk':name==='corporate-dark'?'Corporate Dark':'Corporate Light') + ' ▼';
+  themeButton.dataset.currentTheme = name;
 }
 
-applyTheme('default'); // init default
+applyTheme('default'); // init Cyberpunk
 load24h();
 </script>
 </body>
