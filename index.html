@@ -1,3 +1,5 @@
+yeah lets try that to this one 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +8,9 @@
 <title>BlackWall | Threat Intelligence | (OSINT)</title>
 <style>
 :root {
-  /* Default: Matrix Teal */
   --bg-color: #000;
   --text-color: #0ff;
-  --matrix-color: #00bfa5; /* true teal */
+  --matrix-color: #0ff;
   --heading-color: #6f6;
   --value-color: #afa;
   --highlight-color: #0ff;
@@ -21,21 +22,14 @@
   --header-bg: #000;
   --note-color: #6f6;
 }
-
-body {
-  margin:0; font-family:'Courier New', monospace;
-  background:var(--bg-color);
-  color:var(--text-color);
-  overflow-x:hidden;
-}
-
+body {margin:0; font-family:'Courier New', monospace; background:var(--bg-color); color:var(--text-color); overflow-x:hidden;}
 canvas#matrix {position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; pointer-events:none;}
 .container {max-width:1200px; margin:20px auto; padding:10px; position:relative; z-index:1;}
 h1 {color:var(--text-color); text-align:center; font-size:2em; text-shadow:0 0 5px var(--text-color),0 0 10px var(--text-color);}
 #search-container {display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px; align-items:center;}
-#search-box {flex:1; padding:10px; font-size:1em; background:var(--card-bg); border:1px solid var(--text-color); color:var(--text-color);}
+#search-box {flex:1; padding:10px; font-size:1em; background:#111; border:1px solid var(--text-color); color:var(--text-color);}
 button {background:var(--button-bg); color:var(--button-text); border:none; padding:5px 10px; cursor:pointer; font-weight:bold; border-radius:3px;}
-#theme-selector {padding:5px; font-weight:bold; border-radius:3px; background:var(--card-bg); color:var(--text-color); border:1px solid var(--text-color);}
+#theme-selector {padding:5px; font-weight:bold; border-radius:3px; background:#111; color:var(--text-color); border:1px solid var(--text-color);}
 #feed-note {color:var(--note-color); font-size:0.9em; margin-bottom:10px; text-align:center;}
 #search-status {text-align:center; color:var(--alert-color); font-weight:bold; margin-bottom:10px; display:none;}
 .feed-panel {margin-bottom:20px; border:1px solid var(--text-color); border-radius:5px; overflow:hidden; background:var(--panel-bg); box-shadow:0 0 10px var(--text-color);}
@@ -64,7 +58,7 @@ mark.highlight {background-color:var(--highlight-color); color:#000;}
     <button id="search-submit">Search</button>
     <button id="clear-search">Clear</button>
     <select id="theme-selector">
-      <option value="matrix-teal">Matrix Teal</option>
+      <option value="default">Matrix Teal</option>
       <option value="corporate-dark">Corporate Dark</option>
       <option value="corporate-light">Corporate Light</option>
     </select>
@@ -107,12 +101,117 @@ function drawMatrix(){
 setInterval(drawMatrix,50);
 window.addEventListener('resize',()=>{width=canvas.width=window.innerWidth;height=canvas.height=window.innerHeight;});
 
-// THEMES
+// ELEMENTS
+const container = document.getElementById('feeds-container');
+const searchBox = document.getElementById('search-box');
+
+// 24H FEEDS
+const feeds = {
+  "Bleeping Computer": "bleeping.json",
+  "The Hacker News": "hackernews.json",
+  "CISA Advisories": "cisa.json",
+  "Mandiant Reports": "mandiant.json",
+  "Ransomware Live": "ransomware_live.json",
+  "MITRE ATT&CK Actors": "mitre.json"
+};
+
+function addField(card,label,value){if(!value)return; const h=document.createElement('div'); h.className='heading'; h.textContent=label; card.appendChild(h); const v=document.createElement('div'); v.className='value'; v.textContent=value; card.appendChild(v);}
+
+async function loadFeedData(data, feedName){
+  const panel=document.createElement('div'); panel.className='feed-panel';
+  const header=document.createElement('div'); header.className='feed-header'; header.textContent=`${feedName} (${data.length})`;
+  panel.appendChild(header);
+  const entriesDiv=document.createElement('div'); entriesDiv.className='feed-entries';
+  header.onclick=()=>{entriesDiv.style.display=entriesDiv.style.display==='block'?'none':'block';};
+
+  data.forEach(entry=>{
+    const card=document.createElement('div'); card.className='entry-card';
+    const title=document.createElement('a'); title.className='entry-title'; title.href=entry.link||entry.mitre_url||'#'; title.target='_blank';
+    title.textContent=entry.title||entry.actor_name||'No title'; card.appendChild(title);
+    const pub=entry.published||entry.last_updated;
+    if(pub) addField(card,'Published (UTC):',new Date(pub).toISOString().replace('T',' ').split('.')[0]+'Z');
+    let summary=entry.summary||entry.description; if(summary) summary=summary.replace(/\.\.\.$/,''); if(summary)addField(card,'Summary:',summary);
+    if(entry.aliases)addField(card,'Aliases:',entry.aliases);
+    if(entry.techniques)addField(card,'Techniques:',entry.techniques);
+    if(entry.attribution)addField(card,'Attribution:',entry.attribution);
+    if(entry.country)addField(card,'Country:',entry.country);
+    if(entry.website)addField(card,'Website:',entry.website);
+    entriesDiv.appendChild(card);
+  });
+  panel.appendChild(entriesDiv); container.appendChild(panel);
+}
+
+// LOAD 24H
+async function load24h(){
+  container.innerHTML='';
+  for(const [name,file] of Object.entries(feeds)){
+    try{
+      const res=await fetch(file); const data=await res.json();
+      await loadFeedData(data,name);
+    }catch(e){console.error(file,e);}
+  }
+}
+
+// LOAD ARCHIVE
+async function loadArchive(){
+  container.innerHTML='';
+  try{
+    const res = await fetch('archives_index.json');
+    const archives = await res.json();
+    for(const [feedKey, files] of Object.entries(archives)){
+      let merged = [];
+      const seen = new Set();
+      for(const file of files){
+        const resFile = await fetch(file);
+        const text = await resFile.text();
+        const data = text.split(/\r?\n/).filter(Boolean).map(line=>JSON.parse(line));
+        for(const entry of data){
+          const key = (entry.title||entry.actor_name||'') + '|' + (entry.link||entry.mitre_url||'');
+          if(!seen.has(key)){ merged.push(entry); seen.add(key); }
+        }
+      }
+      await loadFeedData(merged, feedKey.charAt(0).toUpperCase() + feedKey.slice(1) + ' Archive');
+    }
+  }catch(e){console.error('Failed loading archives', e);}
+}
+
+// BUTTONS
+document.getElementById('last-24h').addEventListener('click',load24h);
+document.getElementById('archive').addEventListener('click',loadArchive);
+document.getElementById('expand-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='block');});
+document.getElementById('collapse-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='none');});
+
+// SEARCH
+async function searchFeeds(){
+  const query=searchBox.value.trim().toLowerCase();
+  if(!query)return load24h();
+  const panels = document.querySelectorAll('.feed-panel');
+  let anyMatch=false;
+  panels.forEach(panel=>{
+    const entriesDiv = panel.querySelector('.feed-entries');
+    let panelHasMatch=false;
+    entriesDiv.querySelectorAll('.entry-card').forEach(card=>{
+      const text = card.textContent.toLowerCase();
+      const isMatch = text.includes(query);
+      card.style.display = isMatch?'block':'none';
+      if(isMatch) panelHasMatch=true;
+    });
+    entriesDiv.style.display = panelHasMatch?'block':'none';
+    if(panelHasMatch) anyMatch=true;
+  });
+  document.getElementById('search-status').style.display = anyMatch?'none':'block';
+}
+document.getElementById('search-submit').addEventListener('click',searchFeeds);
+searchBox.addEventListener('keydown',e=>{if(e.key==='Enter') searchFeeds();});
+document.getElementById('clear-search').addEventListener('click',()=>{searchBox.value='';searchFeeds();});
+
+// THEME SWITCHER
+const themeSelector = document.getElementById('theme-selector');
 const themes = {
-  "matrix-teal": {
+  "default": {
     "--bg-color": "#000",
     "--text-color": "#0ff",
-    "--matrix-color": "#00bfa5",
+    "--matrix-color": "#0ff",
     "--heading-color": "#6f6",
     "--value-color": "#afa",
     "--highlight-color": "#0ff",
@@ -155,17 +254,10 @@ const themes = {
     "--note-color": "#444"
   }
 };
-
-const themeSelector = document.getElementById('theme-selector');
 themeSelector.addEventListener('change', (e)=>{
   const theme = themes[e.target.value];
   for(let prop in theme) document.documentElement.style.setProperty(prop, theme[prop]);
   matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
-  // Update search box and selector dynamically
-  document.getElementById('search-box').style.background = getComputedStyle(document.documentElement).getPropertyValue('--card-bg').trim();
-  document.getElementById('search-box').style.color = getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim();
-  document.getElementById('theme-selector').style.background = getComputedStyle(document.documentElement).getPropertyValue('--card-bg').trim();
-  document.getElementById('theme-selector').style.color = getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim();
 });
 
 // INIT
