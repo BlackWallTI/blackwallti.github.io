@@ -5,27 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BlackWall | Threat Intelligence | (OSINT)</title>
 <style>
-body {margin:0; font-family:'Courier New', monospace; background:#000; color:#0ff; overflow-x:hidden;}
+:root {
+  --bg-color: #000;
+  --text-color: #0ff;
+  --matrix-color: #0ff;
+  --heading-color: #6f6;
+  --value-color: #afa;
+  --highlight-color: #0ff;
+  --alert-color: #f66;
+}
+body {margin:0; font-family:'Courier New', monospace; background:var(--bg-color); color:var(--text-color); overflow-x:hidden;}
 canvas#matrix {position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; pointer-events:none;}
 .container {max-width:1200px; margin:20px auto; padding:10px; position:relative; z-index:1;}
-h1 {color:#0ff; text-align:center; font-size:2em; text-shadow:0 0 5px #0ff,0 0 10px #0ff;}
+h1 {color:var(--text-color); text-align:center; font-size:2em; text-shadow:0 0 5px var(--text-color),0 0 10px var(--text-color);}
 #search-container {display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px; align-items:center;}
-#search-box {flex:1; padding:10px; font-size:1em; background:#111; border:1px solid #0ff; color:#0ff;}
-button {background:#0ff; color:#060; border:none; padding:5px 10px; cursor:pointer; font-weight:bold; border-radius:3px;}
+#search-box {flex:1; padding:10px; font-size:1em; background:#111; border:1px solid var(--text-color); color:var(--text-color);}
+button {background:var(--text-color); color:#060; border:none; padding:5px 10px; cursor:pointer; font-weight:bold; border-radius:3px;}
+#theme-selector {padding:5px; font-weight:bold; border-radius:3px; background:#111; color:var(--text-color); border:1px solid var(--text-color);}
 #feed-note {color:#6f6; font-size:0.9em; margin-bottom:10px; text-align:center;}
-#search-status {text-align:center; color:#f66; font-weight:bold; margin-bottom:10px; display:none;}
-.feed-panel {margin-bottom:20px; border:1px solid #0ff; border-radius:5px; overflow:hidden; background:rgba(0,0,0,0.7); box-shadow:0 0 10px #0ff;}
-.feed-header {padding:10px; background:#000; cursor:pointer; font-weight:bold; font-size:1.2em; text-shadow:0 0 5px #0ff;}
+#search-status {text-align:center; color:var(--alert-color); font-weight:bold; margin-bottom:10px; display:none;}
+.feed-panel {margin-bottom:20px; border:1px solid var(--text-color); border-radius:5px; overflow:hidden; background:rgba(0,0,0,0.7); box-shadow:0 0 10px var(--text-color);}
+.feed-header {padding:10px; background:var(--bg-color); cursor:pointer; font-weight:bold; font-size:1.2em; text-shadow:0 0 5px var(--text-color);}
 .feed-entries {display:none; padding:10px; max-height:500px; overflow-y:auto;}
-.entry-card {background:rgba(0,0,0,0.8); border:1px solid #0ff; padding:10px; margin-bottom:10px; border-radius:5px; transition:0.3s;}
-.entry-card:hover {box-shadow:0 0 10px #0ff; transform:scale(1.02);}
-.entry-title {font-size:1.1em; font-weight:bold; color:#0ff; text-decoration:none;}
-.heading {color:#6f6; font-weight:bold; margin-top:6px;}
-.value {color:#afa; margin-left:5px;}
-mark.highlight {background-color:#0ff; color:#000;}
-::selection {background:#0ff; color:#000;}
+.entry-card {background:rgba(0,0,0,0.8); border:1px solid var(--text-color); padding:10px; margin-bottom:10px; border-radius:5px; transition:0.3s;}
+.entry-card:hover {box-shadow:0 0 10px var(--text-color); transform:scale(1.02);}
+.entry-title {font-size:1.1em; font-weight:bold; color:var(--text-color); text-decoration:none;}
+.heading {color:var(--heading-color); font-weight:bold; margin-top:6px;}
+.value {color:var(--value-color); margin-left:5px;}
+mark.highlight {background-color:var(--highlight-color); color:#000;}
+::selection {background:var(--highlight-color); color:#000;}
 .feed-entries::-webkit-scrollbar {width:8px;}
-.feed-entries::-webkit-scrollbar-thumb {background:#0ff; border-radius:4px;}
+.feed-entries::-webkit-scrollbar-thumb {background:var(--matrix-color); border-radius:4px;}
 </style>
 </head>
 <body>
@@ -39,6 +49,11 @@ mark.highlight {background-color:#0ff; color:#000;}
     <input type="text" id="search-box" placeholder="Search feeds...">
     <button id="search-submit">Search</button>
     <button id="clear-search">Clear</button>
+    <select id="theme-selector">
+      <option value="default">Matrix Teal</option>
+      <option value="corporate-dark">Corporate Dark</option>
+      <option value="corporate-light">Corporate Light</option>
+    </select>
   </div>
 
   <div id="button-bar" style="display:flex; gap:10px; margin-bottom:10px;">
@@ -61,9 +76,13 @@ const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()*&^%'.split('');
 const fontSize = 18;
 const columns = Math.floor(width / fontSize);
 const drops = Array(columns).fill(0);
+let matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
+
 function drawMatrix(){
-  ctx.fillStyle='rgba(0,0,0,0.05)'; ctx.fillRect(0,0,width,height);
-  ctx.fillStyle='#0ff'; ctx.font=fontSize+'px monospace';
+  ctx.fillStyle='rgba(0,0,0,0.05)';
+  ctx.fillRect(0,0,width,height);
+  ctx.fillStyle=matrixColor;
+  ctx.font=fontSize+'px monospace';
   for(let i=0;i<drops.length;i++){
     const text=letters[Math.floor(Math.random()*letters.length)];
     ctx.fillText(text,i*fontSize,drops[i]*fontSize);
@@ -125,7 +144,7 @@ async function load24h(){
   }
 }
 
-// LOAD ARCHIVE WITH MERGE + DEDUPE
+// LOAD ARCHIVE
 async function loadArchive(){
   container.innerHTML='';
   try{
@@ -140,7 +159,6 @@ async function loadArchive(){
         const resFile = await fetch(file);
         const text = await resFile.text();
         const data = text.split(/\r?\n/).filter(Boolean).map(line=>JSON.parse(line));
-        // merge & dedupe
         for(const entry of data){
           const key = (entry.title||entry.actor_name||'') + '|' + (entry.link||entry.mitre_url||'');
           if(!seen.has(key)){
@@ -151,14 +169,12 @@ async function loadArchive(){
       }
       await loadFeedData(merged, feedKey.charAt(0).toUpperCase() + feedKey.slice(1) + ' Archive');
     }
-
   }catch(e){console.error('Failed loading archives', e);}
 }
 
 // BUTTONS
 document.getElementById('last-24h').addEventListener('click',load24h);
 document.getElementById('archive').addEventListener('click',loadArchive);
-
 document.getElementById('expand-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='block');});
 document.getElementById('collapse-all').addEventListener('click',()=>{document.querySelectorAll('.feed-entries').forEach(d=>d.style.display='none');});
 
@@ -166,7 +182,6 @@ document.getElementById('collapse-all').addEventListener('click',()=>{document.q
 async function searchFeeds(){
   const query=searchBox.value.trim().toLowerCase();
   if(!query)return load24h();
-
   const panels = document.querySelectorAll('.feed-panel');
   let anyMatch=false;
   panels.forEach(panel=>{
@@ -186,6 +201,43 @@ async function searchFeeds(){
 document.getElementById('search-submit').addEventListener('click',searchFeeds);
 searchBox.addEventListener('keydown',e=>{if(e.key==='Enter') searchFeeds();});
 document.getElementById('clear-search').addEventListener('click',()=>{searchBox.value='';searchFeeds();});
+
+// THEME SWITCHER
+const themeSelector = document.getElementById('theme-selector');
+const themes = {
+  "default": {
+    "--bg-color": "#000",
+    "--text-color": "#0ff",
+    "--matrix-color": "#0ff",
+    "--heading-color": "#6f6",
+    "--value-color": "#afa",
+    "--highlight-color": "#0ff",
+    "--alert-color": "#f66"
+  },
+  "corporate-dark": {
+    "--bg-color": "#000",
+    "--text-color": "#fff",
+    "--matrix-color": "#000",
+    "--heading-color": "#fff",
+    "--value-color": "#fff",
+    "--highlight-color": "#ff0",
+    "--alert-color": "#f66"
+  },
+  "corporate-light": {
+    "--bg-color": "#fff",
+    "--text-color": "#000",
+    "--matrix-color": "#fff",
+    "--heading-color": "#000",
+    "--value-color": "#000",
+    "--highlight-color": "#ff0",
+    "--alert-color": "#f66"
+  }
+};
+themeSelector.addEventListener('change', (e)=>{
+  const theme = themes[e.target.value];
+  for(let prop in theme) document.documentElement.style.setProperty(prop, theme[prop]);
+  matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
+});
 
 // INIT
 load24h();
