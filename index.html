@@ -95,7 +95,6 @@ const drops = Array(columns).fill(0);
 let matrixColor = getComputedStyle(document.documentElement).getPropertyValue('--matrix-color').trim();
 
 function drawMatrix() {
-  // Only draw falling letters for Cyberpunk theme
   const themeName = themeButton.dataset.currentTheme || 'default';
   if(themeName === 'default'){
     ctx.fillStyle = 'rgba(0,0,0,0.05)';
@@ -110,7 +109,6 @@ function drawMatrix() {
       drops[i]++;
     }
   } else {
-    // fill static background for other themes
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--bg-color').trim();
     ctx.fillRect(0,0,width,height);
   }
@@ -131,7 +129,11 @@ const feeds = {
   "MITRE ATT&CK Actors": "mitre.json"
 };
 
-function addField(card,label,value){if(!value)return; const h=document.createElement('div'); h.className='heading'; h.textContent=label; card.appendChild(h); const v=document.createElement('div'); v.className='value'; v.textContent=value; card.appendChild(v);}
+function addField(card,label,value){
+  if(!value) return;
+  const h=document.createElement('div'); h.className='heading'; h.textContent=label; card.appendChild(h);
+  const v=document.createElement('div'); v.className='value'; v.textContent=value; card.appendChild(v);
+}
 
 async function loadFeedData(data, feedName){
   const panel=document.createElement('div'); panel.className='feed-panel';
@@ -256,7 +258,7 @@ const themes = {
   "corporate-dark": {
     "--bg-color": "#000",
     "--text-color": "#e6e6e6",
-    "--matrix-color": "#000", // no falling letters
+    "--matrix-color": "#000",
     "--heading-color": "#ccc",
     "--value-color": "#999",
     "--highlight-color": "#ffcc00",
@@ -273,8 +275,8 @@ const themes = {
   },
   "corporate-light": {
     "--bg-color": "#ffffff",
-    "--text-color": "#222222", // dark gray instead of black
-    "--matrix-color": "#555555", // dark gray letters visible but soft
+    "--text-color": "#222222",
+    "--matrix-color": "#555555",
     "--heading-color": "#444444",
     "--value-color": "#666666",
     "--highlight-color": "#ffcc00",
