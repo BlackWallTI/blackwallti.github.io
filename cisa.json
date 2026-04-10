@@ -1,9 +1,16 @@
 [
   {
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
+    "title": "Contemporary Controls BASC 20T",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01",
+    "summary": "Successful exploitation of this vulnerability could allow an attacker to enumerate the functionality of each component associated with the PLC, reconfigure, rename, delete, perform file transfers, and make remote procedure calls. The following versions of Contemporary Controls BASC 20T are affected: BASControl20 3.1 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 Contemporary Controls Sedona Alliance Contemporary Controls BASC 20T Reliance on Untrusted Inputs in a Security Decision Background Critical Infrastructure Sectors: Commercial Facilities, Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) An attacker could use data obtained by sniffing the network traffic to forge packets in order to make arbitrary requests to Contemporary Controls BASC 20T.",
     "vendor": "CISA",
-    "published": "2026-04-08 12:00:00+00:00"
+    "published": "2026-04-09 12:00:00+00:00"
+  },
+  {
+    "title": "GPL Odorizers GPL750",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02",
+    "summary": "Successful exploitation of this vulnerability could allow a low privileged remote attacker to manipulate register values, which would result in too much or too little odorant being injected into a gas line. The following versions of GPL Odorizers GPL750 are affected: GPL750 (XL4) >=v1.0| GPL750 (XL4 Prime) >=v4.0| GPL750 (XL7) >=v13.0| GPL750 (XL7 Prime) >=v18.4| CVSS Vendor Equipment Vulnerabilities v3 8.6 GPL Odorizers GPL Odorizers GPL750 Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A low-privileged remote attacker can send Modbus packets to manipulate register values that are inputs to the odorant injection logic such that too much or too little odorant is injected into a gas line.",
+    "vendor": "CISA",
+    "published": "2026-04-09 12:00:00+00:00"
   }
 ]
