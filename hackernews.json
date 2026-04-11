@@ -1,50 +1,42 @@
 [
   {
     "source": "The Hacker News",
-    "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets",
-    "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-    "published": "2026-04-09T17:26:00+00:00",
-    "summary": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit\u00a0(SDK) called\u00a0EngageLab\u00a0SDK that could have put millions of cryptocurrency wallet users at\u00a0risk.\n\"This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private\u00a0data,\" the Microsoft Defender.",
+    "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+    "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+    "published": "2026-04-10T13:23:00+00:00",
+    "summary": "Cybersecurity researchers have flagged yet another evolution of the\u00a0ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's\u00a0machine.\nThe technique has been discovered in an Open VSX extension named\u00a0\"specstudio.code-wakatime-activity-tracker,\" which masquerades as WakaTime, a.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
-    "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
-    "published": "2026-04-09T16:23:00+00:00",
-    "summary": "A previously undocumented threat cluster\u00a0dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook.\n\"LucidRook is a sophisticated stager that embeds a Lua interpreter and Rust-compiled libraries within a dynamic-link library (DLL) to download and.",
+    "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About",
+    "link": "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
+    "published": "2026-04-10T11:00:00+00:00",
+    "summary": "While\u00a0much of the discussion on AI security centers around protecting\u00a0\u2018shadow\u2019 AI and GenAI consumption, there's a wide-open\u00a0window nobody's guarding: AI browser extensions.\u00a0\nA\u00a0new report from LayerX\u00a0exposes just how deep this blind spot goes, and why AI extensions may be the most dangerous AI threat surface in your network\u00a0that isn't\u00a0on anyone's.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-    "published": "2026-04-09T12:57:00+00:00",
-    "summary": "Thursday. Another week, another batch of things that probably should've been caught sooner but\u00a0weren't.\nThis\u00a0one's got some range \u2014 old vulnerabilities getting new life, a few \"why was that even possible\" moments, attackers leaning on platforms and tools you'd normally trust without thinking twice.",
+    "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
+    "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+    "published": "2026-04-10T07:58:00+00:00",
+    "summary": "Google has\u00a0made Device Bound Session Credentials\u00a0(DBSC) generally available to all Windows users of its Chrome web browser, months after\u00a0it began\u00a0testing the security feature in open\u00a0beta.\nThe public availability is currently limited to Windows users on Chrome 146, with macOS expansion planned in an upcoming Chrome\u00a0release.\n\"This project represents a significant.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
-    "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-    "published": "2026-04-09T11:31:00+00:00",
-    "summary": "As\u00a0AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While\u00a0these tools may boost productivity, automate tasks, or fill gaps in existing workflows, they also operate outside the visibility of security teams, bypassing controls and creating new blind spots in what is known as shadow AI.",
+    "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
+    "published": "2026-04-10T07:37:00+00:00",
+    "summary": "A critical security vulnerability\u00a0in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according\u00a0to findings from\u00a0Sysdig.\nThe vulnerability in question\u00a0is CVE-2026-39987 (CVSS score: 9.3), a pre-authenticated remote code execution vulnerability impacting all versions of Marimo prior to and including.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025",
-    "link": "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
-    "published": "2026-04-09T11:15:00+00:00",
-    "summary": "Threat actors have been exploiting a previously unknown zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December\u00a02025.\nThe finding, detailed by EXPMON's Haifei Li, has\u00a0been described as a highly-sophisticated PDF exploit.\u00a0The artifact (\"Invoice540.pdf\") first appeared on the VirusTotal platform on November 28, 2025.\u00a0A second.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
-    "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-    "published": "2026-04-09T10:40:00+00:00",
-    "summary": "An\u00a0apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East and North Africa (MENA), according to findings\u00a0from Access\u00a0Now, Lookout,\u00a0and SMEX.\nTwo\u00a0of the targets included prominent Egyptian journalists and government critics, Mostafa.",
+    "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
+    "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+    "published": "2026-04-10T06:28:00+00:00",
+    "summary": "Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a\u00a0backdoor.\nThe\u00a0incident impacts Smart Slider 3 Pro version 3.5.1.35\u00a0for WordPress, per WordPress security company Patchstack. Smart\u00a0Slider 3 is a popular WordPress slider plugin with more than 800,000 active installations across its free and Pro.",
     "extra": {}
   }
 ]
