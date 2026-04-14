@@ -1,10 +1,50 @@
 [
   {
     "source": "The Hacker News",
-    "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
-    "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
-    "published": "2026-04-12T05:54:00+00:00",
-    "summary": "Unknown threat actors compromised CPUID (\"cpuid[.]com\"), a website\u00a0that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX\u00a0RAT.\nThe incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00\u00a0UTC, with.",
+    "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
+    "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+    "published": "2026-04-13T17:15:00+00:00",
+    "summary": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT.\nA modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata.\n\"One of the.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
+    "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+    "published": "2026-04-13T14:46:00+00:00",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit\u00a0called W3LL to steal thousands of victims' account credentials and attempt more than $20 million in\u00a0fraud.\nIn tandem, authorities detained the alleged developer, who has&.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "\u26a1 Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+    "published": "2026-04-13T13:01:00+00:00",
+    "summary": "Monday\u00a0is back, and the weekend\u2019s backlog of chaos is officially hitting the fan. We\u00a0are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some aggressive state-sponsored meddling in infrastructure that is finally coming to light.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't",
+    "link": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+    "published": "2026-04-13T11:41:00+00:00",
+    "summary": "Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo\u00a0Alto Networks' Wendi\u00a0Whitmore warned that similar capabilities are weeks or months from proliferation.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
+    "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+    "published": "2026-04-13T09:15:00+00:00",
+    "summary": "The North Korean hacking group tracked\u00a0as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan\u00a0called RokRAT.\n\"The threat actor used two Facebook.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+    "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+    "published": "2026-04-13T06:50:00+00:00",
+    "summary": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised.\n\"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\"\u00a0OpenAI said in a post last week. \"We found no.",
     "extra": {}
   }
 ]
