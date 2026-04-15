@@ -1,9 +1,9 @@
 [
   {
-    "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability CVE(s) Adobe Acrobat Use-After-Free Vulnerability CVE(s) Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability CVE(s) Microsoft Windows Out-of-Bounds Read Vulnerability CVE(s) Microsoft Windows Link Following Vulnerability CVE(s) Fortinet SQL Injection Vulnerability CVE(s) Adobe Acrobat and Reader Prototype Pollution Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Microsoft Office Remote Code Execution Vulnerability CVE(s) Microsoft SharePoint Server Improper Input Validation Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-04-13 12:00:00+00:00"
+    "published": "2026-04-14 12:00:00+00:00"
   }
 ]
