@@ -1,66 +1,42 @@
 [
   {
     "source": "The Hacker News",
-    "title": "New PHP Composer Flaws Enable Arbitrary Command Execution \u2014 Patches Released",
-    "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
-    "published": "2026-04-14T15:57:00+00:00",
-    "summary": "Two high-severity security vulnerabilities\u00a0have been disclosed in Composer, a package\u00a0manager for\u00a0PHP, that, if successfully exploited, could result in arbitrary command execution.\nThe vulnerabilities\u00a0have been\u00a0described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below\u00a0-\n\nCVE-2026-40176 (CVSS.",
+    "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
+    "link": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
+    "published": "2026-04-15T17:09:00+00:00",
+    "summary": "Threat actors\u00a0have been\u00a0observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated\u00a0emails.\n\"By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
-    "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
-    "published": "2026-04-14T14:56:00+00:00",
-    "summary": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational\u00a0level.\n\"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying.",
+    "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
+    "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+    "published": "2026-04-15T12:56:00+00:00",
+    "summary": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the\u00a0wild.\nThe vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It\u00a0has been codenamed MCPwn by Pluto\u00a0Security.\n\".",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
-    "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
-    "published": "2026-04-14T14:30:00+00:00",
-    "summary": "Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into\u00a0Google's Discover\u00a0feed and trick users into enabling persistent browser notifications that lead to scareware and financial\u00a0scams.\nThe campaign, which has been.",
+    "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
+    "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+    "published": "2026-04-15T12:37:00+00:00",
+    "summary": "A number\u00a0of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday\u00a0releases.\nTopping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse\u00a0(CVE-2026-27681, CVSS score: 9.9) that could result in the execution of arbitrary database.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
-    "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
-    "published": "2026-04-14T10:20:00+00:00",
-    "summary": "A nascent Android remote access trojan\u00a0called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on\u00a0Meta.\n\"Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real.",
+    "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
+    "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+    "published": "2026-04-15T11:30:00+00:00",
+    "summary": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across\u00a0industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions.\u00a0Pentera\u2019s AI Security and Exposure Report\u00a02026 reflects that\u00a0momentum: every CISO surveyed.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
-    "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
-    "published": "2026-04-14T10:00:00+00:00",
-    "summary": "OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The\u00a0primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly\u00a0400%.\nThe surge in AI-assisted development is creating a \"velocity\u00a0gap\" where the density of high-impact vulnerabilities\u00a0is scaling faster\u00a0than.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
-    "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
-    "published": "2026-04-14T08:35:00+00:00",
-    "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page\u00a0visited.\nAccording to Socket, the extensions (complete list.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
-    "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
-    "published": "2026-04-14T05:50:00+00:00",
-    "summary": "A critical security vulnerability\u00a0impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the\u00a0wild.\nThe vulnerability in question\u00a0is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4\u00a0out of\u00a010.0.\nIt relates to a case of unrestricted file upload that stems from improper validation of.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
-    "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
-    "published": "2026-04-14T05:39:00+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on\u00a0Monday added half a dozen security flaws to its Known Exploited Vulnerabilities\u00a0(KEV) catalog, citing evidence of active exploitation.\nThe list of vulnerabilities is as follows\u00a0-\n\nCVE-2026-21643 (CVSS score: 9.1) -\u00a0 An SQL injection vulnerability in\u00a0 Fortinet FortiClient EMS that could allow an.",
+    "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
+    "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
+    "published": "2026-04-15T08:40:00+00:00",
+    "summary": "Microsoft on Tuesday released updates to address a\u00a0record 169 security\u00a0flaws across its product portfolio, including one vulnerability that\u00a0has been actively\u00a0exploited in the\u00a0wild.\nOf these 169 vulnerabilities, 157 are rated Important, eight are rated\u00a0Critical, three are rated Moderate,\u00a0and one is rated Low in\u00a0severity. Ninety-three of the flaws are.",
     "extra": {}
   }
 ]

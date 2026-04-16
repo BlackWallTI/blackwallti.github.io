@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "vSphere and BRICKSTORM Malware: A Defender's Guide",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide/",
-    "published": "2026-04-02T14:00:00",
-    "summary": "Written by: Stuart Carrera Introduction Building on recent BRICKSTORM research from Google Threat Intelligence Group (GTIG), this post explores the evolving threats facing virtualized environments. These operations directly target the VMware vSphere ecosystem, specifically the vCenter Server Appliance (VCSA) and ESXi hypervisors.",
+    "title": "The German Cyber Criminal \u00dcberfall: Shifts in Europe's Data Leak Landscape",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/europe-data-leak-landscape/",
+    "published": "2026-04-15T14:00:00+00:00",
+    "summary": "Written by: Jamie Collier, Robin Grunewald Germany has reclaimed its position as a primary focus for cyber extortion in Europe. While data leak site (DLS) posts rose almost 50% globally in 2025, Google Threat Intelligence (GTI) data shows that the surge is hitting German infrastructure harder and faster than its regional neighbors, marking a significant return to the high-pressure levels previously observed in the country during 2022 and 2023.",
     "extra": {}
   }
 ]
