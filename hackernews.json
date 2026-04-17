@@ -1,42 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
-    "link": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
-    "published": "2026-04-15T17:09:00+00:00",
-    "summary": "Threat actors\u00a0have been\u00a0observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious payloads or fingerprint devices by sending automated\u00a0emails.\n\"By leveraging trusted infrastructure, these attackers bypass traditional security filters, turning productivity tools into delivery.",
+    "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+    "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+    "published": "2026-04-17T03:22:00+00:00",
+    "summary": "A recently disclosed high-severity security flaw in Apache ActiveMQ\u00a0Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency\u00a0(CISA).\nTo that end, the agency\u00a0has added the vulnerability, tracked\u00a0as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities\u00a0(KEV) catalog, requiring Federal Civilian.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
-    "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-    "published": "2026-04-15T12:56:00+00:00",
-    "summary": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the\u00a0wild.\nThe vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It\u00a0has been codenamed MCPwn by Pluto\u00a0Security.\n\".",
+    "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
+    "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+    "published": "2026-04-16T17:52:00+00:00",
+    "summary": "Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet\u00a0dubbed PowMix since at least December\u00a02025.\n\"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
-    "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
-    "published": "2026-04-15T12:37:00+00:00",
-    "summary": "A number\u00a0of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday\u00a0releases.\nTopping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse\u00a0(CVE-2026-27681, CVSS score: 9.9) that could result in the execution of arbitrary database.",
+    "title": "ThreatsDay Bulletin: Defender 0-Day,\u00a0SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+    "published": "2026-04-16T13:05:00+00:00",
+    "summary": "You\u00a0know that feeling when you open your feed on a Thursday morning and it's just... a\u00a0lot? Yeah.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
-    "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
-    "published": "2026-04-15T11:30:00+00:00",
-    "summary": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across\u00a0industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions.\u00a0Pentera\u2019s AI Security and Exposure Report\u00a02026 reflects that\u00a0momentum: every CISO surveyed.",
+    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "published": "2026-04-16T11:55:00+00:00",
+    "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not\u00a0phishing.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
-    "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
-    "published": "2026-04-15T08:40:00+00:00",
-    "summary": "Microsoft on Tuesday released updates to address a\u00a0record 169 security\u00a0flaws across its product portfolio, including one vulnerability that\u00a0has been actively\u00a0exploited in the\u00a0wild.\nOf these 169 vulnerabilities, 157 are rated Important, eight are rated\u00a0Critical, three are rated Moderate,\u00a0and one is rated Low in\u00a0severity. Ninety-three of the flaws are.",
+    "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
+    "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+    "published": "2026-04-16T11:27:00+00:00",
+    "summary": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the\u00a0service.\nThe details of the vulnerabilities are below\u00a0-\n\nCVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO).",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
+    "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
+    "published": "2026-04-16T10:30:00+00:00",
+    "summary": "A\u00a0bank approved a Taboola pixel. That\u00a0pixel quietly redirected logged-in users to a Temu tracking endpoint.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
+    "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
+    "published": "2026-04-16T10:20:00+00:00",
+    "summary": "A \"novel\" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote access trojan called PHANTOMPULSE in attacks targeting individuals in the financial and cryptocurrency\u00a0sectors.\nDubbed REF6598 by Elastic Security Labs, the activity has been found to leverage.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
+    "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+    "published": "2026-04-16T06:20:00+00:00",
+    "summary": "The Computer Emergencies Response Team of Ukraine (CERT-UA)\u00a0has disclosed details of a new\u00a0campaign that has\u00a0targeted governments and municipal healthcare institutions, mainly clinics and emergency hospitals, to deliver malware capable of stealing sensitive data from Chromium-based web browsers and\u00a0WhatsApp.\nThe activity,\u00a0which was\u00a0observed between March and April.",
     "extra": {}
   }
 ]
