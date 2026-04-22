@@ -1,16 +1,86 @@
 [
   {
-    "title": "\u200b\u200bSupply Chain Compromise Impacts Axios Node Package Manager\u200b",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm). 1 Axios is an HTTP client for JavaScript that developers commonly use in Node.js and browser environments.",
+    "title": "Silex Technology SD-330AC and AMC Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without authentication. The following versions of Silex Technology SD-330AC and AMC Manager are affected: SD-330AC <=1.42 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) AMC Manager <=5.0.2 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 Silex Technology Silex Technology SD-330AC and AMC Manager Stack-based Buffer Overflow, Heap-based Buffer Overflow, Missing Authentication for Critical Function, Use of Hard-coded Cryptographic Key, Dependency on Vulnerable Third-Party Component, Use of a Broken or Risky Cryptographic Algorithm, Sensitive Information in Resource Not Removed Before Reuse, Incorrect Privilege Assignment, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper Neutralization of CRLF Sequences ('CRLF Injection'), Initialization of a Resource with an Insecure Default Background Critical Infrastructure Sectors: Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Japan Vulnerabilities Expand All + CVE(s) A Stack-based Buffer Overflow vulnerability in Silex Technology SD-330AC and AMC Manager could allow an attacker to execute arbitrary code on the device.",
     "vendor": "CISA",
-    "published": "2026-04-20 12:00:00+00:00"
+    "published": "2026-04-21 12:00:00+00:00"
   },
   {
-    "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) PaperCut NG/MF Improper Authentication Vulnerability CVE(s) JetBrains TeamCity Relative Path Traversal Vulnerability CVE(s) Kentico Xperience Path Traversal Vulnerability CVE(s) Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability CVE(s) Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability CVE(s) Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability CVE(s) Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability CVE(s) Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
+    "summary": "RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version for RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) and recommends to update to the latest version.",
     "vendor": "CISA",
-    "published": "2026-04-20 12:00:00+00:00"
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens TPM 2.0",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01",
+    "summary": "The products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service of the TPM. Siemens has released new versions for several affected products and recommends to update to the latest versions.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "SenseLive X3050",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected: X3050 V1.523 (CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.8 SenseLive SenseLive X3050 Authentication Bypass Using an Alternate Path or Channel, Insufficient Session Expiration, Use of Hard-coded Credentials, Insufficiently Protected Credentials, Missing Authentication for Critical Function, Cleartext Transmission of Sensitive Information, Missing Authorization, Cross-Site Request Forgery (CSRF) Background Critical Infrastructure Sectors: Critical Manufacturing, Water and Wastewater, Energy, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: India Vulnerabilities Expand All + CVE(s) A vulnerability in the X3050's web management interface allows unauthorized access to certain configuration endpoints due to improper access control enforcement.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens Analytics Toolkit",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
+    "summary": "Multiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the middle attacks.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens SCALANCE",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
+    "summary": "SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Hardy Barth Salia EV Charge Controller",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
+    "summary": "Successful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Hardy Barth Salia EV Charge Controller are affected: Salia Board Firmware <=2.3.81 (CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.3 Hardy Barth Hardy Barth Salia EV Charge Controller Unrestricted Upload of File with Dangerous Type Background Critical Infrastructure Sectors: Energy, Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE(s) A vulnerability was found in eCharge Hardy Barth Salia PLCC 2.3.81.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens SINEC NMS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
+    "summary": "Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow an unauthenticated remote attacker to bypass authentication and gain unauthorized access to the application.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Zero Motorcycles Firmware",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06",
+    "summary": "Successful exploitation of this vulnerability could allow an attacker to pair via Bluetooth with a motorcycle, gaining unauthorized access to all Bluetooth functions, including changing the firmware. The following versions of Zero Motorcycles Firmware are affected: Zero Motorcycles firmware <=44 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 6.4 Zero Motorcycles Zero Motorcycles Firmware Key Exchange without Entity Authentication Background Critical Infrastructure Sectors: Transportation Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) Zero Motorcycles firmware versions 44 and prior enable an attacker to forcibly pair a device with the motorcycle via Bluetooth.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens SINEC NMS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
+    "summary": "SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password of any arbitrary user account. Siemens has released a new version for SINEC NMS and recommends to update to the latest version.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens Industrial Edge Management",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
+    "summary": "Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access connected Industrial Edge Devices through the remote connection feature. Siemens has released new versions for the affected products and recommends to update to the latest versions.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
+  },
+  {
+    "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08",
+    "summary": "RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains a vulnerability that could allow an attacker to achieve arbitrary code execution and to create a denial of service condition. Siemens has released a new version for RUGGEDCOM CROSSBOW Station Access Controller (SAC) and recommends to update to the latest version.",
+    "vendor": "CISA",
+    "published": "2026-04-21 12:00:00+00:00"
   }
 ]
