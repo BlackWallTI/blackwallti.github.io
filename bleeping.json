@@ -1,90 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Apple fixes iOS bug that retained deleted notification data",
-    "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
-    "published": "2026-04-22T20:58:58+00:00",
-    "summary": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
+    "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
+    "published": "2026-04-23T21:33:45+00:00",
+    "summary": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
-    "link": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
-    "published": "2026-04-22T20:04:46+00:00",
-    "summary": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]",
+    "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+    "link": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
+    "published": "2026-04-23T19:21:01+00:00",
+    "summary": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
-    "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-    "published": "2026-04-22T18:52:29+00:00",
-    "summary": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]",
+    "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+    "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+    "published": "2026-04-23T18:59:39+00:00",
+    "summary": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Spain dismantles major $4.7M manga piracy platform, arrests four",
-    "link": "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/",
-    "published": "2026-04-22T15:06:34+00:00",
-    "summary": "The Spanish police have dismantled the largest Spanish-language manga piracy platform, operating since 2014, with millions of monthly users from around the globe. [...]",
+    "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+    "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+    "published": "2026-04-23T16:05:12+00:00",
+    "summary": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
-    "link": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
-    "published": "2026-04-22T14:01:11+00:00",
-    "summary": "Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage \"Caller-as-a-Service\" operations like a professional sales team. [...]",
+    "title": "Cosmetics giant Rituals discloses data breach affecting customers",
+    "link": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
+    "published": "2026-04-23T14:16:21+00:00",
+    "summary": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New npm supply-chain attack self-spreads to steal auth tokens",
-    "link": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
-    "published": "2026-04-22T12:57:42+00:00",
-    "summary": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
+    "title": "Regular Password Resets Aren\u2019t as Safe as You Think",
+    "link": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
+    "published": "2026-04-23T14:10:20+00:00",
+    "summary": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
-    "published": "2026-04-22T12:24:38+00:00",
-    "summary": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
+    "title": "Microsoft: Some Teams users can\u2019t join meetings after Edge update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
+    "published": "2026-04-23T13:18:10+00:00",
+    "summary": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft traces Universal Print issues to Graph API code change",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
-    "published": "2026-04-22T10:15:09+00:00",
-    "summary": "Microsoft says that an ongoing Universal Print sharing issue\u00a0that prevents users from creating some printer shares\u00a0is due to a Microsoft Graph API code change. [...]",
+    "title": "UK warns of Chinese hackers using proxy networks to evade detection",
+    "link": "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
+    "published": "2026-04-23T12:28:39+00:00",
+    "summary": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their malicious activity. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
-    "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
-    "published": "2026-04-22T10:00:00+00:00",
-    "summary": "A Linux variant of the GoGra backdoor uses legitimate Microsoft infrastructure, relying on an Outlook inbox for stealthy payload delivery. [...]",
+    "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
+    "link": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
+    "published": "2026-04-23T12:06:18+00:00",
+    "summary": "A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft releases emergency patches for critical ASP.NET flaw",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
-    "published": "2026-04-22T08:08:16+00:00",
-    "summary": "Microsoft has released out-of-band (OOB) security updates to patch a critical ASP.NET Core privilege escalation vulnerability. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
-    "published": "2026-04-22T06:53:02+00:00",
-    "summary": "Over 1,300 Microsoft SharePoint servers exposed online remain unpatched against a spoofing vulnerability that was exploited as a zero-day and is still being abused in ongoing attacks. [...]",
+    "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+    "published": "2026-04-23T11:05:57+00:00",
+    "summary": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
     "extra": {}
   }
 ]
