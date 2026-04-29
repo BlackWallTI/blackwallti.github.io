@@ -1,9 +1,16 @@
 [
   {
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Samsung\u00a0MagicINFO\u00a09 Server Path Traversal Vulnerability CVE(s) SimpleHelp\u00a0Missing Authorization Vulnerability CVE(s) SimpleHelp\u00a0Path Traversal Vulnerability CVE(s) D-Link DIR-823X Command Injection Vulnerability These\u00a0types\u00a0of vulnerabilities\u00a0are\u00a0frequent attack vectors\u00a0for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "title": "NSA GRASSMARLIN",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
+    "summary": "Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information. The following versions of NSA GRASSMARLIN are affected: GRASSMARLIN vers:all/* CVSS Vendor Equipment Vulnerabilities v3 5.5 NSA NSA GRASSMARLIN Improper Restriction of XML External Entity Reference Background Critical Infrastructure Sectors: Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A vulnerability in GRASSMARLIN v3.2.1 allows crafted session data to trigger improper handling of XML input, which may result in unintended exposure of sensitive information.",
     "vendor": "CISA",
-    "published": "2026-04-24 12:00:00+00:00"
+    "published": "2026-04-28 12:00:00+00:00"
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "summary": "CISA has added\u00a0two\u00a0new\u00a0vulnerabilities\u00a0to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) ConnectWise\u00a0ScreenConnect\u00a0Path Traversal Vulnerability CVE(s) Microsoft Windows Protection Mechanism Failure Vulnerability These\u00a0types\u00a0of vulnerabilities\u00a0are\u00a0frequent attack vectors\u00a0for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "vendor": "CISA",
+    "published": "2026-04-28 12:00:00+00:00"
   }
 ]
