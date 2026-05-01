@@ -1,82 +1,66 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Official SAP npm packages compromised to steal credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-    "published": "2026-04-29T22:43:44+00:00",
-    "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+    "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
+    "link": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+    "published": "2026-04-30T18:58:50+00:00",
+    "summary": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
-    "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
-    "published": "2026-04-29T22:13:15+00:00",
-    "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had\u00a0a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
+    "title": "Romanian leader of online swatting ring gets 4 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+    "published": "2026-04-30T17:45:12+00:00",
+    "summary": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-    "published": "2026-04-29T20:50:35+00:00",
-    "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
+    "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+    "published": "2026-04-30T16:32:18+00:00",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reaching nearly $725 million in 2025. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
-    "published": "2026-04-29T18:32:15+00:00",
-    "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+    "title": "April KB5083769 Windows 11 update causes backup software failures",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+    "published": "2026-04-30T15:23:03+00:00",
+    "summary": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-    "link": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
-    "published": "2026-04-29T15:51:44+00:00",
-    "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
+    "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+    "link": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+    "published": "2026-04-30T14:02:12+00:00",
+    "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "European police dismantles \u20ac50 million crypto investment fraud ring",
-    "link": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
-    "published": "2026-04-29T14:27:36+00:00",
-    "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over \u20ac50 million ($58.5 million) to victims worldwide. [...]",
+    "title": "New Linux \u2018Copy Fail\u2019 flaw gives hackers root on major distros",
+    "link": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+    "published": "2026-04-30T13:54:47+00:00",
+    "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root permissions. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-    "link": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-    "published": "2026-04-29T13:05:14+00:00",
-    "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]",
+    "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+    "published": "2026-04-30T11:40:31+00:00",
+    "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
-    "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-    "published": "2026-04-29T12:41:17+00:00",
-    "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854)\u00a0that could have allowed\u00a0attackers to access millions of private repositories. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-    "published": "2026-04-29T10:29:31+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Microsoft says backend change broke Teams Free chat and calls",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-    "published": "2026-04-29T08:38:07+00:00",
-    "summary": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
+    "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+    "published": "2026-04-30T11:21:02+00:00",
+    "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]",
     "extra": {}
   }
 ]
