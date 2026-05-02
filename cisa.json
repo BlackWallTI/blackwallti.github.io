@@ -1,51 +1,16 @@
 [
   {
-    "title": "ABB AWIN Gateways",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details. The following versions of ABB AWIN Gateways are affected: ABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0 ABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1 ABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0 ABB AWIN Firmware (1.2-1) installed on ABB AWIN GW120 1.2-1 CVSS Vendor Equipment Vulnerabilities v3 8.3 ABB ABB AWIN Gateways Authentication Bypass by Capture-replay, Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE(s) An unauthenticated query reveals data.",
-    "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
-  },
-  {
-    "title": "ABB Ability OPTIMAX",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
-    "summary": "Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign On integration. The following versions of ABB Ability OPTIMAX are affected: ABB Ability OPTIMAX 6.1 vers:all/* ABB Ability OPTIMAX 6.2 vers:all/* ABB Ability OPTIMAX 6.3 <6.3.1-251120 ABB Ability OPTIMAX 6.4 <6.4.1-251120 CVSS Vendor Equipment Vulnerabilities v3 8.1 ABB ABB Ability OPTIMAX Incorrect Implementation of Authentication Algorithm Background Critical Infrastructure Sectors: Energy, Water and Wastewater Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE(s) The vulnerability allows an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign On integration.",
-    "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
-  },
-  {
-    "title": "ABB PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-    "summary": "Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following versions of ABB PCM600 are affected: PCM600 >=1.5|<=2.13 CVSS Vendor Equipment Vulnerabilities v3 4.4 ABB ABB PCM600 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE(s)08 A vulnerability exists in the SharpZip.dll included in the product versions listed above.",
-    "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
-  },
-  {
-    "title": "ABB Edgenius Management Portal",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
-    "summary": "Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary code, uninstall applications, and modify the configuration of installed applications. The following versions of ABB Edgenius Management Portal are affected: Edgenius Management Portal 3.2.0.0|3.2.1.1 CVSS Vendor Equipment Vulnerabilities v3 9.6 ABB ABB Edgenius Management Portal Authentication Bypass Using an Alternate Path or Channel Background Critical Infrastructure Sectors: Critical Manufacturing, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE(s) The Edgenius Management Portal in the affected product versions contains a vulnerability that allows authentication to be bypassed.",
-    "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
-  },
-  {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "summary": "CISA has added\u00a0one\u00a0new\u00a0vulnerability\u00a0to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability This\u00a0type of vulnerability\u00a0is a\u00a0frequent attack vector for malicious cyber actors and poses\u00a0significant risks to the federal enterprise.",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
+    "published": "2026-05-01 12:00:00+00:00"
   },
   {
-    "title": "ABB Ability Symphony Plus Engineering",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
-    "summary": "ABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and earlier versions.",
+    "title": "Careful Adoption of Agentic AI Services",
+    "link": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
+    "summary": "CISA, in collaboration with the Australian Signals Directorate\u2019s Australian Cyber Security Centre (ASD\u2019s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.",
     "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
-  },
-  {
-    "title": "ABB System 800xA, Symphony Plus IEC 61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
-    "summary": "This vulnerability was privately reported relating to ABB\u2019s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system products. Note: IEC 61850 communication typically supports MMS and GOOSE protocols.",
-    "vendor": "CISA",
-    "published": "2026-04-30 12:00:00+00:00"
+    "published": "2026-05-01 12:00:00+00:00"
   }
 ]
