@@ -1,10 +1,10 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-    "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-    "published": "2026-05-02T06:41:00+00:00",
-    "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.\nIt said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.\nTrellix did not disclose the.",
+    "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+    "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+    "published": "2026-05-03T06:26:00+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an.",
     "extra": {}
   }
 ]
