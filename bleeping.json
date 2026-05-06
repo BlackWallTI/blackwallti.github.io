@@ -1,74 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Weaver E-cology critical bug exploited in attacks since March",
-    "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-    "published": "2026-05-04T22:12:57+00:00",
-    "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+    "title": "New stealthy Quasar Linux malware targets software developers",
+    "link": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+    "published": "2026-05-05T22:01:39+00:00",
+    "summary": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Amazon SES increasingly abused in phishing to evade detection",
-    "link": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-    "published": "2026-05-04T20:03:28+00:00",
-    "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
+    "title": "Instructure hacker claims data theft from 8,800 schools, universities",
+    "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+    "published": "2026-05-05T21:20:23+00:00",
+    "summary": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809\u00a0colleges, school districts, and online education platforms. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Backdoored PyTorch Lightning package drops credential stealer",
-    "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-    "published": "2026-05-04T17:15:27+00:00",
-    "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
+    "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
+    "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+    "published": "2026-05-05T19:21:18+00:00",
+    "summary": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Trellix discloses data breach after source code repository hack",
-    "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-    "published": "2026-05-04T16:25:07+00:00",
-    "summary": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
+    "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+    "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+    "published": "2026-05-05T17:34:09+00:00",
+    "summary": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "They don\u2019t hack, they borrow: How fraudsters target credit unions",
-    "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-    "published": "2026-05-04T13:42:51+00:00",
-    "summary": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]",
+    "title": "FTC to ban data broker Kochava from selling Americans\u2019 location data",
+    "link": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+    "published": "2026-05-05T14:39:53+00:00",
+    "summary": "The FTC will ban data\u00a0broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold\u00a0precise geolocation data collected from hundreds of millions of mobile devices. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
-    "published": "2026-05-04T12:18:57+00:00",
-    "summary": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]",
+    "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+    "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
+    "published": "2026-05-05T14:00:10+00:00",
+    "summary": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Webinar: Why MSPs must rethink security and backup strategies",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
-    "published": "2026-05-04T12:16:24+00:00",
-    "summary": "Security breaches don't just test your defenses\u2014they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]",
+    "title": "Vimeo data breach exposes personal information of 119,000 people",
+    "link": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+    "published": "2026-05-05T13:03:46+00:00",
+    "summary": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA says \u2018Copy Fail\u2019 flaw now exploited to root Linux systems",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-    "published": "2026-05-04T11:28:15+00:00",
-    "summary": "CISA has warned that threat actors have started exploiting the\u00a0\"Copy Fail\" Linux security vulnerability in the wild, one day after\u00a0Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]",
+    "title": "Google now offers up to $1.5 million for some Android exploits",
+    "link": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+    "published": "2026-05-05T11:24:48+00:00",
+    "summary": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft confirms April Windows updates cause backup failures",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
-    "published": "2026-05-04T10:40:11+00:00",
-    "summary": "Microsoft has confirmed that\u00a0the April 2026 security updates are causing\u00a0failures in third-party backup applications using the psmounterex.sys driver. [...]",
+    "title": "Karakurt extortion gang \u2018cold case\u2019 negotiator gets 8.5 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+    "published": "2026-05-05T10:13:17+00:00",
+    "summary": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
+    "link": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
+    "published": "2026-05-05T10:03:52+00:00",
+    "summary": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "ScarCruft hackers push BirdCall Android malware via game platform",
+    "link": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+    "published": "2026-05-05T09:04:13+00:00",
+    "summary": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]",
     "extra": {}
   }
 ]
