@@ -1,37 +1,9 @@
 [
   {
-    "title": "ABB B&R Automation Studio",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-    "summary": "ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability.",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-05-05 12:00:00+00:00"
-  },
-  {
-    "title": "ABB B&R Automation Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
-    "summary": "ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability.",
-    "vendor": "CISA",
-    "published": "2026-05-05 12:00:00+00:00"
-  },
-  {
-    "title": "Hitachi Energy PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
-    "summary": "Hitachi Energy is aware of a vulnerability that affects the Hitachi Energy PCM600 product versions listed in this document. An attacker successfully exploiting this vulnerability can impact integrity of the product.",
-    "vendor": "CISA",
-    "published": "2026-05-05 12:00:00+00:00"
-  },
-  {
-    "title": "Johnson Controls CEM AC2000",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05",
-    "summary": "Successful exploitation of this vulnerability could allow a standard user to escalate privileges on the host machine. The following versions of Johnson Controls CEM AC2000 are affected: CEM AC2000 12.0 (CVE(s)) CEM AC2000 11.0 (CVE(s)) CEM AC2000 10.6 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 8.7 Johnson Controls Inc.",
-    "vendor": "CISA",
-    "published": "2026-05-05 12:00:00+00:00"
-  },
-  {
-    "title": "ABB B&R PVI",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02",
-    "summary": "ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability.",
-    "vendor": "CISA",
-    "published": "2026-05-05 12:00:00+00:00"
+    "published": "2026-05-06 12:00:00+00:00"
   }
 ]
