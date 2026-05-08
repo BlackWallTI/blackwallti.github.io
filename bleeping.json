@@ -1,66 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
-    "published": "2026-05-06T21:36:06+00:00",
-    "summary": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
+    "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+    "published": "2026-05-07T22:36:54+00:00",
+    "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
-    "published": "2026-05-06T18:38:38+00:00",
-    "summary": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
+    "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+    "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+    "published": "2026-05-07T22:06:52+00:00",
+    "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
-    "published": "2026-05-06T18:06:21+00:00",
-    "summary": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
+    "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+    "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
+    "published": "2026-05-07T18:35:50+00:00",
+    "summary": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "DAEMON Tools devs confirm breach, release malware-free version",
-    "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-    "published": "2026-05-06T16:43:30+00:00",
-    "summary": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
+    "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
+    "published": "2026-05-07T18:00:59+00:00",
+    "summary": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute \u00a0the Vidar Stealer info-stealing malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Why ransomware attacks succeed even when backups exist",
-    "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-    "published": "2026-05-06T14:04:14+00:00",
-    "summary": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
+    "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
+    "published": "2026-05-07T15:20:51+00:00",
+    "summary": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-    "published": "2026-05-06T13:02:52+00:00",
-    "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on \u00a0Microsoft Teams social engineering to gain access and establish persistence. [...]",
+    "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+    "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+    "published": "2026-05-07T14:01:11+00:00",
+    "summary": "Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Webinar: Why network incidents escalate and how to fix response gaps",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
-    "published": "2026-05-06T12:56:32+00:00",
-    "summary": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
+    "title": "Americans sentenced for running 'laptop farms' for North Korea",
+    "link": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+    "published": "2026-05-07T13:45:48+00:00",
+    "summary": "Two U.S. nationals were sentenced to 18 months in prison each for operating so-called laptop farms that helped North Korean IT workers fraudulently obtain remote employment at nearly 70 American companies. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
-    "published": "2026-05-06T09:18:16+00:00",
-    "summary": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
+    "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
+    "link": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+    "published": "2026-05-07T12:11:53+00:00",
+    "summary": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Webinar: Why modern attacks require both security and recovery",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+    "published": "2026-05-07T12:00:08+00:00",
+    "summary": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+    "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+    "published": "2026-05-07T10:57:59+00:00",
+    "summary": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+    "published": "2026-05-07T10:02:35+00:00",
+    "summary": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously\u00a0undocumented backdoor for Windows\u00a0named Beagle. [...]",
     "extra": {}
   }
 ]

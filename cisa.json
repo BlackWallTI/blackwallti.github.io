@@ -1,9 +1,16 @@
 [
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-05-06 12:00:00+00:00"
+    "published": "2026-05-07 12:00:00+00:00"
+  },
+  {
+    "title": "MAXHUB Pivot Client Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01",
+    "summary": "Successful exploitation of this vulnerability may enable an attacker to access tenant email addresses and associated information in cleartext or cause a denial-of-service condition. The following versions of MAXHUB Pivot client application are affected: MAXHUB Pivot client application CVSS Vendor Equipment Vulnerabilities v3 7.3 MAXHUB MAXHUB Pivot client application Use of a Broken or Risky Cryptographic Algorithm Background Critical Infrastructure Sectors: Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) This vulnerability, in the MAXHUB Pivot client application versions prior to v1.36.2, may allow an attacker to obtain encrypted tenant email addresses and related metadata from any tenant.",
+    "vendor": "CISA",
+    "published": "2026-05-07 12:00:00+00:00"
   }
 ]
