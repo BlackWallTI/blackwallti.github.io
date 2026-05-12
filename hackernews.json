@@ -1,10 +1,50 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-    "published": "2026-05-10T12:41:00+00:00",
-    "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed\u00a0Bleeding Llama by Cyera.\nOllama is a.",
+    "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+    "published": "2026-05-11T18:30:00+00:00",
+    "summary": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace.\n\"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend.\nAs of writing, Checkmarx has released.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+    "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+    "published": "2026-05-11T17:54:00+00:00",
+    "summary": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments.\nThe attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+    "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+    "published": "2026-05-11T15:45:00+00:00",
+    "summary": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation.\nThe activity is said to be the work of cybercrime threat actors who appear to.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "\u26a1 Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+    "published": "2026-05-11T12:36:00+00:00",
+    "summary": "Rough Monday.\nSomebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should\u2019ve died years ago \u2014 the same old holes, same lazy access paths, same \u201chow the hell is this still open\u201d feeling. One report this week basically reads like a guy tripped over root access by accident and decided to stay.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your Purple Team Isn't Purple \u2014 It's Just Red and Blue in the Same Room",
+    "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+    "published": "2026-05-11T11:30:00+00:00",
+    "summary": "Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+    "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+    "published": "2026-05-11T07:05:00+00:00",
+    "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users.\nThe project, named Open-OSS/privacy-filter, masqueraded as its legitimate counterpart released by OpenAI late last month (openai/privacy-filter), including copying the entire description.",
     "extra": {}
   }
 ]
