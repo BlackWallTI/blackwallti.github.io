@@ -30,6 +30,7 @@
     "archive/ransomware_live/ransomware_live_2026_02.ndjson"
   ],
   "mitre": [
+    "archive/mitre/mitre_2026_05.ndjson",
     "archive/mitre/mitre_2026_04.ndjson",
     "archive/mitre/mitre_2026_03.ndjson"
   ]

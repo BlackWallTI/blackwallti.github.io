@@ -1,66 +1,82 @@
 [
   {
     "source": "The Hacker News",
-    "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+    "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+    "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+    "published": "2026-05-21T04:27:01+00:00",
+    "summary": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension.\u00a0\n\nThe development comes as the Nx team revealed that the extension, nrwl.angular-console, was breached after one of its developers' systems was hacked in the.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+    "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+    "published": "2026-05-21T03:44:11+00:00",
+    "summary": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure.\nThe vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+    "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+    "published": "2026-05-20T17:06:54+00:00",
+    "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.\n\nRAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+    "published": "2026-05-20T14:36:44+00:00",
+    "summary": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world.\n\nThe tech giant attributed the activity to a threat actor it calls Fox Tempest, which it said offered the MSaaS scheme.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+    "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+    "published": "2026-05-20T12:51:43+00:00",
+    "summary": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-and-control (C2 or C&C) communications.\n\nWebworm, first publicly documented by Broadcom-owned Symantec in September 2022, is assessed to be active since at least 2022, targeting government agencies.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Agent AI is Coming. Are You Ready?",
+    "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+    "published": "2026-05-20T11:58:00+00:00",
+    "summary": "New Industry Data Just Released Suggests Not.\n\nOn May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, \"identity dark matter\" (the unseen, unmanaged elements of identity) now overshadows the visible elements 57% vs.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Breached \u2014 Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
     "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-    "published": "2026-05-20T04:01:15+00:00",
+    "published": "2026-05-20T11:38:43+00:00",
     "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum.\n\n\"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
-    "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
-    "published": "2026-05-19T16:38:12+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users.\n\nThe activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud.\n\n\"Users.",
+    "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+    "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+    "published": "2026-05-20T10:30:00+00:00",
+    "summary": "AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actually requires.\nDownload the CISO Expert Guide to Typosquatting in the AI Era \u2192\n\n\nTL;DR\u00a0\n\n\n  Typosquatting is no longer a user problem.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
-    "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
-    "published": "2026-05-19T14:56:26+00:00",
-    "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE).\nDubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had.",
+    "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+    "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+    "published": "2026-05-20T08:28:26+00:00",
+    "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week.\n\nThe zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass.\n\n\"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
-    "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
-    "published": "2026-05-19T11:30:00+00:00",
-    "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.\u00a0\n\nThe targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
-    "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-    "published": "2026-05-19T10:44:45+00:00",
-    "summary": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC.\n\n\"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said.\n\n\"Not all configurations are.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
-    "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-    "published": "2026-05-19T09:23:15+00:00",
-    "summary": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance.\n\"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\".",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
-    "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
-    "published": "2026-05-19T07:49:23+00:00",
-    "summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.\n\nThe extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
-    "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
-    "published": "2026-05-19T05:28:06+00:00",
-    "summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server.\n\n\"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,.",
+    "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+    "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+    "published": "2026-05-20T05:12:06+00:00",
+    "summary": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised.\n\nIt said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories.\n\n\"After the initial assessment, we found that in addition to source.",
     "extra": {}
   }
 ]
