@@ -1,44 +1,9 @@
 [
   {
-    "title": "ABB Terra AC Wallbox",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
-    "summary": "ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of heap memory which potentially takes remote control of the product and performs a write operation to the flash memory to alter the firmware behavior.",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Drupal Core SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
-  },
-  {
-    "title": "Hitachi Energy GMS600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
-    "summary": "Hitachi Energy is aware of the vulnerability, CVE(s) in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiting this vulnerability could send trial messages to the server and record the time taken to process them.",
-    "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
-  },
-  {
-    "title": "ABB B&R Automation Studio",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03",
-    "summary": "ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party component.",
-    "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
-  },
-  {
-    "title": "ABB B&R Automation Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
-    "summary": "An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who successfully exploited these vulnerabilities could take over a remote session or execute code in the context of the user\u2019s browser session.",
-    "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
-  },
-  {
-    "title": "ABB B&R PCs",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02",
-    "summary": "ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability.",
-    "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
-  },
-  {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Langflow Origin Validation Error Vulnerability CVE(s) Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.",
-    "vendor": "CISA",
-    "published": "2026-05-21 12:00:00+00:00"
+    "published": "2026-05-22 12:00:00+00:00"
   }
 ]
