@@ -1,10 +1,18 @@
 [
   {
     "source": "Mandiant",
-    "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-    "published": "2026-05-15T14:00:00+00:00",
-    "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments.",
+    "title": "Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/",
+    "published": "2026-05-25T14:00:00+00:00",
+    "summary": "Written by: Takahiro Sugiyama, Peter Revelant, Mathew Potaczek Introduction In late 2025, Mandiant responded to a security incident involving a compromised web server running KnowledgeDeliver . KnowledgeDeliver is a Learning Management System (LMS) developed by Digital Knowledge commonly used in Japan.",
+    "extra": {}
+  },
+  {
+    "source": "Mandiant",
+    "title": "2 PhaaS 2 Furious: The Evolution of Chinese-language Phishing Services",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/",
+    "published": "2026-05-25T14:00:00+00:00",
+    "summary": "While Russian-speaking threat actors have historically dominated the phishing-as-a-service (PhaaS) landscape, a rival ecosystem is rapidly growing within the Chinese-language underground. Google Threat Intelligence Group (GTIG) analyzed a dozen current PhaaS offerings in the Chinese underground, all of them mature services and many likely tied intricately to the broader criminal ecosystem in that region.",
     "extra": {}
   }
 ]
