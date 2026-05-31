@@ -1,50 +1,10 @@
 [
   {
     "source": "The Hacker News",
-    "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-    "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-    "published": "2026-05-29T18:07:12+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks.\n\nThe technique has been codenamed ChatGPhish by Permiso Security.\n\n\"The chatgpt.com response renderer trusts Markdown links and Markdown.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-    "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-    "published": "2026-05-29T14:39:56+00:00",
-    "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability.\n\n\"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-    "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-    "published": "2026-05-29T11:31:59+00:00",
-    "summary": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025.\n\nGREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
-    "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
-    "published": "2026-05-29T10:30:00+00:00",
-    "summary": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-    "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-    "published": "2026-05-29T09:11:25+00:00",
-    "summary": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates.\n\nAccording to Socket, versions 2.0.0 through 2.0.4 of \"Sicoob.Sdk\" contain functionality to exfiltrate sensitive information, including PFX certificates that are used to.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-    "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-    "published": "2026-05-29T05:57:41+00:00",
-    "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026.\n\n\"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged.",
+    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "published": "2026-05-30T06:41:26+00:00",
+    "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections.\n\n\"Authentication bypass vulnerabilities in the.",
     "extra": {}
   }
 ]
