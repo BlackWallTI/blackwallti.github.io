@@ -1,9 +1,9 @@
 [
   {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Palo Alto Networks PAN-OS Authentication Bypass Vulnerability This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Oracle WebLogic Server Unspecified Vulnerability This type of vulnerability is a frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-05-29 12:00:00+00:00"
+    "published": "2026-06-01 12:00:00+00:00"
   }
 ]
