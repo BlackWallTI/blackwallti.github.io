@@ -1,66 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-    "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-    "published": "2026-05-29T18:21:36+00:00",
-    "summary": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
+    "title": "Microsoft's Coreutils project brings Linux commands to Windows",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
+    "published": "2026-06-02T22:52:40+00:00",
+    "summary": "Microsoft announced today at its Build 2026 developer conference the release of Coreutils for Windows, bringing many commonly used Linux command-line utilities to Windows as native applications. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "California AG sues 23andMe over 2023 breach exposing health data",
-    "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-    "published": "2026-05-29T18:08:47+00:00",
-    "summary": "California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information. [...]",
+    "title": "OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
+    "published": "2026-06-02T22:44:50+00:00",
+    "summary": "OpenAI says it's rolling out a new update that improves the existing GPT-5.5 Instant model, and this move comes ahead of the scheduled retirement of multiple legacy models, including o3. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
-    "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
-    "published": "2026-05-29T14:32:02+00:00",
-    "summary": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scattered tools into polished attack platforms. [...]",
+    "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
+    "published": "2026-06-02T22:12:57+00:00",
+    "summary": "Hackers are exploiting a critical privilege escalation vulnerability (CVE-2026-8206) in the Kirki plugin for WordPress to take over any user account, including those belonging to administrators. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-    "published": "2026-05-29T14:26:36+00:00",
-    "summary": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]",
+    "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
+    "published": "2026-06-02T21:54:49+00:00",
+    "summary": "A large-scale malware campaign dubbed WeedHack is targeting Minecraft players and has infected more than 116,000 systems since January. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Google Chrome adds session cookie theft protection for all users",
-    "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-    "published": "2026-05-29T12:08:08+00:00",
-    "summary": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
+    "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+    "published": "2026-06-02T20:01:20+00:00",
+    "summary": "A threat actor is using an AI-built ransomware attack toolkit that automates Active Directory discovery and helps evade endpoint detection and response (EDR) solutions. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Man sent to prison for selling data of 7 millions elderly Americans",
-    "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-    "published": "2026-05-29T11:07:07+00:00",
-    "summary": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers. [...]",
+    "title": "Microsoft Exchange Online outage causes email delays, failures",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
+    "published": "2026-06-02T17:02:40+00:00",
+    "summary": "Microsoft is working to address a widespread service issue affecting the mail flow pipeline for Exchange Online customers across North America and Germany. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "US charges Google security engineer with Polymarket insider trading",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-    "published": "2026-05-29T10:11:44+00:00",
-    "summary": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction market. [...]",
+    "title": "Instagram users locked out after Meta AI abused to steal accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+    "published": "2026-06-02T15:47:33+00:00",
+    "summary": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Charter Communications data breach affects 4.9 million accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-    "published": "2026-05-29T08:29:40+00:00",
-    "summary": "The ShinyHunters extortion gang stole personal information from 4.9 million accounts after hacking the U.S. telecom giant Charter Communications in early April, according to data breach notification service Have I Been Pwned. [...]",
+    "title": "Why the browser is now the front line for AI security",
+    "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
+    "published": "2026-06-02T14:30:40+00:00",
+    "summary": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI governance. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+    "published": "2026-06-02T12:40:33+00:00",
+    "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+    "published": "2026-06-02T11:10:15+00:00",
+    "summary": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]",
     "extra": {}
   }
 ]
