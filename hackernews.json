@@ -1,82 +1,74 @@
 [
   {
     "source": "The Hacker News",
-    "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
-    "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
-    "published": "2026-06-03T19:11:15+00:00",
-    "summary": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected windows, fake a message from their boss, push the phone into a Zoom call, or quietly poison its long-term memory.\n\nNo malicious app on the phone is required. The assistant just had to treat a hostile.",
+    "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+    "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+    "published": "2026-06-04T16:55:51+00:00",
+    "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root.\n\nIt is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
-    "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
-    "published": "2026-06-03T16:29:16+00:00",
-    "summary": "Cybersecurity researchers have flagged a new malspam campaign that makes use of Google's DoubleClick domain as a way to evade detection and ultimately deliver a remote access trojan (RAT) named DesckVB RAT.\n\n\"Before the victim ever reaches attacker-controlled infrastructure, the lure routes through DoubleClick, a legitimate Google-owned domain that many security tools are less likely to treat as.",
+    "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+    "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+    "published": "2026-06-04T15:15:26+00:00",
+    "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it.\n\nRyotaK of GMO.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
-    "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
-    "published": "2026-06-03T14:56:46+00:00",
-    "summary": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago.",
+    "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+    "published": "2026-06-04T15:10:00+00:00",
+    "summary": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model was made available to a limited set of organizations as a technical preview, it was reported that an unauthorized group claimed that it had gained access within hours.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
-    "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
-    "published": "2026-06-03T14:56:35+00:00",
-    "summary": "A development flag left switched on in production builds of several Microsoft 365 Android apps disabled the check that limits account-token sharing to trusted Microsoft apps.\n\nAny other app on the same phone could ask for the signed-in user's token and get it, then read email, open files, browse the calendar, and send messages as that user. No password, no login screen, no permission prompt.",
+    "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+    "published": "2026-06-04T14:00:49+00:00",
+    "summary": "It got stupid again.\n\nThe internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
-    "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-    "published": "2026-06-03T13:47:09+00:00",
-    "summary": "Redis has  patched  a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases.\nTracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and remained in every stable branch until the May 5 fixes, unnoticed for over two years.",
+    "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
+    "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+    "published": "2026-06-04T12:22:25+00:00",
+    "summary": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa.\n\nThese efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
-    "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-    "published": "2026-06-03T12:58:22+00:00",
-    "summary": "Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token.\n\n\"Just by clicking a link, it's possible for an attacker to steal a GitHub token that can read and write to your repos, including private ones,\" security researcher Ammar Askar said.\n\nGitHub supports a feature called GitHub.dev that runs as.",
+    "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
+    "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
+    "published": "2026-06-04T11:19:53+00:00",
+    "summary": "Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell.\n\nAccording to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka FileRipple) in late August 2025. The cybercrime group behind the two attack chains is.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
-    "link": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
-    "published": "2026-06-03T11:58:00+00:00",
-    "summary": "The Fragmented State of Modern Enterprise Identity\n\nEnterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems.\n\nThe result is Identity Dark Matter: identity activity that sits outside the visibility of centralized IAM and beyond the reach of.",
+    "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
+    "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+    "published": "2026-06-04T09:51:28+00:00",
+    "summary": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework.\n\n\"The sites are well-designed and often look like legitimate project portals at a glance, sometimes referencing.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
-    "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
-    "published": "2026-06-03T10:18:52+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker.\n\nLike in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress.\n\nCVE-2026-33829 refers to a spoofing vulnerability that could expose.",
+    "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
+    "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
+    "published": "2026-06-04T09:33:57+00:00",
+    "summary": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity.\n\nSymantec and Carbon Black's Threat Hunter Team reported the campaign this week. This points to espionage, not a money grab:.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
-    "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
-    "published": "2026-06-03T08:33:35+00:00",
-    "summary": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora.\n\nThe vulnerability has been codenamed HTTP/2 Bomb by Calif.\n\n\"The vulnerable behavior exists in each server's default HTTP/2 configuration,\" the company said, adding it was discovered by OpenAI Codex by chaining.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
-    "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
-    "published": "2026-06-03T06:16:54+00:00",
-    "summary": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems.\n\nThe Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active since January 2026 and impersonates Minecraft clients and mods to infect users. In all, 3820.",
+    "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
+    "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
+    "published": "2026-06-04T06:06:25+00:00",
+    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans.\n\nThe \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions of social media, email, and internet access accounts used by transnational.",
     "extra": {}
   }
 ]
