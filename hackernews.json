@@ -1,58 +1,42 @@
 [
   {
     "source": "The Hacker News",
-    "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-    "published": "2026-06-05T18:05:30+00:00",
-    "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively.\n\nAccording to JFrog, the information stealer \"scrapes every secret it can find on a developer's machine, hides behind an eBPF kernel rootkit, and.",
+    "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+    "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+    "published": "2026-06-06T13:36:57+00:00",
+    "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks.\n\nThe feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
-    "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
-    "published": "2026-06-05T14:53:40+00:00",
-    "summary": "Arabic-speaking users have emerged as the target of a new Android spyware codenamed Asin, according to findings from ESET.\n\nThe Slovakian cybersecurity company said it first detected the malware spread via multiple campaigns in early 2025, with each attack wave making use of distinct websites mimicking utilities, war-related updates, and a government news source:\n\n\n  govlens[.]net, which.",
+    "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+    "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+    "published": "2026-06-06T08:29:05+00:00",
+    "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping traffic for a data business Bright Data markets heavily to the AI industry.\n\nThe company, the successor to Luminati, operates what it calls the largest residential proxy network in the world,.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
-    "link": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
-    "published": "2026-06-05T12:33:38+00:00",
-    "summary": "Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 (where \"OP\" stands for \"opponent\") that has been observed\u00a0targeting Microsoft Internet Information Services (IIS) servers to deploy a bespoke web shell framework.\n\nReliaQuest has assessed with moderate to high confidence that the espionage-focused activity is linked to China.\n\n\"OP-512 was highly.",
+    "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+    "published": "2026-06-06T08:14:31+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U  multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Only 10% of SOCs Say They\u2019re Getting Excellent Value From AI. Here\u2019s What the Second Wave Has to Deliver",
-    "link": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
-    "published": "2026-06-05T11:20:00+00:00",
-    "summary": "Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item.",
+    "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+    "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+    "published": "2026-06-06T07:28:30+00:00",
+    "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent.\n\nThe same week, Google shipped Chrome 149 with patches for 429 security bugs, the most ever in a single release.\n\nOnly the FFmpeg bugs were found by AI.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
-    "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-    "published": "2026-06-05T08:38:59+00:00",
-    "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise.\n\nThe vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
-    "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
-    "published": "2026-06-05T07:01:41+00:00",
-    "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff.\n\nRecent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that copies FIFA's login page well enough to take over real accounts.\n\nIt is an obvious target. More than.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
-    "link": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
-    "published": "2026-06-05T05:34:19+00:00",
-    "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network.\n\n\"Compromised business servers across the U.S., Europe, and Asia were quietly converted into SMTP proxies, verified for mail relay capability, and synced to a downstream consumer every five minutes,\" Hunt.io said in.",
+    "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+    "published": "2026-06-06T06:58:04+00:00",
+    "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign.\n\nThe incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware. The development has GitHub to disable access to those repositories.\n\n\"Access to this.",
     "extra": {}
   }
 ]
