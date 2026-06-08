@@ -1,10 +1,26 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-    "published": "2026-06-06T14:09:26+00:00",
-    "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
+    "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+    "published": "2026-06-07T23:20:02+00:00",
+    "summary": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
+    "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+    "published": "2026-06-07T14:17:46+00:00",
+    "summary": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Silent Ransom Group targets law firms with fake IT support calls",
+    "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+    "published": "2026-06-07T14:09:19+00:00",
+    "summary": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial contact, according to a new report by cybersecurity firm Mandiant. [...]",
     "extra": {}
   }
 ]

@@ -1,57 +1,35 @@
 [
   {
     "source": "ransomware_live",
-    "title": "www.utourworld.com",
-    "link": "https://www.ransomware.live/id/d3d3LnV0b3Vyd29ybGQuY29tQGJsYWNrd2F0ZXI=",
-    "published": "2026-06-06T17:20:51.678304",
-    "summary": "Confidential data will be published soon",
+    "title": "Plaza Lama",
+    "link": "https://www.ransomware.live/id/UGxhemEgTGFtYUBwYXlsb2Fk",
+    "published": "2026-06-08T01:28:39.452568",
+    "summary": "Plaza Lama is a retail company based in the Dominican Republic that offers a wide range of products including electronics, home goods, clothing, and groceries. The company aims to provide quality products at competitive prices to meet the needs of its diverse clientele. Plaza Lama serves both individual consumers and businesses, making it a go-to destination for shopping in the region. With multiple locations, it strives to enhance the shopping experience through excellent customer service and a variety of offerings",
     "extra": {},
-    "attribution": "blackwater",
-    "website": "www.utourworld.com",
+    "attribution": "payload",
+    "website": "N/A",
     "country": "Unknown"
   },
   {
     "source": "ransomware_live",
-    "title": "Pearson Ford",
-    "link": "https://www.ransomware.live/id/UGVhcnNvbiBGb3JkQHBsYXk=",
-    "published": "2026-06-06T13:23:12.128367",
-    "summary": "United States",
+    "title": "Hansoll Textile in Vietnam",
+    "link": "https://www.ransomware.live/id/SGFuc29sbCBUZXh0aWxlIGluIFZpZXRuYW1AcGF5bG9hZA==",
+    "published": "2026-06-08T01:27:57.591658",
+    "summary": "Hansoll Textile, established in 1992, is a global textile manufacturer specializing in knit apparel production and export. The company serves markets in the United States, Europe, and Japan with operations across Asia and Central America. As a B2B enterprise, Hansoll Textile maintains manufacturing facilities and warehouses to support its international textile business. The company focuses on business integrity as a core value while maintaining a presence in both Asian and North American markets",
     "extra": {},
-    "attribution": "play",
-    "website": "www.pearsonford.com",
-    "country": "GB"
+    "attribution": "payload",
+    "website": "N/A",
+    "country": "VN"
   },
   {
     "source": "ransomware_live",
-    "title": "kelmreuter.com",
-    "link": "https://www.ransomware.live/id/a2VsbXJldXRlci5jb21AaW5jcmFuc29t",
-    "published": "2026-06-06T12:22:30.003188",
-    "summary": "www.personadental.com\r \r Persona Dental offers personalized dental care for families in Sartell, MN, focusing on both general and specialized services such as cosmetic dentistry, dental implants, and solutions for snoring and sleep apnea. The clinic prides itself on creating a comfortable environment and empowering patients to make informed decisions about their dental health. With a friendly and experienced team, they provide comprehensive care under one roof, ensuring convenience for their clients. Persona Dental is dedicated to building confidence and achieving the best smiles for their patients",
+    "title": "Villea Hotels in AttanaHotels",
+    "link": "https://www.ransomware.live/id/VmlsbGVhIEhvdGVscyBpbiBBdHRhbmFIb3RlbHNAcGF5bG9hZA==",
+    "published": "2026-06-08T01:27:15.781561",
+    "summary": "Attana Hotels & Resorts is a premier Malaysian hospitality group that offers uniquely local experiences designed to make travelers feel at home. With a portfolio that includes various hotels and resorts, they focus on providing crafted experiences complemented by attentive service. Their target clients are guests seeking distinctive and memorable stays, enhanced by local culture and hospitality. Attana is committed to continuously evolving their offerings to inspire and energize their guests.",
     "extra": {},
-    "attribution": "incransom",
-    "website": "kelmreuter.com",
-    "country": "US"
-  },
-  {
-    "source": "ransomware_live",
-    "title": "*B*",
-    "link": "https://www.ransomware.live/id/KkIqQGdlbmVzaXM=",
-    "published": "2026-06-06T10:21:44.773104",
-    "summary": "A trade association",
-    "extra": {},
-    "attribution": "genesis",
-    "website": "cavalierflooring.com",
-    "country": "US"
-  },
-  {
-    "source": "ransomware_live",
-    "title": "Universitas Nasional",
-    "link": "https://www.ransomware.live/id/VW5pdmVyc2l0YXMgTmFzaW9uYWxAbm92YQ==",
-    "published": "2026-06-06T09:24:42.365093",
-    "summary": "Universitas Nasional (UNAS) is an educational institution that offers a wide range of academic programs, including undergraduate and postgraduate degrees across various faculties such as Social Sciences, Law, Economics, and Health Sciences. The university aims to provide quality education and has implemented a robust internal quality assurance system. UNAS serves students from diverse backgrounds, including those pursuing regular and recognition of prior learning (RPL) pathways. Additionally, the university engages in research, community service, and hosts international conferences to enhance academic collaboration - Nova Provide tree and samples from stolen data to the company when its get in touch with support department.",
-    "extra": {},
-    "attribution": "nova",
-    "website": "unas.ac.id",
-    "country": "ID"
+    "attribution": "payload",
+    "website": "N/A",
+    "country": "Unknown"
   }
 ]
