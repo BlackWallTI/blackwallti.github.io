@@ -1,26 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
-    "published": "2026-06-07T23:20:02+00:00",
-    "summary": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]",
+    "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+    "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+    "published": "2026-06-08T22:11:58+00:00",
+    "summary": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
-    "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-    "published": "2026-06-07T14:17:46+00:00",
-    "summary": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
+    "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+    "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+    "published": "2026-06-08T21:55:46+00:00",
+    "summary": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Silent Ransom Group targets law firms with fake IT support calls",
-    "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-    "published": "2026-06-07T14:09:19+00:00",
-    "summary": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial contact, according to a new report by cybersecurity firm Mandiant. [...]",
+    "title": "New Apple feature automatically changes your compromised passwords",
+    "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+    "published": "2026-06-08T21:03:40+00:00",
+    "summary": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+    "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+    "published": "2026-06-08T20:41:35+00:00",
+    "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud\u00a0supply-chain attack that delivered malware designed to steal developer secrets. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+    "published": "2026-06-08T18:40:53+00:00",
+    "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Gogs patches critical zero-day enabling remote code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+    "published": "2026-06-08T16:18:40+00:00",
+    "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+    "published": "2026-06-08T15:51:19+00:00",
+    "summary": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Reducing security operations complexity with Wazuh Cloud",
+    "link": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+    "published": "2026-06-08T14:01:11+00:00",
+    "summary": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations through managed infrastructure, automated scaling, and AI-driven security analysis. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+    "published": "2026-06-08T13:05:16+00:00",
+    "summary": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Oxford University discloses data breach after careers platform hack",
+    "link": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+    "published": "2026-06-08T11:14:41+00:00",
+    "summary": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+    "link": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+    "published": "2026-06-08T06:00:27+00:00",
+    "summary": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers\u00a0used Meta's AI-powered support system to reset passwords. [...]",
     "extra": {}
   }
 ]
