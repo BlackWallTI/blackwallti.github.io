@@ -1,30 +1,9 @@
 [
   {
-    "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send operational commands to the robot fleet. The following versions of Yarbo Android/iOS Mobile Application and Cloud Infrastructure are affected: Yarbo Android/IOS mobile application Cloud MQTT infrastructure vers:all/* CVSS Vendor Equipment Vulnerabilities v3 9.8 Yarbo Yarbo Android/iOS Mobile Application and Cloud Infrastructure Use of Hard-coded Credentials, Missing Authorization Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: China Vulnerabilities Expand All + CVE(s) The Yarbo Android and iOS applications contain hard-coded MQTT broker credentials that are identical for all users and all devices.",
-    "vendor": "CISA",
-    "published": "2026-06-11 12:00:00+00:00"
-  },
-  {
-    "title": "Naxclow IoT Platform",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
-    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credentials at scale, or gain unauthorized access. The following versions of Naxclow IoT Platform are affected: Smart Doorbell X3 vers:all/* X Smart Home vers:all/* V720 vers:all/* ix cam vers:all/* CVSS Vendor Equipment Vulnerabilities v3 9.8 Naxclow Naxclow IoT Platform Authorization Bypass Through User-Controlled Key, Missing Authorization, Not Using Password Aging, Use of Hard-coded Cryptographic Key, Generation of Predictable Numbers or Identifiers, Insertion of Sensitive Information into Externally-Accessible File or Directory Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: China Vulnerabilities Expand All + CVE(s) A flaw in Naxclow's platform's onboarding workflow allows an attacker to replay a confirm-then-bind sequence to silently reassign a device to an arbitrary account.",
-    "vendor": "CISA",
-    "published": "2026-06-11 12:00:00+00:00"
-  },
-  {
-    "title": "Brickcom Cameras",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03",
-    "summary": "Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive visual information from affected premises, and obtain administrative control of the device. The following versions of Brickcom Cameras are affected: Brickcom Cube 3.2.3.5.6 Brickcom Dome 3.2.3.5.6 Brickcom Bullet 3.2.3.5.6 Brickcom Box 3.2.3.5.6 CVSS Vendor Equipment Vulnerabilities v3 7.7 Brickcom Brickcom Cameras Missing Authentication for Critical Function, Use of Default Credentials Background Critical Infrastructure Sectors: Commercial Facilities, Critical Manufacturing, Financial Services, Healthcare and Public Health Countries/Areas Deployed: Worldwide Company Headquarters Location: Taiwan Vulnerabilities Expand All + CVE(s) The affected product allows unauthenticated access to live snapshot images via the /ONVIF endpoint and no authentication is required to retrieve still images from the camera feed.",
-    "vendor": "CISA",
-    "published": "2026-06-11 12:00:00+00:00"
-  },
-  {
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Ivanti Sentry OS Command Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
     "vendor": "CISA",
-    "published": "2026-06-11 12:00:00+00:00"
+    "published": "2026-06-12 12:00:00+00:00"
   }
 ]
