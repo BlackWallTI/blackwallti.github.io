@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-    "published": "2026-06-11T14:00:00+00:00",
-    "summary": "Mandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273 , a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component.",
+    "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+    "published": "2026-06-15T14:00:00+00:00",
+    "summary": "Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration.",
     "extra": {}
   }
 ]
