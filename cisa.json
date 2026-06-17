@@ -1,9 +1,44 @@
 [
   {
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability CVE(s) LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.",
+    "title": "Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03",
+    "summary": "Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following versions of Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP are affected: CompactLogix 5370 <=34.016 (CVE(s)) Compact GuardLogix 5370 <=35.015 (CVE(s)) ControlLogix 5570 <=35.015 (CVE(s)) GuardLogix 5570 36.012 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.5 Rockwell Automation Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP Improper Resource Shutdown or Release Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A denial of service security issue exists in the affected product.",
     "vendor": "CISA",
-    "published": "2026-06-15 12:00:00+00:00"
+    "published": "2026-06-16 12:00:00+00:00"
+  },
+  {
+    "title": "Rockwell Automation RSLinx",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
+    "summary": "Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versions of RSLinx Classic Third-Party Vulnerability are affected: RSLinx Classic <=4.50.00 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7.5 Rockwell Automation RSLinx Classic Third-Party Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Food and Agriculture, Water and Wastewater Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) The affected product is vulnerable to a stack-based buffer overflow, which may allow an attacker to remotely execute arbitrary code.",
+    "vendor": "CISA",
+    "published": "2026-06-16 12:00:00+00:00"
+  },
+  {
+    "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of Rockwell Automation FLEX I/O EtherNet/IP Adapters are affected: 1794-AENTR V2.012 (CVE(s) CVE(s)) 1794-AENTRXT V2.012 (CVE(s) CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 9.4 Rockwell Automation Rockwell Automation FLEX I/O EtherNet/IP Adapters Missing Release of Memory after Effective Lifetime, Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A denial-of-service security issue exists within the 1794-AENTR adapter due to improper memory handling of CIP protocol requests.",
+    "vendor": "CISA",
+    "published": "2026-06-16 12:00:00+00:00"
+  },
+  {
+    "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
+    "summary": "Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics PavilionX are affected: FactoryTalk Analytics PavilionX <7.01 (CVE(s)) CVSS Vendor Equipment Vulnerabilities v3 7 Rockwell Automation Rockwell Automation FactoryTalk Analytics PavilionX Missing Authorization Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A security issue was identified in Pavilion due to improper authorization enforcement in API endpoints.",
+    "vendor": "CISA",
+    "published": "2026-06-16 12:00:00+00:00"
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE(s) Widget Factory Joomla Content Editor Improper Access Control Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.",
+    "vendor": "CISA",
+    "published": "2026-06-16 12:00:00+00:00"
+  },
+  {
+    "title": "Rockwell Automation CompactLogix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
+    "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are affected: CompactLogix 5370 L1 CompactLogix 5370 L2 CompactLogix 5370 L3 CVSS Vendor Equipment Vulnerabilities v3 7.5 Rockwell Automation Rockwell Automation CompactLogix Improper Validation of Integrity Check Value, Exposure of Sensitive System Information to an Unauthorized Control Sphere Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE(s) A security issue exists within 1769 CompactLogix controllers due to the missing validation of sequence numbers and source IP addresses in the CIP protocol.",
+    "vendor": "CISA",
+    "published": "2026-06-16 12:00:00+00:00"
   }
 ]
