@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "STOCKSTAY Another Day: The Latest Addition to Turla\u2019s Intelligence Gathering Apparatus",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
-    "published": "2026-06-25T14:00:00+00:00",
-    "summary": "Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy.",
+    "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+    "published": "2026-06-29T14:00:00+00:00",
+    "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia\u2019s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale.",
     "extra": {}
   }
 ]
