@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-    "published": "2026-06-29T14:00:00+00:00",
-    "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia\u2019s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale.",
+    "title": "Google\u2019s Continued Disruption of Malicious Residential Proxy Networks",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/",
+    "published": "2026-07-02T14:00:00+00:00",
+    "summary": "Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google\u2019s objective to dismantle malicious residential proxy networks.",
     "extra": {}
   }
 ]
