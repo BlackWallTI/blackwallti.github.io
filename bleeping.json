@@ -1,66 +1,42 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Google releases new privacy controls for activity history, personalization",
-    "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
-    "published": "2026-06-24T23:46:17+00:00",
-    "summary": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations. [...]",
+    "title": "Phishing poses as big-brand job interview to steal Google accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+    "published": "2026-07-06T20:27:37+00:00",
+    "summary": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI,\u00a0in fake job interviews to steal Google account credentials from marketing professionals. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-    "published": "2026-06-24T21:55:43+00:00",
-    "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in\u00a0the November 2022 cyberattack. [...]",
+    "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
+    "published": "2026-07-06T20:23:45+00:00",
+    "summary": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
-    "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-    "published": "2026-06-24T21:29:10+00:00",
-    "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
+    "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
+    "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
+    "published": "2026-07-06T18:25:06+00:00",
+    "summary": "\u200bVietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-    "published": "2026-06-24T20:58:22+00:00",
-    "summary": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
+    "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+    "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+    "published": "2026-07-06T14:00:10+00:00",
+    "summary": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-    "published": "2026-06-24T14:35:15+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting\u00a0flaws in\u00a0Ubiquity UniFi OS and\u00a0Lantronix serial-to-ethernet\u00a0servers. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-    "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-    "published": "2026-06-24T14:35:11+00:00",
-    "summary": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation Endgame, which targets cybercriminal services and ransomware gangs. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Securing the service desk: Why social engineering attacks keep succeeding",
-    "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-    "published": "2026-06-24T14:02:12+00:00",
-    "summary": "Service desks have become a favored target for attackers seeking password resets, MFA changes, and access to corporate accounts. Specops Software breaks down how service desk social engineering attacks work and how organizations can defend against them. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
-    "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-    "published": "2026-06-24T10:41:51+00:00",
-    "summary": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professional services sectors. [...]",
+    "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+    "published": "2026-07-06T13:18:37+00:00",
+    "summary": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability\u00a0intelligence\u00a0company KEVIntel. [...]",
     "extra": {}
   }
 ]
