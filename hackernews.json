@@ -1,82 +1,90 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+    "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+    "published": "2026-07-08T15:07:24+00:00",
+    "summary": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist.\n\nNew research, which its authors call\u00a0HalluSquatting, turns that habit into an attack: work out the fake names an AI reliably invents, register them first, and wait for the assistant to fetch your trap on a user's.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+    "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+    "published": "2026-07-08T14:38:05+00:00",
+    "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+    "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+    "published": "2026-07-08T13:00:00+00:00",
+    "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This \u201cghost phishing\u201d technique keeps the malicious page hidden until it decrypts and comes to life inside the victim\u2019s browser.\n\nFor security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+    "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+    "published": "2026-07-08T12:52:15+00:00",
+    "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures.\n\nThe activity cluster, tracked by Elastic Security Labs under the moniker REF6045, involves infecting victims through fake CAPTCHA verification pages that deceive them into running a malicious command that installs a PowerShell toolkit dubbed.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+    "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+    "published": "2026-07-08T11:51:24+00:00",
+    "summary": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\"\n\nEverything a reviewer would check matches.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Verification Step Is the New ATO Battleground in 2026",
+    "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+    "published": "2026-07-08T11:30:00+00:00",
+    "summary": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+    "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+    "published": "2026-07-08T11:21:07+00:00",
+    "summary": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is the finding of a\u00a0new study of GitHub Copilot\u00a0by researchers Abhishek Kumar and Carsten Maple.\n\nThe models they tested through Copilot, Claude from Anthropic, and Gemini from Google, refused.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+    "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+    "published": "2026-07-08T09:04:33+00:00",
+    "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.\n\nAccording to findings from Cisco Talos, UAT-7810 is an advanced persistent threat (APT) actor that's responsible for maintaining and proliferating LapDogs, an ORB network that first came to light in June 2025.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+    "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+    "published": "2026-07-08T06:16:44+00:00",
+    "summary": "Researchers at\u00a0Nebula Security\u00a0have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full\u00a0root\u00a0control of a machine that has not been patched.\n\nThe vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+    "published": "2026-07-08T05:33:12+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
     "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
     "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
     "published": "2026-07-07T17:10:15+00:00",
     "summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts.\n\nZimperium's zLabs, which found the operation, says it looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
-    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-    "published": "2026-07-07T16:37:33+00:00",
-    "summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password.\n\nSecurity firm Varonis found it.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
-    "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-    "published": "2026-07-07T15:14:14+00:00",
-    "summary": "A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC.\n\n\"The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-    "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-    "published": "2026-07-07T14:04:50+00:00",
-    "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
-    "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
-    "published": "2026-07-07T13:27:20+00:00",
-    "summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes.\n\nStokes is.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
-    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
-    "published": "2026-07-07T13:27:09+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise.\n\nThe one-click vulnerability has been codenamed WriteOut by the Sand Security Research team.\n\n\"An outsider could go from having no access to taking over any Writer AI.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
-    "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
-    "published": "2026-07-07T11:30:00+00:00",
-    "summary": "Software supply chain security was hard enough. Then AI joined the build pipeline.\n\nFor five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? \n\nSolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-    "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-    "published": "2026-07-07T09:10:51+00:00",
-    "summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-    "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-    "published": "2026-07-07T06:40:47+00:00",
-    "summary": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday.\n\n\"An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-    "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-    "published": "2026-07-07T05:16:51+00:00",
-    "summary": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the.",
     "extra": {}
   }
 ]
