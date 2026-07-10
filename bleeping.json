@@ -1,34 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Mount Royal University confirms breach as hackers claim attack",
-    "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-    "published": "2026-07-08T21:26:59+00:00",
-    "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
+    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+    "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+    "published": "2026-07-09T22:14:13+00:00",
+    "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-    "published": "2026-07-08T19:54:59+00:00",
-    "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
+    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+    "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+    "published": "2026-07-09T20:10:00+00:00",
+    "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-    "published": "2026-07-08T18:56:02+00:00",
-    "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
+    "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+    "published": "2026-07-09T17:08:29+00:00",
+    "summary": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-    "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-    "published": "2026-07-08T16:47:25+00:00",
-    "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+    "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+    "published": "2026-07-09T17:00:00+00:00",
+    "summary": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+    "published": "2026-07-09T14:39:51+00:00",
+    "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+    "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+    "published": "2026-07-09T14:02:12+00:00",
+    "summary": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft to retire the OWA Light client in Exchange Server",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
+    "published": "2026-07-09T11:00:35+00:00",
+    "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+    "published": "2026-07-09T09:47:28+00:00",
+    "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+    "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+    "published": "2026-07-09T07:47:16+00:00",
+    "summary": "American insurance company\u00a0AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year.\u00a0 [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+    "published": "2026-07-09T05:42:49+00:00",
+    "summary": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
     "extra": {}
   }
 ]
