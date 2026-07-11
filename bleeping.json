@@ -1,82 +1,74 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
-    "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-    "published": "2026-07-09T22:14:13+00:00",
-    "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
+    "title": "New U-Boot flaws could enable stealthy firmware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+    "published": "2026-07-10T21:59:02+00:00",
+    "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks that compromise security protections and install persistent malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-    "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-    "published": "2026-07-09T20:10:00+00:00",
-    "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
+    "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+    "published": "2026-07-10T17:46:10+00:00",
+    "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Helix vishing group emerges in SharePoint data theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-    "published": "2026-07-09T17:08:29+00:00",
-    "summary": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
+    "title": "Police suspects Dutch hackers were involved in Odido breach",
+    "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+    "published": "2026-07-10T16:37:01+00:00",
+    "summary": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
-    "published": "2026-07-09T17:00:00+00:00",
-    "summary": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+    "title": "Progress urges ShareFile admins to shut down servers over \u201ccredible\u201d threat",
+    "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+    "published": "2026-07-10T16:26:10+00:00",
+    "summary": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\" targeting the on-premises secure file-sharing software. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-    "published": "2026-07-09T14:39:51+00:00",
-    "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
+    "title": "Hackers exploit critical auth bypass in Gitea Docker image",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+    "published": "2026-07-10T15:48:38+00:00",
+    "summary": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
-    "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
-    "published": "2026-07-09T14:02:12+00:00",
-    "summary": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
+    "title": "Money launderer accused of stealing seized crypto while in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
+    "published": "2026-07-10T15:30:19+00:00",
+    "summary": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launder millions stolen from American fraud victims. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft to retire the OWA Light client in Exchange Server",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
-    "published": "2026-07-09T11:00:35+00:00",
-    "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
+    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+    "link": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+    "published": "2026-07-10T14:00:10+00:00",
+    "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential as AI expands the enterprise attack surface. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-    "published": "2026-07-09T09:47:28+00:00",
-    "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
+    "title": "Zimbra urges customers to patch critical web client XSS flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+    "published": "2026-07-10T11:47:38+00:00",
+    "summary": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-    "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-    "published": "2026-07-09T07:47:16+00:00",
-    "summary": "American insurance company\u00a0AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year.\u00a0 [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
-    "published": "2026-07-09T05:42:49+00:00",
-    "summary": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
+    "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+    "published": "2026-07-10T08:17:52+00:00",
+    "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
     "extra": {}
   }
 ]
