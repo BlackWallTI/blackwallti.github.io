@@ -1,18 +1,26 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-    "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-    "published": "2026-07-11T14:18:23+00:00",
-    "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
+    "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
+    "published": "2026-07-13T00:44:44+00:00",
+    "summary": "OpenAI is temporarily relaxing GPT-5.6 Sol usage\u00a0after demand for the company's most powerful model\u00a0surged over the past 48 hours. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "published": "2026-07-11T09:03:57+00:00",
-    "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]",
+    "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+    "published": "2026-07-12T19:39:12+00:00",
+    "summary": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "RedHook Android malware now uses Wireless ADB for shell access",
+    "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+    "published": "2026-07-12T14:27:32+00:00",
+    "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
     "extra": {}
   }
 ]
