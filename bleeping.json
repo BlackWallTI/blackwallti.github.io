@@ -1,74 +1,114 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Japan's largest taxi operator shuts systems after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-    "published": "2026-07-13T20:18:59+00:00",
-    "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
+    "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+    "published": "2026-07-14T21:23:24+00:00",
+    "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as\u00a0CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-    "published": "2026-07-13T19:44:19+00:00",
-    "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
+    "title": "Spanish Police take down \u20ac140 million cyber fraud ring, arrest four",
+    "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+    "published": "2026-07-14T20:23:09+00:00",
+    "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made \u20ac140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New CrashStealer malware poses as Apple crash reporting tool",
-    "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-    "published": "2026-07-13T19:04:02+00:00",
-    "summary": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]",
+    "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+    "published": "2026-07-14T19:15:17+00:00",
+    "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-    "published": "2026-07-13T15:20:16+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]",
+    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+    "published": "2026-07-14T18:49:28+00:00",
+    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Lidl discloses online shop breach after service provider hack",
-    "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-    "published": "2026-07-13T14:19:43+00:00",
-    "summary": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
+    "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+    "published": "2026-07-14T18:01:36+00:00",
+    "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-    "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-    "published": "2026-07-13T14:01:11+00:00",
-    "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
+    "title": "Windows 11 KB5101650\u00a0& KB5099414\u00a0cumulative updates released",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+    "published": "2026-07-14T17:41:16+00:00",
+    "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-    "published": "2026-07-13T13:23:30+00:00",
-    "summary": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls. [...]",
+    "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+    "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+    "published": "2026-07-14T16:08:47+00:00",
+    "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week\u00a0and has released security updates to patch the flaw. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-    "published": "2026-07-13T11:19:05+00:00",
-    "summary": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Europe. [...]",
+    "title": "LastPass, Bitwarden users targeted with fake security alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+    "published": "2026-07-14T15:31:52+00:00",
+    "summary": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "US and allies warn of Russian critical infrastructure attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-    "published": "2026-07-13T09:32:23+00:00",
-    "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
+    "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+    "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+    "published": "2026-07-14T14:00:10+00:00",
+    "summary": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+    "published": "2026-07-14T12:49:56+00:00",
+    "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+    "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+    "published": "2026-07-14T12:49:00+00:00",
+    "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+    "published": "2026-07-14T11:42:21+00:00",
+    "summary": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Microsoft starts testing cleaner Windows Search without ads",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
+    "published": "2026-07-14T10:47:23+00:00",
+    "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+    "published": "2026-07-14T09:40:13+00:00",
+    "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
     "extra": {}
   }
 ]
