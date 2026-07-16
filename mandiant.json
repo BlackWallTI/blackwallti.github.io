@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "The \u2018Ghost\u2019 in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/",
-    "published": "2026-07-07T14:00:00+00:00",
-    "summary": "Written by: Shebin Mathew Introduction The \"Golden SAML\" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls.",
+    "title": "The Risk of Exposed Cloud Functions and How to Harden",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/",
+    "published": "2026-07-15T14:00:00+00:00",
+    "summary": "Written by: Corn\u00e9 de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance.",
     "extra": {}
   }
 ]
