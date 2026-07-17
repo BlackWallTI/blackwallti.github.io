@@ -1,66 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Dutch police bust investment fraud ring stealing over \u20ac100 million",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-    "published": "2026-07-15T21:55:50+00:00",
-    "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
+    "title": "New ClickLock macOS malware traps users into revealing login password",
+    "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+    "published": "2026-07-16T21:52:54+00:00",
+    "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Zoom warns of critical account takeover vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
-    "published": "2026-07-15T20:16:02+00:00",
-    "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated\u00a0party to hijack accounts. [...]",
+    "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+    "published": "2026-07-16T21:09:41+00:00",
+    "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-    "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-    "published": "2026-07-15T18:33:48+00:00",
-    "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
+    "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+    "published": "2026-07-16T19:26:07+00:00",
+    "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "AsyncAPI npm packages infected with credential-stealing malware",
-    "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-    "published": "2026-07-15T15:37:27+00:00",
-    "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
+    "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+    "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+    "published": "2026-07-16T19:09:35+00:00",
+    "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing\u00a0cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
-    "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-    "published": "2026-07-15T14:01:11+00:00",
-    "summary": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
+    "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
+    "published": "2026-07-16T14:00:10+00:00",
+    "summary": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while giving security teams the flexibility to create workflows tailored to their own environments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "CISA warns admins to patch actively exploited SharePoint flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
-    "published": "2026-07-15T09:44:52+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed\u00a0on-premises SharePoint Server instances. [...]",
+    "title": "23andMe to pay $18 million in new genetics data breach settlement",
+    "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
+    "published": "2026-07-16T13:47:23+00:00",
+    "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-    "published": "2026-07-15T08:26:48+00:00",
-    "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+    "title": "Scattered Spider members behind TfL hack get five years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
+    "published": "2026-07-16T12:31:29+00:00",
+    "summary": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "US charges alleged operators of Russian bulletproof hosting service",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-    "published": "2026-07-15T07:45:50+00:00",
-    "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
+    "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
+    "published": "2026-07-16T11:59:24+00:00",
+    "summary": "Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+    "published": "2026-07-16T10:56:03+00:00",
+    "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+    "published": "2026-07-16T10:19:34+00:00",
+    "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+    "link": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+    "published": "2026-07-16T10:00:00+00:00",
+    "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
     "extra": {}
   }
 ]

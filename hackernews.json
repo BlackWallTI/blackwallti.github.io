@@ -1,74 +1,98 @@
 [
   {
     "source": "The Hacker News",
-    "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
-    "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-    "published": "2026-07-15T18:43:08+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results.\n\n\"While the AI complied with their request to generate botnet code, it included a safety disclaimer that the developer failed.",
+    "title": "Two Scattered Spider Hackers Get 5.5 Years Each for \u00a329 Million TfL Hack",
+    "link": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+    "published": "2026-07-16T17:09:25+00:00",
+    "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London.\n\nThe attack left 148 TfL systems inoperable and forced all 27,000 of the transport authority's employees into an office to get their passwords reset in person. Both the NCA and the CPS put TfL's losses and recovery.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-    "link": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-    "published": "2026-07-15T15:30:30+00:00",
-    "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase.\n\nOn an infected PC, the request comes from inside the wallet's own desktop software. Sometimes it waits until you plug the device in first.",
+    "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+    "published": "2026-07-16T15:41:15+00:00",
+    "summary": "A lot of this week\u2019s trouble starts with something that looks close enough.\n\nA familiar repo. A useful installer.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-    "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-    "published": "2026-07-15T13:18:53+00:00",
-    "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component\n  CVE-2026-15719, a site isolation in the DOM: Navigation component\n\n\"We are aware that exploit code for this is public, however we are not aware of.",
+    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+    "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+    "published": "2026-07-16T13:33:25+00:00",
+    "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the\u00a0sub\u00a0claim alone and ignored\u00a0iss.\n\nA valid token from issuer A carrying a\u00a0sub\u00a0that belongs to someone under issuer B logged you in as them.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-    "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-    "published": "2026-07-15T11:50:01+00:00",
-    "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.\n\nEnterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents.",
+    "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+    "link": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+    "published": "2026-07-16T12:50:13+00:00",
+    "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.\n\n\"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril Fran\u00e7ois said in a technical report. \"While the number of C2 [command-and-control] domains is currently small, the daily.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-    "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-    "published": "2026-07-15T11:07:07+00:00",
-    "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.\n\nIt has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments.\n\n\"The PoC requires.",
+    "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+    "link": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+    "published": "2026-07-16T12:33:42+00:00",
+    "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits.\n\nAt the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
-    "link": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
-    "published": "2026-07-15T11:06:57+00:00",
-    "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages.\n\nThis on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first.\n\nThe Reality of the Approval Gap\n\nIt's a pattern every.",
+    "title": "20+ Hijacked Government Websites Became\u2028an Attack Channel",
+    "link": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+    "published": "2026-07-16T11:58:00+00:00",
+    "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions.\n\nThe investigation revealed previously undocumented backdoor behavior, hidden infrastructure relationships, and multiple attack arms behind a campaign.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
-    "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-    "published": "2026-07-15T10:55:22+00:00",
-    "summary": "Open a repository in Cursor\u00a0on Windows and, if a file named\u00a0git.exe\u00a0is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute.\n\nWhatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens.",
+    "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+    "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+    "published": "2026-07-16T11:32:28+00:00",
+    "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer.\n\nNeither trick hijacks the agent's task.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
-    "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
-    "published": "2026-07-15T09:16:13+00:00",
-    "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity.\n\nThe affected packages are listed below -\n\n\n  @asyncapi/generator-helpers@1.1.1\n  @asyncapi/generator-components@0.7.1\n  @asyncapi/generator@3.3.1\n  @asyncapi/specs(v6.11.2, v6.11.2-alpha.1)\n\n\"The.",
+    "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
+    "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
+    "published": "2026-07-16T11:17:23+00:00",
+    "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig.\n\nDaxin (\"srt64.sys\"), as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned Symantec in March 2022, with evidence indicating its use in targeted attacks aimed.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-    "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-    "published": "2026-07-15T05:30:21+00:00",
-    "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to.",
+    "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+    "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+    "published": "2026-07-16T10:10:00+00:00",
+    "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code quickly, generate payloads, summarize attack surfaces, explain unfamiliar APIs, and run repetitive testing workflows at impressive speed.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
+    "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
+    "published": "2026-07-16T09:23:19+00:00",
+    "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext.\n\nA researcher publishing under the handle tokay0\u00a0put the method online\u00a0on Monday, having tested it only against vacuums he.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI\u2019s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+    "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+    "published": "2026-07-16T08:42:31+00:00",
+    "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely.\n\n\"GPT\u2011Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,\" the artificial intelligence (AI) company said. \"We use GPT\u2011Red to adversarially train.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+    "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+    "published": "2026-07-16T07:22:44+00:00",
+    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Windows, Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows.\n\n\"Improper Input Validation in Zoom Desktop Client for Windows, Zoom VDI Client for.",
     "extra": {}
   }
 ]
