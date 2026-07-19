@@ -1,66 +1,34 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Abbott probes two cyber incidents amid extortion claims",
-    "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-    "published": "2026-07-17T20:45:52+00:00",
-    "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]",
+    "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+    "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+    "published": "2026-07-18T19:32:02+00:00",
+    "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-    "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-    "published": "2026-07-17T17:56:21+00:00",
-    "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+    "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "published": "2026-07-18T17:22:47+00:00",
+    "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Ernst & Young discloses data breach after support system hack",
-    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-    "published": "2026-07-17T14:55:28+00:00",
-    "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+    "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+    "published": "2026-07-18T14:17:19+00:00",
+    "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-    "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-    "published": "2026-07-17T14:00:10+00:00",
-    "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-    "published": "2026-07-17T11:05:30+00:00",
-    "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-    "published": "2026-07-17T09:10:15+00:00",
-    "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "US charges two over laundering $43 million from investment fraud",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-    "published": "2026-07-17T08:13:37+00:00",
-    "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-    "published": "2026-07-17T07:03:33+00:00",
-    "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+    "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+    "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+    "published": "2026-07-18T13:15:24+00:00",
+    "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
     "extra": {}
   }
 ]
