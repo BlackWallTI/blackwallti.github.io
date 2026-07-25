@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-    "published": "2026-07-16T14:00:00+00:00",
-    "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation.",
+    "title": "Updated Cyber Threat Actor Naming System",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+    "published": "2026-07-24T14:00:00+00:00",
+    "summary": "Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting.",
     "extra": {}
   }
 ]
