@@ -1,66 +1,58 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-    "published": "2026-07-27T23:49:44+00:00",
-    "summary": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
+    "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+    "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+    "published": "2026-07-28T21:17:39+00:00",
+    "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-    "published": "2026-07-27T22:49:44+00:00",
-    "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
+    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+    "published": "2026-07-28T20:37:06+00:00",
+    "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-    "published": "2026-07-27T21:08:15+00:00",
-    "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
+    "title": "CISA shares advice on isolating vital systems during cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+    "published": "2026-07-28T18:41:04+00:00",
+    "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-    "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-    "published": "2026-07-27T21:00:25+00:00",
-    "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
+    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+    "published": "2026-07-28T18:08:50+00:00",
+    "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-    "published": "2026-07-27T17:29:07+00:00",
-    "summary": "Apple is being sued by three\u00a0people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]",
+    "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+    "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+    "published": "2026-07-28T14:00:10+00:00",
+    "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-    "published": "2026-07-27T15:39:51+00:00",
-    "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+    "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+    "published": "2026-07-28T12:10:23+00:00",
+    "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-    "published": "2026-07-27T15:12:27+00:00",
-    "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-    "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-    "published": "2026-07-27T14:01:11+00:00",
-    "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
+    "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+    "published": "2026-07-28T09:10:03+00:00",
+    "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
     "extra": {}
   }
 ]
