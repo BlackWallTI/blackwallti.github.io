@@ -1,106 +1,90 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-    "published": "2026-07-29T18:10:00+00:00",
-    "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,.",
+    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+    "published": "2026-07-30T18:18:24+00:00",
+    "summary": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign.\n\nThe defining aspect of the attack is that bogus macOS software update screen stealthily.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-    "published": "2026-07-29T15:39:30+00:00",
-    "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's.",
+    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "published": "2026-07-30T15:25:57+00:00",
+    "summary": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.\n\nSome defenses improved.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-    "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-    "published": "2026-07-29T15:31:15+00:00",
-    "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.\n\n\"A malicious actor with network access to vCenter.",
+    "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+    "published": "2026-07-30T13:34:09+00:00",
+    "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-    "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-    "published": "2026-07-29T13:48:36+00:00",
-    "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls.\n\nBraham's water plant went offline, and the city asked residents to minimize.",
+    "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+    "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+    "published": "2026-07-30T11:54:49+00:00",
+    "summary": "Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. H\u00e5kon M\u00e5l\u00f8y disclosed the technique on July 28, 144 days after reporting it to Microsoft.\n\nIn his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session.\n\nM\u00e5l\u00f8y's.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-    "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-    "published": "2026-07-29T13:42:57+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies.",
+    "title": "The Network Has Become the Control Plane for AI Security",
+    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+    "published": "2026-07-30T11:32:46+00:00",
+    "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-    "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
-    "published": "2026-07-29T12:15:00+00:00",
-    "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right now goes something like this: Mythos is here.",
+    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "published": "2026-07-30T10:33:15+00:00",
+    "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors.\n\nA compromised page could infect a system running a vulnerable AnySign4PC version without a prompt or.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-    "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-    "published": "2026-07-29T11:57:00+00:00",
-    "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update.\n\n\"No settings or additional user interaction are required,\" Eten Zou,.",
+    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+    "published": "2026-07-30T10:32:59+00:00",
+    "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access.\n\n\"In this campaign, the group combines new vulnerable-driver abuse, newly observed abuse of legitimate.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-    "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
-    "published": "2026-07-29T11:13:10+00:00",
-    "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.\n\nAccording to The State of Incident Response Readiness 2026, based on a survey of 600 senior IT security decision makers conducted by Vanson Bourne in January.",
+    "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+    "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+    "published": "2026-07-30T07:40:48+00:00",
+    "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and aerospace sectors.\n\nThe activity, which began on July 22, 2026, involves the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-    "link": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-    "published": "2026-07-29T11:00:00+00:00",
-    "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.\n\nThe principal security agency said the instant messaging platform \"failed to remove numerous channels, chats, and bots on the platform that are.",
+    "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+    "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+    "published": "2026-07-30T07:28:43+00:00",
+    "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US.\n\nPreviously authorized models can still be sold, and devices people already own are unaffected.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-    "published": "2026-07-29T08:58:27+00:00",
-    "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that.",
+    "title": "Amazon Links Debug and Chalk npm Hijack to North Korea\u2019s Sapphire Sleet",
+    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+    "published": "2026-07-30T06:05:17+00:00",
+    "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them.\n\nThe original Aikido and Wiz reports did not attribute the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-    "published": "2026-07-29T07:51:00+00:00",
-    "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-    "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-    "published": "2026-07-29T07:47:19+00:00",
-    "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account.\n\nTracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-    "published": "2026-07-29T07:07:23+00:00",
-    "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers.\n\nThey linked the framework to a fake \"\u516c\u5b89\u4e00\u7f51\u901a\u529e\" Public Security service application targeting Android users in China.",
+    "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+    "published": "2026-07-30T05:08:39+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.\n\nThe vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log.",
     "extra": {}
   }
 ]
