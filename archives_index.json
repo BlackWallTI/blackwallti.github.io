@@ -25,6 +25,7 @@
     "archive/cisa/cisa_2026_02.ndjson"
   ],
   "mandiant": [
+    "archive/mandiant/mandiant_2026_08.ndjson",
     "archive/mandiant/mandiant_2026_07.ndjson",
     "archive/mandiant/mandiant_2026_06.ndjson",
     "archive/mandiant/mandiant_2026_05.ndjson",
