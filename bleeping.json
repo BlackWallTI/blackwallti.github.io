@@ -1,58 +1,42 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don\u2019t pay for it",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-    "published": "2026-08-06T22:48:22+00:00",
-    "summary": "OpenAI is rolling out\u00a0a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
+    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+    "published": "2026-08-07T20:14:46+00:00",
+    "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-    "published": "2026-08-06T22:37:17+00:00",
-    "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+    "published": "2026-08-07T19:30:41+00:00",
+    "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-    "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-    "published": "2026-08-06T20:07:24+00:00",
-    "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to\u00a0UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
+    "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+    "published": "2026-08-07T15:48:20+00:00",
+    "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Swiss government SharePoint breach compromised 200 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-    "published": "2026-08-06T18:14:19+00:00",
-    "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+    "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+    "published": "2026-08-07T14:00:10+00:00",
+    "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-    "published": "2026-08-06T18:03:45+00:00",
-    "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Meta AI model hacked a company during misconfigured cyber test",
-    "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
-    "published": "2026-08-06T16:11:39+00:00",
-    "summary": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
-    "link": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
-    "published": "2026-08-06T14:02:12+00:00",
-    "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
+    "title": "North Carolina Ports confirms cyberattack disrupting operations",
+    "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+    "published": "2026-08-07T13:34:40+00:00",
+    "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
     "extra": {}
   }
 ]
