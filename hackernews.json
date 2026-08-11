@@ -1,42 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-    "published": "2026-08-08T08:54:50+00:00",
-    "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes.",
+    "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development",
+    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+    "published": "2026-08-10T17:29:17+00:00",
+    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-    "published": "2026-08-08T08:03:57+00:00",
-    "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.\n\nPortSwigger researcher Gareth.",
+    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+    "published": "2026-08-10T16:38:37+00:00",
+    "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-    "published": "2026-08-08T06:58:31+00:00",
-    "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain.",
+    "title": "\u26a1 Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+    "published": "2026-08-10T15:00:29+00:00",
+    "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-    "published": "2026-08-08T06:57:43+00:00",
-    "summary": "N-able has released a fresh round of hotfixes for N\u2011central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said.\n\n\"This is not a duplicate of our.",
+    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+    "published": "2026-08-10T13:19:58+00:00",
+    "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.\n\nSouth Korean security firm Genians says it uncovered the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-    "published": "2026-08-08T06:52:16+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress\u202fKemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary.",
+    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+    "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+    "published": "2026-08-10T12:25:04+00:00",
+    "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+    "published": "2026-08-10T11:33:41+00:00",
+    "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.\n\nThe activity involves exploiting a vulnerability chain.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+    "published": "2026-08-10T07:38:23+00:00",
+    "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions are below -\n\n\n  helper-beeps.solidity-pro\n  web3devtoolsx.solidity-pro\n\nAlthough neither of the extensions is now available on Open VSX, the GitHub repository.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+    "published": "2026-08-10T05:50:03+00:00",
+    "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI upstart said it's implementing security controls for higher-capability models and associated activities, such as isolated.",
     "extra": {}
   }
 ]
