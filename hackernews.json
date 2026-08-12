@@ -1,66 +1,122 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development",
-    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-    "published": "2026-08-10T17:29:17+00:00",
-    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities.",
+    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "published": "2026-08-11T20:10:55+00:00",
+    "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-    "published": "2026-08-10T16:38:37+00:00",
-    "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted.",
+    "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+    "published": "2026-08-11T19:36:37+00:00",
+    "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026.\n\n\"Kimwolf v7 adds an HTTP/2-based.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "\u26a1 Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-    "published": "2026-08-10T15:00:29+00:00",
-    "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo.",
+    "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+    "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+    "published": "2026-08-11T19:08:47+00:00",
+    "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-    "published": "2026-08-10T13:19:58+00:00",
-    "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.\n\nSouth Korean security firm Genians says it uncovered the.",
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "published": "2026-08-11T18:36:47+00:00",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-    "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-    "published": "2026-08-10T12:25:04+00:00",
-    "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a.",
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "published": "2026-08-11T16:47:44+00:00",
+    "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as\u00a0CVE-2026-55040\u00a0(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-    "published": "2026-08-10T11:33:41+00:00",
-    "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.\n\nThe activity involves exploiting a vulnerability chain.",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "published": "2026-08-11T16:35:27+00:00",
+    "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
-    "published": "2026-08-10T07:38:23+00:00",
-    "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions are below -\n\n\n  helper-beeps.solidity-pro\n  web3devtoolsx.solidity-pro\n\nAlthough neither of the extensions is now available on Open VSX, the GitHub repository.",
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "published": "2026-08-11T13:11:23+00:00",
+    "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT\u20115.6\u2011Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT\u20115.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-    "published": "2026-08-10T05:50:03+00:00",
-    "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI upstart said it's implementing security controls for higher-capability models and associated activities, such as isolated.",
+    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+    "published": "2026-08-11T12:05:03+00:00",
+    "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over.\n\nResearchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+    "published": "2026-08-11T12:04:51+00:00",
+    "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nThat key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball came from Mozilla and was not tampered with.\n\nThat decision carries a cost for.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "published": "2026-08-11T11:35:03+00:00",
+    "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "published": "2026-08-11T10:48:26+00:00",
+    "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\nThe same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "published": "2026-08-11T10:24:00+00:00",
+    "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+    "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "published": "2026-08-11T09:16:24+00:00",
+    "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services.\n\n\"Gunra is another variant in the ongoing trend of.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+    "published": "2026-08-11T06:55:45+00:00",
+    "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+    "published": "2026-08-11T05:48:44+00:00",
+    "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said.",
     "extra": {}
   }
 ]
