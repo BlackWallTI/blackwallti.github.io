@@ -1,82 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "LACMA data breach last year exposed social security and medical data",
-    "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-    "published": "2026-08-25T21:58:14+00:00",
-    "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+    "published": "2026-08-26T21:33:20+00:00",
+    "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-    "published": "2026-08-25T21:39:01+00:00",
-    "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+    "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+    "published": "2026-08-26T18:48:24+00:00",
+    "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-    "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-    "published": "2026-08-25T20:25:26+00:00",
-    "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+    "title": "Meta agrees to $18 billion settlement over teen social media harms",
+    "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
+    "published": "2026-08-26T16:41:05+00:00",
+    "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals\u00a0over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by children and teenagers. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Massive DDoS attack disrupts Norway\u2019s government digital services",
-    "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-    "published": "2026-08-25T15:52:36+00:00",
-    "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "published": "2026-08-26T15:19:21+00:00",
+    "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-    "published": "2026-08-25T14:44:16+00:00",
-    "summary": "Healthcare and services provider Nutex is investigating a data breach incident\u00a0where an unauthorized third party exfiltrated information from company servers. [...]",
+    "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+    "published": "2026-08-26T14:47:51+00:00",
+    "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-    "published": "2026-08-25T14:01:11+00:00",
-    "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate access. [...]",
+    "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+    "published": "2026-08-26T14:17:59+00:00",
+    "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-    "published": "2026-08-25T13:51:58+00:00",
-    "summary": "Microsoft updated its Windows PowerToys toolset with a new utility\u00a0dubbed \"Window Hopper\"\u00a0that lets users switch between an app's windows more quickly. [...]",
+    "title": "Snowflake ends service-account passwords. Now comes the hard part",
+    "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+    "published": "2026-08-26T14:01:11+00:00",
+    "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying what uses each account, who owns it, and how much access it still needs. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "published": "2026-08-25T13:00:00+00:00",
-    "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
+    "title": "Ubiquiti patches three max severity security vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+    "published": "2026-08-26T13:17:54+00:00",
+    "summary": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-    "published": "2026-08-25T12:04:02+00:00",
-    "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+    "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
+    "published": "2026-08-26T12:06:28+00:00",
+    "summary": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Police arrests dozens of suspects in global cybercrime crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
-    "published": "2026-08-25T10:53:20+00:00",
-    "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
+    "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+    "published": "2026-08-26T11:07:48+00:00",
+    "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
     "extra": {}
   }
 ]
