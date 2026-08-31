@@ -1,10 +1,10 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-    "published": "2026-08-29T16:25:03+00:00",
-    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in.",
+    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+    "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "published": "2026-08-30T07:36:33+00:00",
+    "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex.",
     "extra": {}
   }
 ]
