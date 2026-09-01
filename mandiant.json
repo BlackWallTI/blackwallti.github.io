@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
-    "published": "2026-08-20T14:00:00+00:00",
-    "summary": "Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293\u2019s phishing operations.",
+    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+    "published": "2026-09-01T14:00:00+00:00",
+    "summary": "Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers.",
     "extra": {}
   }
 ]
