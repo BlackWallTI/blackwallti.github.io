@@ -1,122 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-    "published": "2026-09-09T01:16:27+00:00",
-    "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
+    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "published": "2026-09-09T21:40:44+00:00",
+    "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-    "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-    "published": "2026-09-08T20:35:14+00:00",
-    "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
+    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "published": "2026-09-09T21:30:36+00:00",
+    "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-    "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-    "published": "2026-09-08T20:24:16+00:00",
-    "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new requirements. [...]",
+    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+    "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+    "published": "2026-09-09T21:02:14+00:00",
+    "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
-    "published": "2026-09-08T20:08:55+00:00",
-    "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
+    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+    "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+    "published": "2026-09-09T16:48:33+00:00",
+    "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft releases Windows 10 KB5122878 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
-    "published": "2026-09-08T18:49:19+00:00",
-    "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
+    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+    "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+    "published": "2026-09-09T15:31:23+00:00",
+    "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
-    "published": "2026-09-08T18:18:05+00:00",
-    "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
+    "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+    "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+    "published": "2026-09-09T14:01:11+00:00",
+    "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from turning account recovery into account takeover. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
-    "published": "2026-09-08T17:57:03+00:00",
-    "summary": "Microsoft has released Windows 11\u00a0KB5124008\u00a0and\u00a0KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+    "published": "2026-09-09T10:11:29+00:00",
+    "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-    "published": "2026-09-08T16:35:47+00:00",
-    "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
+    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+    "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+    "published": "2026-09-09T08:44:22+00:00",
+    "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "OpenAI says ChatGPT outage causes image generation errors",
-    "link": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
-    "published": "2026-09-08T16:28:42+00:00",
-    "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
+    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+    "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+    "published": "2026-09-09T07:30:15+00:00",
+    "summary": "An anonymous\u00a0security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
-    "published": "2026-09-08T15:22:33+00:00",
-    "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
-    "published": "2026-09-08T14:55:20+00:00",
-    "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
-    "published": "2026-09-08T14:40:32+00:00",
-    "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-    "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
-    "published": "2026-09-08T13:34:47+00:00",
-    "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
-    "published": "2026-09-08T12:40:48+00:00",
-    "summary": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fast-growing companies reduce their exposure. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Hackers build AI frameworks for widescale credential theft",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-    "published": "2026-09-08T12:03:03+00:00",
-    "summary": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
+    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+    "published": "2026-09-09T06:25:48+00:00",
+    "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
     "extra": {}
   }
 ]
