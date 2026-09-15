@@ -1,10 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "published": "2026-09-13T10:11:48+00:00",
-    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers.",
+    "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+    "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+    "published": "2026-09-14T18:02:13+00:00",
+    "summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.\n\nThe attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+    "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+    "published": "2026-09-14T18:01:49+00:00",
+    "summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+    "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+    "published": "2026-09-14T17:58:16+00:00",
+    "summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a\u00a0writeup\u00a0published on September 12.\n\nIn Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+    "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+    "published": "2026-09-14T16:56:30+00:00",
+    "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU).",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+    "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+    "published": "2026-09-14T16:00:04+00:00",
+    "summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.\n\n\"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "\u26a1 Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+    "published": "2026-09-14T14:40:34+00:00",
+    "summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+    "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+    "published": "2026-09-14T11:58:00+00:00",
+    "summary": "There's a lot of noise around AI and cybersecurity right now. What\u2019s actually important is far simpler, if often lost in the hubbub.",
+    "extra": {}
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+    "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+    "published": "2026-09-14T07:24:39+00:00",
+    "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store -\n\n\n  Chrome -.",
     "extra": {}
   }
 ]
