@@ -1,98 +1,82 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft releases emergency Windows updates to fix RDS failures",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
-    "published": "2026-09-14T20:52:18+00:00",
-    "summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
+    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "published": "2026-09-15T21:37:35+00:00",
+    "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
-    "published": "2026-09-14T20:36:02+00:00",
-    "summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
+    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "published": "2026-09-15T20:34:15+00:00",
+    "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
-    "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-    "published": "2026-09-14T19:51:04+00:00",
-    "summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+    "published": "2026-09-15T16:40:14+00:00",
+    "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Twitch extension with 30K installs exposes users\u2019 OAuth tokens",
-    "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-    "published": "2026-09-14T19:03:51+00:00",
-    "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+    "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+    "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+    "published": "2026-09-15T15:00:00+00:00",
+    "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-    "published": "2026-09-14T18:34:16+00:00",
-    "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+    "published": "2026-09-15T14:45:10+00:00",
+    "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
-    "published": "2026-09-14T16:15:58+00:00",
-    "summary": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "published": "2026-09-15T13:45:54+00:00",
+    "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-    "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-    "published": "2026-09-14T14:01:11+00:00",
-    "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
+    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "published": "2026-09-15T12:16:32+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-    "published": "2026-09-14T12:15:23+00:00",
-    "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]",
+    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "published": "2026-09-15T09:50:25+00:00",
+    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charges. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft: September updates cause RDS failures on Windows Server",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-    "published": "2026-09-14T09:50:25+00:00",
-    "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
+    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "published": "2026-09-15T08:40:20+00:00",
+    "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Revolut discloses data breach exposing financial info, passports",
-    "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-    "published": "2026-09-14T08:48:24+00:00",
-    "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Microsoft: September updates break audio on some Windows PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-    "published": "2026-09-14T08:08:16+00:00",
-    "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-    "published": "2026-09-14T07:06:27+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
+    "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "published": "2026-09-15T07:31:09+00:00",
+    "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
     "extra": {}
   }
 ]
