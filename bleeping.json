@@ -1,74 +1,66 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "New RatHat Android malware uses AI to automate device control",
-    "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-    "published": "2026-09-17T21:50:26+00:00",
-    "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+    "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+    "published": "2026-09-18T16:00:38+00:00",
+    "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6\u00a0million user records. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
-    "published": "2026-09-17T18:55:12+00:00",
-    "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\"\u00a0from the past six months,\u00a0including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
+    "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+    "published": "2026-09-18T15:19:06+00:00",
+    "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-    "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-    "published": "2026-09-17T17:11:34+00:00",
-    "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
+    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+    "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+    "published": "2026-09-18T14:00:10+00:00",
+    "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access governance and owner-driven reviews can help identify and remove unnecessary access. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-    "link": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-    "published": "2026-09-17T14:01:11+00:00",
-    "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting access can be trusted. [...]",
+    "title": "Microsoft Teams will let admins block custom file extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+    "published": "2026-09-18T13:58:40+00:00",
+    "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet\u00a0their company's security requirements. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-    "published": "2026-09-17T13:09:09+00:00",
-    "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
+    "title": "Webinar: Which Google Workspace security controls actually matter?",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+    "published": "2026-09-18T13:10:19+00:00",
+    "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overrated, and where lean security teams should focus their resources. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "US takes down NightmareStresser DDoS-for-hire platform",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
-    "published": "2026-09-17T11:33:35+00:00",
-    "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]",
+    "title": "Microsoft fixes bug behind \u2018Defender Antivirus is turned off\u2019 alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+    "published": "2026-09-18T12:16:32+00:00",
+    "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-    "published": "2026-09-17T09:00:00+00:00",
-    "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "published": "2026-09-18T09:34:33+00:00",
+    "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft shares workaround for Windows domain login issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-    "published": "2026-09-17T08:24:48+00:00",
-    "summary": "Microsoft shared a temporary fix on Wednesday for\u00a0a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-    "published": "2026-09-17T07:20:54+00:00",
-    "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "published": "2026-09-18T07:35:31+00:00",
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
     "extra": {}
   }
 ]
