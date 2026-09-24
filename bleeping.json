@@ -1,98 +1,90 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Rogue external MFA providers can steal passwords during logins",
-    "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "published": "2026-09-22T21:45:45+00:00",
-    "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
+    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+    "published": "2026-09-23T22:46:01+00:00",
+    "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Sweden fines Milj\u00f6data $183,000 over breach affecting 2.2 million",
-    "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "published": "2026-09-22T21:40:37+00:00",
-    "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Milj\u00f6data for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
+    "title": "New RemControl Android banking malware targets users in Europe and Canada",
+    "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+    "published": "2026-09-23T21:25:13+00:00",
+    "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-    "published": "2026-09-22T20:35:24+00:00",
-    "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]",
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "published": "2026-09-23T19:53:54+00:00",
+    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-    "published": "2026-09-22T19:13:29+00:00",
-    "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+    "title": "Hackers start exploiting critical WordPress flaw for code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "published": "2026-09-23T18:31:22+00:00",
+    "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-    "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-    "published": "2026-09-22T18:04:39+00:00",
-    "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
+    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    "published": "2026-09-23T16:20:54+00:00",
+    "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Reducing shadow IT visibility gaps with Wazuh",
-    "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-    "published": "2026-09-22T17:17:41+00:00",
-    "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these visibility gaps. [...]",
+    "title": "InfraTrust report warns network management systems under attack",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+    "published": "2026-09-23T14:35:26+00:00",
+    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Check Point warns of Management Server zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-    "published": "2026-09-22T16:32:47+00:00",
-    "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run\u00a0arbitrary scripts. [...]",
+    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+    "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "published": "2026-09-23T14:01:11+00:00",
+    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-    "published": "2026-09-22T15:00:00+00:00",
-    "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
+    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+    "published": "2026-09-23T12:29:53+00:00",
+    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-    "published": "2026-09-22T12:57:07+00:00",
-    "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]",
+    "title": "Microsoft: September Windows updates break Always On VPN connections",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "published": "2026-09-23T11:18:13+00:00",
+    "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-    "published": "2026-09-22T12:48:06+00:00",
-    "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "published": "2026-09-23T08:20:05+00:00",
+    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-    "published": "2026-09-22T09:55:11+00:00",
-    "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as\u00a0Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-    "published": "2026-09-22T08:53:09+00:00",
-    "summary": "\u200bAttackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "published": "2026-09-23T07:17:23+00:00",
+    "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
     "extra": {}
   }
 ]
