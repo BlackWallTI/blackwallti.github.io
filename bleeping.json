@@ -1,90 +1,74 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-    "published": "2026-09-23T22:46:01+00:00",
-    "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+    "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "published": "2026-09-24T20:53:35+00:00",
+    "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "New RemControl Android banking malware targets users in Europe and Canada",
-    "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-    "published": "2026-09-23T21:25:13+00:00",
-    "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "published": "2026-09-24T20:10:48+00:00",
+    "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install\u00a0the Hermes Agent AI framework and take control. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "published": "2026-09-23T19:53:54+00:00",
-    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+    "title": "Exposed GitLab project email addresses let attackers push code",
+    "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+    "published": "2026-09-24T17:47:44+00:00",
+    "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Hackers start exploiting critical WordPress flaw for code execution",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "published": "2026-09-23T18:31:22+00:00",
-    "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+    "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+    "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+    "published": "2026-09-24T14:02:12+00:00",
+    "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    "published": "2026-09-23T16:20:54+00:00",
-    "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+    "published": "2026-09-24T13:27:57+00:00",
+    "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "InfraTrust report warns network management systems under attack",
-    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-    "published": "2026-09-23T14:35:26+00:00",
-    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+    "published": "2026-09-24T12:16:32+00:00",
+    "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-    "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-    "published": "2026-09-23T14:01:11+00:00",
-    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
+    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+    "published": "2026-09-24T10:42:37+00:00",
+    "summary": "\u200bThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-    "published": "2026-09-23T12:29:53+00:00",
-    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "published": "2026-09-24T09:38:53+00:00",
+    "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft: September Windows updates break Always On VPN connections",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-    "published": "2026-09-23T11:18:13+00:00",
-    "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Ryuk ransomware member sentenced to 24 months in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-    "published": "2026-09-23T08:20:05+00:00",
-    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "published": "2026-09-23T07:17:23+00:00",
-    "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "published": "2026-09-24T08:14:47+00:00",
+    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
     "extra": {}
   }
 ]
