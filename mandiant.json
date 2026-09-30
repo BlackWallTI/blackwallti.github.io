@@ -1,10 +1,10 @@
 [
   {
     "source": "Mandiant",
-    "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
-    "published": "2026-09-24T14:00:00+00:00",
-    "summary": "The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and programming tools.",
+    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+    "published": "2026-09-29T14:00:00+00:00",
+    "summary": "In late September 2026, Mandiant Consulting and Google Threat Intelligence Group (GTIG) identified active, in-the-wild exploitation of a zero-day vulnerability (CVE-2026-88772) affecting Citrix NetScaler ADC and NetScaler Gateway appliances. We have observed evidence that organizations in North America and Europe in the government, financial services, technology, education, and legal and professional services sectors were likely impacted by this exploitation campaign, which has been ongoing since at least early September.",
     "extra": {}
   }
 ]

@@ -1,42 +1,122 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-    "published": "2026-09-26T19:03:34+00:00",
-    "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
+    "title": "Microsoft is rolling out Linux container support to WSL",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "published": "2026-09-30T00:40:57+00:00",
+    "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-    "published": "2026-09-26T16:26:58+00:00",
-    "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+    "title": "Signal adds encypted local backup support to iOS, desktop apps",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+    "published": "2026-09-29T21:30:08+00:00",
+    "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-    "published": "2026-09-26T15:50:38+00:00",
-    "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report\u00a0that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "published": "2026-09-29T20:59:39+00:00",
+    "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-    "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-    "published": "2026-09-26T14:19:46+00:00",
-    "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+    "published": "2026-09-29T20:09:55+00:00",
+    "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
     "extra": {}
   },
   {
     "source": "Bleeping Computer",
-    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-    "published": "2026-09-26T12:28:41+00:00",
-    "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "published": "2026-09-29T18:37:12+00:00",
+    "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Former US Air Force members sent to prison over BEC attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+    "published": "2026-09-29T18:09:39+00:00",
+    "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Windows 11 2026 Update released, here's everything you need to know",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+    "published": "2026-09-29T17:37:40+00:00",
+    "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+    "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+    "published": "2026-09-29T17:10:11+00:00",
+    "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+    "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+    "published": "2026-09-29T15:39:19+00:00",
+    "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Catch threats before they escalate with real-time Identity Telemetry",
+    "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+    "published": "2026-09-29T14:01:11+00:00",
+    "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+    "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+    "published": "2026-09-29T11:41:53+00:00",
+    "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Kiteworks patches critical flaw, brings customer systems online",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+    "published": "2026-09-29T09:04:06+00:00",
+    "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+    "published": "2026-09-29T07:33:12+00:00",
+    "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+    "published": "2026-09-28T20:56:47+00:00",
+    "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting\u00a0 some of its business systems. [...]",
+    "extra": {}
+  },
+  {
+    "source": "Bleeping Computer",
+    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+    "published": "2026-09-28T20:31:16+00:00",
+    "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
     "extra": {}
   }
 ]
