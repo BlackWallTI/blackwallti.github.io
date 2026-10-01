@@ -1,5 +1,6 @@
 {
   "bleeping": [
+    "archive/bleeping/bleeping_2026_10.ndjson",
     "archive/bleeping/bleeping_2026_09.ndjson",
     "archive/bleeping/bleeping_2026_08.ndjson",
     "archive/bleeping/bleeping_2026_07.ndjson",
@@ -10,6 +11,7 @@
     "archive/bleeping/bleeping_2026_02.ndjson"
   ],
   "hackernews": [
+    "archive/hackernews/hackernews_2026_10.ndjson",
     "archive/hackernews/hackernews_2026_09.ndjson",
     "archive/hackernews/hackernews_2026_08.ndjson",
     "archive/hackernews/hackernews_2026_07.ndjson",
@@ -27,6 +29,7 @@
     "archive/cisa/cisa_2026_02.ndjson"
   ],
   "mandiant": [
+    "archive/mandiant/mandiant_2026_10.ndjson",
     "archive/mandiant/mandiant_2026_09.ndjson",
     "archive/mandiant/mandiant_2026_08.ndjson",
     "archive/mandiant/mandiant_2026_07.ndjson",
@@ -37,6 +40,7 @@
     "archive/mandiant/mandiant_2026_02.ndjson"
   ],
   "ransomware_live": [
+    "archive/ransomware_live/ransomware_live_2026_10.ndjson",
     "archive/ransomware_live/ransomware_live_2026_09.ndjson",
     "archive/ransomware_live/ransomware_live_2026_08.ndjson",
     "archive/ransomware_live/ransomware_live_2026_07.ndjson",

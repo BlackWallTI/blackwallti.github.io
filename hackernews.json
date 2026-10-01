@@ -1,162 +1,90 @@
 [
   {
     "source": "The Hacker News",
-    "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-    "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-    "published": "2026-09-29T17:47:01+00:00",
-    "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.\n\nNeither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a\u00a0report\u00a0(in French) published on Tuesday: it worked because of weak.",
+    "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+    "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+    "published": "2026-10-01T04:35:34+00:00",
+    "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.\n\nLevelBlue's Threat Hunt Operations & Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-    "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-    "published": "2026-09-29T17:20:17+00:00",
-    "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors.\n\nThe new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR).\n\n\"The key insight is that, while modern CPUs.",
+    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+    "published": "2026-09-30T16:46:29+00:00",
+    "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-    "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-    "published": "2026-09-29T17:20:08+00:00",
-    "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,\u00a0according to Microsoft.\n\nThe campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the U.S. and U.K.",
+    "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+    "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+    "published": "2026-09-30T16:32:59+00:00",
+    "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.\n\n\"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-    "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-    "published": "2026-09-29T14:13:20+00:00",
-    "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n\n\"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base,\" the company.",
+    "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+    "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+    "published": "2026-09-30T15:24:54+00:00",
+    "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an\u00a0advisory\u00a0on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-    "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-    "published": "2026-09-29T13:45:10+00:00",
-    "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical.",
+    "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+    "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+    "published": "2026-09-30T15:00:15+00:00",
+    "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-    "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-    "published": "2026-09-29T08:35:10+00:00",
-    "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday.\n\nPolice said the individual is expected to appear before the.",
+    "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+    "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+    "published": "2026-09-30T11:58:00+00:00",
+    "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-    "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-    "published": "2026-09-29T06:08:25+00:00",
-    "summary": "A malicious MCP server could trick an application built on the official\u00a0MCP Python SDK\u00a0into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and.",
+    "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+    "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+    "published": "2026-09-30T11:30:00+00:00",
+    "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers' personal accounts.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-    "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-    "published": "2026-09-29T05:12:32+00:00",
-    "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits.\n\nThe development was first reported by The Wall Street Journal. The move \"marks a rare case of a major AI developer ditching a new release because of safety concerns,\" the news publication said.",
+    "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+    "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+    "published": "2026-09-30T10:45:00+00:00",
+    "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure.\n\nBy combining Microsoft 365 session theft with remote-access tool deployment, CSuite can turn a phishing incident into broader account compromise, fraud.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-    "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
-    "published": "2026-09-29T04:45:20+00:00",
-    "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions.\n\n\"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:.",
+    "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+    "published": "2026-09-30T08:24:35+00:00",
+    "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-    "published": "2026-09-28T19:18:01+00:00",
-    "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.\n\nThe iPhone maker said the.",
+    "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+    "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+    "published": "2026-09-30T08:09:28+00:00",
+    "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,\u00a0OpenSSL said\u00a0on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-    "published": "2026-09-28T18:35:42+00:00",
-    "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in\u00a0a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "IAM for AI agents: A Practical Enterprise Framework",
-    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-    "published": "2026-09-28T18:20:38+00:00",
-    "summary": "What is IAM for AI agents?\n\nAI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-    "published": "2026-09-28T17:42:18+00:00",
-    "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system.\n\nExchanges keep most.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "published": "2026-09-28T17:38:33+00:00",
-    "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has\u00a0traced nearly 100 deployments\u00a0of that console since April 2026.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "\u26a1 Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-    "published": "2026-09-28T14:00:53+00:00",
-    "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-    "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-    "published": "2026-09-28T11:58:00+00:00",
-    "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems\u2014often without the same controls applied to human users.\n\nAccording to Okta\u2019s Global CISO Insights 2026 report, only 47% of CISOs are confident they can identify every AI agent in their environment.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "published": "2026-09-28T11:46:00+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-    "published": "2026-09-28T09:08:21+00:00",
-    "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours.\n\n\"The destructive operations.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-    "published": "2026-09-28T07:21:49+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-    "published": "2026-09-27T07:47:57+00:00",
-    "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws.",
+    "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+    "published": "2026-09-30T05:30:30+00:00",
+    "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler.",
     "extra": {}
   }
 ]
