@@ -1,122 +1,26 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-    "published": "2026-10-24T11:09:29+00:00",
-    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python\u00a0Brotli\u00a0and\u00a0brotlicffi\u00a0packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as\u00a0CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially.",
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "published": "2026-10-25T17:44:09+00:00",
+    "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-    "published": "2026-10-24T11:03:33+00:00",
-    "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of.",
+    "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "published": "2026-10-25T17:19:46+00:00",
+    "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-    "published": "2026-10-24T10:36:33+00:00",
-    "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-    "published": "2026-10-24T09:04:24+00:00",
-    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-    "published": "2026-10-24T06:25:57+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-    "published": "2026-10-23T18:50:13+00:00",
-    "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-    "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-    "published": "2026-10-23T17:54:08+00:00",
-    "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-    "published": "2026-10-23T17:50:47+00:00",
-    "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-    "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-    "published": "2026-10-23T13:50:56+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-    "published": "2026-10-23T11:25:43+00:00",
-    "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-    "published": "2026-10-23T11:11:23+00:00",
-    "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Flaw in Python\u2019s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-    "published": "2026-10-23T09:36:00+00:00",
-    "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,\u00a0CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-    "published": "2026-10-23T08:40:43+00:00",
-    "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have\u00a0demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents\u2019 Token Balances",
-    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-    "published": "2026-10-23T08:35:45+00:00",
-    "summary": "AI agents paying for API calls with the\u00a0x402 SDKs\u00a0could sign a payment for their full balance of a supported token if a malicious API asked for it,\u00a0security firm V12 said\u00a0on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-    "published": "2026-10-23T07:40:45+00:00",
-    "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote.",
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "published": "2026-10-25T06:54:29+00:00",
+    "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no.",
     "extra": {}
   }
 ]
