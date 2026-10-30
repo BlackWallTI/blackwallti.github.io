@@ -1,290 +1,114 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-    "published": "2026-10-28T18:08:33+00:00",
-    "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.\n\n\"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared.",
+    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+    "published": "2026-10-29T19:11:58+00:00",
+    "summary": "Some attacks take real skill. Others just need someone to leave a door open.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-    "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-    "published": "2026-10-28T17:08:09+00:00",
-    "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a store must pass identity checks and send Google\u00a0its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on.",
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "published": "2026-10-29T15:57:05+00:00",
+    "summary": "A flaw in the Linux kernel's TCP code, tracked as\u00a0CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said\u00a0on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-    "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-    "published": "2026-10-28T16:23:34+00:00",
-    "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the\u00a0Pwn2Own Berlin contest\u00a0in May. Microsoft fixed the Edge bugs the day after the contest,.",
+    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+    "published": "2026-10-29T15:20:29+00:00",
+    "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.\n\nThe activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-    "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-    "published": "2026-10-28T16:02:45+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root.",
+    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "published": "2026-10-29T13:42:40+00:00",
+    "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-    "published": "2026-10-28T12:48:03+00:00",
-    "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical.",
+    "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "published": "2026-10-29T11:39:41+00:00",
+    "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-    "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-    "published": "2026-10-28T11:50:00+00:00",
-    "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.\n\nUEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine.",
+    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+    "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+    "published": "2026-10-29T11:39:18+00:00",
+    "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec\u00a0disclosed it on October 29.\n\nCombined with an.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Wazuh and AI for Enhanced SOC Workflows",
-    "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-    "published": "2026-10-28T11:30:00+00:00",
-    "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making.",
+    "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+    "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+    "published": "2026-10-29T11:33:41+00:00",
+    "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-    "published": "2026-10-28T11:15:51+00:00",
-    "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+    "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+    "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+    "published": "2026-10-29T11:33:15+00:00",
+    "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and\u00a0reported the results\u00a0on October 28.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-    "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-    "published": "2026-10-28T10:30:00+00:00",
-    "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S.",
+    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+    "published": "2026-10-29T10:44:46+00:00",
+    "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-    "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-    "published": "2026-10-28T08:15:07+00:00",
-    "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of.",
+    "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+    "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+    "published": "2026-10-29T10:26:33+00:00",
+    "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-    "published": "2026-10-28T07:37:50+00:00",
-    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions.",
+    "title": "Attacker Tried to Exploit Alpine Linux\u2019s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "published": "2026-10-29T09:05:39+00:00",
+    "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab\u00a0released a fix, Alpine Linux\u00a0said\u00a0on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-    "published": "2026-10-28T07:13:21+00:00",
-    "summary": "Japan's GMO Internet Group is\u00a0offering up to $1 million in total\u00a0for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service\u00a0hosts Windows desktops\u00a0used for FX trading,.",
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "published": "2026-10-29T08:24:22+00:00",
+    "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,\u00a0Cisco Talos said\u00a0on October 28. Talos calls the attacks historical but does not specify when they.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-    "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-    "published": "2026-10-28T06:20:37+00:00",
-    "summary": "Tailscale has released\u00a0version 1.104.4\u00a0to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the\u00a0root\u00a0user should be able to touch.\n\nThe flaws are in how\u00a0Tailscale SSH\u00a0forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must.",
+    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "published": "2026-10-29T06:22:33+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-    "published": "2026-10-28T06:04:58+00:00",
-    "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,\u00a0CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-    "published": "2026-10-28T05:42:26+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-    "published": "2026-10-27T18:26:46+00:00",
-    "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-    "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-    "published": "2026-10-27T13:59:48+00:00",
-    "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "published": "2026-10-27T13:59:09+00:00",
-    "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-    "published": "2026-10-27T12:09:50+00:00",
-    "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as\u00a0CVE-2026-80097\u00a0and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-    "published": "2026-10-27T11:46:00+00:00",
-    "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a\u00a0statement\u00a0on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-    "published": "2026-10-27T11:32:46+00:00",
-    "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.\u00a0\n\nSome fake login pages go beyond stealing passwords.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-    "published": "2026-10-27T11:32:31+00:00",
-    "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-    "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-    "published": "2026-10-27T09:33:06+00:00",
-    "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-    "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-    "published": "2026-10-27T08:22:43+00:00",
-    "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,\u00a0security firm Xint\u00a0has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as\u00a0an encrypted item\u00a0the user cannot read. The method got past.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-    "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-    "published": "2026-10-27T06:34:47+00:00",
-    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP).",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-    "published": "2026-10-27T04:37:59+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-    "published": "2026-10-26T18:12:22+00:00",
-    "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-    "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-    "published": "2026-10-26T17:45:57+00:00",
-    "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-    "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-    "published": "2026-10-26T15:52:40+00:00",
-    "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware.\n\n\"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "\u26a1 Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-    "published": "2026-10-26T14:06:13+00:00",
-    "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-    "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-    "published": "2026-10-26T11:52:41+00:00",
-    "summary": "Two critical flaws in\u00a0Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-    "published": "2026-10-26T11:23:56+00:00",
-    "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-    "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-    "published": "2026-10-26T09:54:02+00:00",
-    "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app.\n\nThe kit's Telegram part matches Baohuo, a backdoor that Doctor.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-    "published": "2026-10-26T08:35:51+00:00",
-    "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-    "published": "2026-10-26T07:49:46+00:00",
-    "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to\u00a0an analysis\u00a0by cloud security company Wiz.\n\nA\u00a0GitHub safeguard\u00a0that pauses.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-    "published": "2026-10-26T06:03:48+00:00",
-    "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm\u00a0Forever Security said\u00a0in a report published last week.\n\nThe company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.\n\nThe file.",
+    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "published": "2026-10-29T05:50:17+00:00",
+    "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as.",
     "extra": {}
   }
 ]
