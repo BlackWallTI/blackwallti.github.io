@@ -1,114 +1,74 @@
 [
   {
     "source": "The Hacker News",
-    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "published": "2026-10-29T19:11:58+00:00",
-    "summary": "Some attacks take real skill. Others just need someone to leave a door open.",
+    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+    "published": "2026-10-30T16:58:44+00:00",
+    "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-    "published": "2026-10-29T15:57:05+00:00",
-    "summary": "A flaw in the Linux kernel's TCP code, tracked as\u00a0CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said\u00a0on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a.",
+    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+    "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+    "published": "2026-10-30T15:17:28+00:00",
+    "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\n\nA malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-    "published": "2026-10-29T15:20:29+00:00",
-    "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.\n\nThe activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called.",
+    "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+    "published": "2026-10-30T14:08:14+00:00",
+    "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "published": "2026-10-29T13:42:40+00:00",
-    "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and.",
+    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+    "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+    "published": "2026-10-30T12:21:56+00:00",
+    "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase.\n\nTrezor said in a\u00a0blog post&nbsp.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "published": "2026-10-29T11:39:41+00:00",
-    "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or.",
+    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+    "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+    "published": "2026-10-30T11:58:53+00:00",
+    "summary": "The alert is critical. The fix is known.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-    "published": "2026-10-29T11:39:18+00:00",
-    "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec\u00a0disclosed it on October 29.\n\nCombined with an.",
+    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "published": "2026-10-30T10:40:45+00:00",
+    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been\u00a0sentenced by a U.S. federal court\u00a0to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-    "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-    "published": "2026-10-29T11:33:41+00:00",
-    "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own.",
+    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "published": "2026-10-30T08:55:47+00:00",
+    "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-    "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-    "published": "2026-10-29T11:33:15+00:00",
-    "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and\u00a0reported the results\u00a0on October 28.",
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "published": "2026-10-30T07:45:30+00:00",
+    "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\n\"This module enables you to sell goods and services to customers through an included shopping cart.",
     "extra": {}
   },
   {
     "source": "The Hacker News",
-    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-    "published": "2026-10-29T10:44:46+00:00",
-    "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-    "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-    "published": "2026-10-29T10:26:33+00:00",
-    "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attacker Tried to Exploit Alpine Linux\u2019s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "published": "2026-10-29T09:05:39+00:00",
-    "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab\u00a0released a fix, Alpine Linux\u00a0said\u00a0on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "published": "2026-10-29T08:24:22+00:00",
-    "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,\u00a0Cisco Talos said\u00a0on October 28. Talos calls the attacks historical but does not specify when they.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-    "published": "2026-10-29T06:22:33+00:00",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S.",
-    "extra": {}
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "published": "2026-10-29T05:50:17+00:00",
-    "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as.",
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "published": "2026-10-30T07:27:05+00:00",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise.",
     "extra": {}
   }
 ]
