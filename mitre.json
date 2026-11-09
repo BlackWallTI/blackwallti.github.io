@@ -5,10 +5,10 @@
     "mitre_id": "G0082",
     "mitre_url": "https://attack.mitre.org/groups/G0082/",
     "link": "https://attack.mitre.org/groups/G0082/",
-    "technique_count": 56,
-    "techniques": "T1005, T1027.002, T1033, T1036.003, T1036.006, T1049, T1053.003, T1053.005, T1055, T1056.001, T1057, T1059.001, T1059.003, T1059.005, T1070.004, T1070.006, T1071.001, T1082, T1083, T1105, T1106, T1110, T1112, T1115, T1135, T1140, T1189, T1204.001, T1204.002, T1217, T1218.001, T1218.005, T1218.007, T1218.011, T1480.002, T1485, T1486, T1505.003, T1518.001, T1529, T1543.003, T1548.002, T1553.005, T1561.002, T1565.001, T1565.002, T1565.003, T1566.001, T1569.002, T1583.001, T1588.002, T1685, T1685.005, T1686, T1686.002, T1690",
-    "last_updated": "2026-07-31T20:48:22.752Z",
-    "description": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, APT38 has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, during which APT38 stole $81 million, as well as attacks against Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018); some of their attacks have been destructive.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: FireEye APT38 Oct 2018)(Citation: DOJ North Korea Indictment Feb 2021)(Citation: Kaspersky Lazarus Under The Hood Blog 2017)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name Lazarus Group instead of tracking clusters or subgroups."
+    "technique_count": 115,
+    "techniques": "T1005, T1012, T1027.002, T1027.010, T1027.015, T1027.016, T1033, T1036.003, T1036.005, T1036.006, T1036.008, T1041, T1048.002, T1049, T1053.003, T1053.005, T1053.006, T1055, T1056.001, T1056.002, T1057, T1059.001, T1059.002, T1059.003, T1059.004, T1059.005, T1059.006, T1059.007, T1070.003, T1070.004, T1070.006, T1071.001, T1074.001, T1078.003, T1078.004, T1082, T1083, T1105, T1106, T1110, T1112, T1115, T1124, T1132.001, T1135, T1140, T1189, T1195.001, T1204.001, T1204.002, T1213.005, T1213.006, T1217, T1218.001, T1218.005, T1218.007, T1218.011, T1222.002, T1480, T1480.002, T1485, T1486, T1505.003, T1518, T1518.001, T1529, T1543.001, T1543.003, T1543.004, T1546.016, T1547.001, T1548.002, T1548.003, T1548.006, T1552.003, T1552.004, T1553.005, T1555, T1555.001, T1555.003, T1560.001, T1561.002, T1564.003, T1564.011, T1564.012, T1565.001, T1565.002, T1565.003, T1566.001, T1566.002, T1566.003, T1567, T1569.002, T1571, T1583.001, T1583.003, T1583.006, T1585.001, T1585.002, T1586.003, T1588.002, T1608.001, T1620, T1657, T1677, T1678, T1683.001, T1683.002, T1684.001, T1685, T1685.003, T1685.005, T1686, T1686.002, T1690",
+    "last_updated": "2026-10-09T03:56:03.463Z",
+    "description": "APT38 is a North Korean state-sponsored threat group that specializes in financial cyber operations; it has been attributed to the Reconnaissance General Bureau.(Citation: CISA AA20-239A BeagleBoyz August 2020) Active since at least 2014, APT38 has targeted banks, financial institutions, casinos, cryptocurrency exchanges, SWIFT system endpoints, and ATMs in at least 38 countries worldwide. Significant operations include the 2016 Bank of Bangladesh heist, Bancomext (Citation: FireEye APT38 Oct 2018) and Banco de Chile (Citation: FireEye APT38 Oct 2018), along with software supply chain compromises and destructive malware attacks.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: FireEye APT38 Oct 2018)(Citation: DOJ North Korea Indictment Feb 2021)(Citation: Kaspersky Lazarus Under The Hood Blog 2017)(Citation: Microsoft Axios Compromise APR 2026)(Citation: Microsoft Sapphire Sleet APR 2026)(Citation: MIcrosoft Mastra npm Compromise JUN 2026)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name Lazarus Group instead of tracking clusters or subgroups."
   },
   {
     "actor_name": "Indrik Spider",
@@ -214,10 +214,10 @@
     "mitre_id": "G1045",
     "mitre_url": "https://attack.mitre.org/groups/G1045/",
     "link": "https://attack.mitre.org/groups/G1045/",
-    "technique_count": 14,
-    "techniques": "T1021.004, T1040, T1048.003, T1098.004, T1110.002, T1136, T1190, T1572, T1587.001, T1588.002, T1590.004, T1602.002, T1685.006, T1686",
-    "last_updated": "2026-07-31T18:47:41.313Z",
-    "description": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)\n"
+    "technique_count": 58,
+    "techniques": "T1005, T1016, T1018, T1020.001, T1021.001, T1021.004, T1027.010, T1040, T1046, T1048.003, T1059.004, T1059.006, T1059.008, T1059.013, T1070.003, T1070.007, T1070.009, T1071.001, T1071.002, T1072, T1078, T1082, T1090, T1090.003, T1095, T1098.004, T1105, T1110.001, T1110.002, T1132.001, T1136, T1136.001, T1190, T1199, T1543.005, T1548.003, T1552.001, T1556, T1569, T1571, T1572, T1583.003, T1584.008, T1585.001, T1587, T1587.001, T1588.002, T1588.005, T1590.004, T1595, T1599, T1602.001, T1602.002, T1610, T1685, T1685.006, T1686, T1686.002",
+    "last_updated": "2026-09-23T16:05:01.158Z",
+    "description": "Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP). Salt Typhoon has targeted and leveraged public facing network edge devices to gain access to victim environments. Salt Typhoon has been publicly associated with activities resembling other security industry reported activity groups to include OPERATOR PANDA, RedMike, GhostEmperor, and UNC5807.(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)(Citation: CarySentinelLabs_CiscoSaltTyphoon_Dec2025)(Citation: CrowdStrike_OperatorPanda_NoDate)(Citation: RF_SaltTyphoon_Feb2025)(Citation: Microsoft_ThreatActorNaming_NoDate)(Citation: Mandiant_M-Trends2026_Mar2026)"
   },
   {
     "actor_name": "Dragonfly",
@@ -370,7 +370,7 @@
     "link": "https://attack.mitre.org/groups/G0047/",
     "technique_count": 70,
     "techniques": "T1001, T1005, T1012, T1016.001, T1020, T1021.005, T1025, T1027, T1027.004, T1027.010, T1027.012, T1027.015, T1027.016, T1033, T1036.005, T1039, T1041, T1047, T1053.005, T1055, T1057, T1059.001, T1059.003, T1059.005, T1070.004, T1071.001, T1080, T1082, T1083, T1090, T1090.003, T1091, T1095, T1102, T1102.002, T1102.003, T1105, T1106, T1112, T1113, T1119, T1120, T1137, T1140, T1204.001, T1204.002, T1218.005, T1218.011, T1221, T1480, T1491.001, T1497.001, T1518.001, T1534, T1547.001, T1559.001, T1561.001, T1564.003, T1566.001, T1568, T1568.001, T1571, T1583.001, T1583.003, T1583.006, T1587.003, T1588.002, T1608.001, T1620, T1685",
-    "last_updated": "2026-07-31T18:47:46.487Z",
+    "last_updated": "2026-10-01T23:37:12.271Z",
     "description": "Gamaredon Group is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name Gamaredon Group derives from a misspelling of the word \"Armageddon,\" found in early campaigns.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: TrendMicro Gamaredon April 2020)(Citation: ESET Gamaredon June 2020)(Citation: Symantec Shuckworm January 2022)(Citation: Microsoft Actinium February 2022)\n\nIn November 2021, the Ukrainian government publicly attributed Gamaredon Group to Russia\u2019s Federal Security Service (FSB) Center 18, an assessment later supported by multiple independent cybersecurity researchers. (Citation: Bleepingcomputer Gamardeon FSB November 2021)(Citation: Microsoft Actinium February 2022)"
   },
   {
@@ -546,7 +546,7 @@
     "link": "https://attack.mitre.org/groups/G1015/",
     "technique_count": 64,
     "techniques": "T1003.003, T1006, T1016, T1018, T1021.001, T1021.004, T1021.007, T1041, T1059.001, T1059.004, T1068, T1069, T1069.002, T1070.008, T1074, T1078, T1078.004, T1082, T1083, T1087, T1087.002, T1090, T1098, T1098.003, T1105, T1114, T1114.003, T1133, T1136, T1204, T1213.003, T1213.005, T1217, T1219.002, T1484.002, T1486, T1490, T1530, T1538, T1539, T1543.002, T1552.001, T1552.004, T1553.002, T1555.005, T1556.006, T1556.009, T1564.008, T1567.002, T1572, T1578.002, T1580, T1583.001, T1585.001, T1588.001, T1588.002, T1589, T1598, T1598.003, T1598.004, T1621, T1657, T1684.001, T1685",
-    "last_updated": "2026-07-31T20:48:33.778Z",
+    "last_updated": "2026-09-11T19:37:15.760Z",
     "description": "Scattered Spider is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management (CRM) providers, business process outsourcing (BPO) firms, and telecommunications and technology companies before expanding in 2023 to gaming, hospitality, retail, managed service provider (MSP), manufacturing, and financial sectors. (Citation: MSTIC Octo Tempest Operations October 2023)\nScattered Spider relies heavily on social engineering, including impersonating IT and help-desk staff, to gain initial access, bypass multi-factor authentication (MFA), and compromise enterprise networks. The group has adapted its tooling to evade endpoint detection and response (EDR) defenses and used ransomware for financial gain. (Citation: CISA Scattered Spider Advisory November 2023) (Citation: CrowdStrike Scattered Spider BYOVD January 2023) (Citation: Crowdstrike TELCO BPO Campaign December 2022)\nScattered Spider had expanded into hybrid cloud and identity environments, using help-desk impersonation and MFA bypass to obtain administrator access in Okta, AWS, and Office 365. (Citation: Mandiant UNC3944 May 2025)"
   },
   {
@@ -689,7 +689,7 @@
     "link": "https://attack.mitre.org/groups/G0071/",
     "technique_count": 2,
     "techniques": "T1021.002, T1071.001",
-    "last_updated": "2026-07-31T18:47:56.740Z",
+    "last_updated": "2026-11-02T16:24:07.517Z",
     "description": "Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.(Citation: Symantec Orangeworm April 2018) Reverse engineering of Kwampirs, directly associated with Orangeworm activity, indicates significant functional and development overlaps with Shamoon.(Citation: Cylera Kwampirs 2022)"
   },
   {
@@ -1140,7 +1140,7 @@
     "link": "https://attack.mitre.org/groups/G0070/",
     "technique_count": 12,
     "techniques": "T1005, T1027.002, T1027.013, T1059.003, T1071.001, T1083, T1113, T1189, T1204.002, T1218.001, T1547.001, T1566.003",
-    "last_updated": "2026-07-31T20:48:40.500Z",
+    "last_updated": "2026-09-02T18:51:43.655Z",
     "description": "Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)"
   },
   {
@@ -1393,7 +1393,7 @@
     "link": "https://attack.mitre.org/groups/G0112/",
     "technique_count": 19,
     "techniques": "T1027, T1033, T1036, T1036.001, T1047, T1057, T1059.005, T1071.001, T1082, T1105, T1189, T1204.001, T1204.002, T1518, T1518.001, T1547.001, T1566.001, T1566.002, T1566.003",
-    "last_updated": "2026-07-31T20:48:43.267Z",
+    "last_updated": "2026-09-02T18:52:46.473Z",
     "description": "Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)"
   },
   {
@@ -1512,9 +1512,9 @@
     "mitre_id": "G1044",
     "mitre_url": "https://attack.mitre.org/groups/G1044/",
     "link": "https://attack.mitre.org/groups/G1044/",
-    "technique_count": 32,
-    "techniques": "T1016, T1036.005, T1047, T1053.005, T1056, T1056.001, T1059.001, T1059.005, T1070, T1070.008, T1071.001, T1082, T1087.001, T1102, T1111, T1112, T1113, T1132.001, T1518.001, T1530, T1539, T1547, T1555.003, T1566.002, T1573.002, T1583.001, T1583.003, T1585.002, T1588.002, T1608.001, T1682, T1684.001",
-    "last_updated": "2026-07-31T18:48:15.085Z",
+    "technique_count": 33,
+    "techniques": "T1016, T1036.005, T1047, T1053.005, T1056, T1056.001, T1059.001, T1059.005, T1070, T1070.008, T1071.001, T1082, T1087.001, T1102, T1111, T1112, T1113, T1132.001, T1518.001, T1530, T1539, T1547, T1555.003, T1566.002, T1573.002, T1583.001, T1583.003, T1585.002, T1588.002, T1608.001, T1682, T1684.001, T1697",
+    "last_updated": "2026-09-22T18:32:31.345Z",
     "description": "APT42 is an Iranian-sponsored threat group that conducts cyber espionage and surveillance.(Citation: Mandiant APT42-charms) The group primarily focuses on targets in the Middle East region, but has targeted a variety of industries and countries since at least 2015.(Citation: Mandiant APT42-charms) APT42 starts cyber operations through spearphishing emails and/or the PINEFLOWER Android malware, then monitors and collects information from the compromised systems and devices.(Citation: Mandiant APT42-charms) Finally, APT42 exfiltrates data using native features and open-source tools.(Citation: Mandiant APT42-untangling) \n\nAPT42 activities have been linked to Magic Hound by other commercial vendors. While there are behavior and software overlaps between Magic Hound and APT42, they appear to be distinct entities and are tracked as separate entities by their originating vendor. "
   },
   {
@@ -2084,9 +2084,9 @@
     "mitre_id": "G1056",
     "mitre_url": "https://attack.mitre.org/groups/G1056/",
     "link": "https://attack.mitre.org/groups/G1056/",
-    "technique_count": 36,
-    "techniques": "T1005, T1027.003, T1036.005, T1059.004, T1059.006, T1059.007, T1059.013, T1078, T1078.004, T1098, T1105, T1176.002, T1190, T1195.001, T1485, T1486, T1528, T1543.002, T1546.016, T1547.001, T1550.001, T1552.004, T1553.002, T1555.006, T1564.001, T1583, T1583.001, T1583.004, T1583.006, T1585.001, T1587.001, T1608.001, T1657, T1677, T1683.001, T1684.001",
-    "last_updated": "2026-07-31T18:47:42.686Z",
+    "technique_count": 37,
+    "techniques": "T1005, T1027.003, T1036.005, T1059.004, T1059.006, T1059.007, T1059.013, T1078, T1078.004, T1098, T1105, T1176.002, T1190, T1195.001, T1485, T1486, T1528, T1543.002, T1546.016, T1547.001, T1550.001, T1552.004, T1553.002, T1555.006, T1564.001, T1583, T1583.001, T1583.004, T1583.006, T1585.001, T1587.001, T1608.001, T1610, T1657, T1677, T1683.001, T1684.001",
+    "last_updated": "2026-09-02T17:31:48.218Z",
     "description": "TeamPCP is a financially-motivated, cloud-native threat group that has been active since at least September 2025. Initially focused on ransomware and cryptocurrency theft, TeamPCP shifted in early 2026 to systematic, worm-driven credential theft and software supply chain attacks targeting Continuous Integration and Continuous Delivery (CI/CD) workflows. TeamPCP has monetized access through extortion and through partnerships with ransomware actors including Vect and CipherForce.(Citation: Wiz TeamPCP Profile MAY 2026)(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Trend Micro TeamPCP MAY 2026)"
   },
   {
@@ -2099,5 +2099,27 @@
     "techniques": "T1016, T1018, T1036.005, T1059.007, T1059.009, T1069.003, T1072, T1078, T1078.002, T1078.004, T1082, T1083, T1090.003, T1105, T1110, T1190, T1195.001, T1203, T1210, T1213.003, T1213.006, T1219, T1485, T1491.001, T1528, T1530, T1550.001, T1552.001, T1560.002, T1567, T1573.002, T1580, T1583.001, T1583.004, T1585.002, T1587.004, T1588.002, T1588.007, T1589.001, T1593.003, T1595.002, T1598, T1598.003, T1619, T1657, T1684",
     "last_updated": "2026-07-31T18:47:57.967Z",
     "description": "ShinyHunters is a cyber criminal collective that has been active since at least 2019 operating under the ShinyCorp persona. ShinyHunters has targeted multiple industries and geographic regions gathering legitimate credentials and personally identifiable information (PII) for resale or extortion of victims. ShinyHunters has been associated with the broader collective called The Community, also known as The Com whose members have also included Scattered Spider and LAPSUS$. Public reporting has mentioned a variety of names for operations ShinyHunters members have reportedly conducted with members of other groups, including \u201cScattered Lapsus Hunters,\u201d \u201cScattered Lapsus Shiny Hunters,\u201d and \u201cSLSH.\u201d(Citation: ElecticIQ Buyukkaya_ShinyHunters_Sept2025)(Citation: SOCRadar_ShinyHunters_Mar2024)(Citation: Unit42KelleyVaya_BlingLibra_Aug2024)(Citation: Intel471_SH_Aug2021)(Citation: FBI_SHLMS_May2026)(Citation: Google_SHOracle_Jun2026)(Citation: Mandiant_SHDataTheft_Jan2026)(Citation: Google Salesforce JUN 2025)"
+  },
+  {
+    "actor_name": "The Gentlemen",
+    "aliases": "The Gentlemen, Storm-2697, GOLD SHERWOOD",
+    "mitre_id": "G1058",
+    "mitre_url": "https://attack.mitre.org/groups/G1058/",
+    "link": "https://attack.mitre.org/groups/G1058/",
+    "technique_count": 17,
+    "techniques": "T1018, T1027.002, T1036, T1036.001, T1036.005, T1068, T1078, T1190, T1219.002, T1486, T1583.001, T1585, T1585.001, T1588.002, T1657, T1683.001, T1683.002",
+    "last_updated": "2026-09-30T17:41:50.958Z",
+    "description": "The Gentlemen is a group that maintains the The Gentlemen Ransomware-as-a-service (RaaS). The Gentlemen was\u202ffirst\u202fobserved in mid-2025 who had posed The Gentlemen Ransomware as a closed ransomware and shortly later opened the ransomware as a RaaS to affiliates in September 2025. The Gentlemen has been affiliated with the threat group Storm-2697 and GOLD SHERWOOD.(Citation: MSTI_GentelmenRansomware_May2026)(Citation: Intel471_TheGentlemen_Aug2026)(Citation: Sophos_TheGentlemen_Sept2026)(Citation: Sou\u010dekESET_Gentlemen_Jun2026)(Citation: CheckPointResearch_TheGentlemen_April2026)(Citation: BradyUnit42_TheGentlemen_July2026)(Citation: CarveyODonnellWelchHuntress_TheGentlemen_May2026)(Citation: TrendAI_TheGentlemen_Sept2025) "
+  },
+  {
+    "actor_name": "NIMBUS MANTICORE",
+    "aliases": "NIMBUS MANTICORE, UNC1549, TA455, COBALT SMOKEY",
+    "mitre_id": "G1059",
+    "mitre_url": "https://attack.mitre.org/groups/G1059/",
+    "link": "https://attack.mitre.org/groups/G1059/",
+    "technique_count": 65,
+    "techniques": "T1003.006, T1007, T1021.001, T1021.002, T1027, T1027.015, T1036.004, T1036.005, T1039, T1046, T1047, T1049, T1053.005, T1057, T1059.001, T1059.007, T1070.004, T1070.007, T1071, T1072, T1078.002, T1078.003, T1078.004, T1087.001, T1087.002, T1098, T1105, T1106, T1110.003, T1114.001, T1136.001, T1199, T1204.001, T1204.002, T1213, T1213.002, T1213.005, T1534, T1547.001, T1552, T1558.003, T1563.002, T1566.001, T1566.002, T1574.001, T1574.014, T1583.001, T1583.003, T1583.006, T1585.001, T1587.001, T1588.002, T1588.003, T1588.007, T1591, T1598.001, T1608.001, T1608.005, T1608.006, T1649, T1678, T1683.001, T1683.002, T1684.001, T1685.003",
+    "last_updated": "2026-10-05T14:45:56.927Z",
+    "description": "NIMBUS MANTICORE\u202fis a State Sponsored cyber espionage group associated with the Iranian Regime specifically the Iranian Revolutionary Guard Corps (IRGC). NIMBUS MANTICORE has employed social engineering attacks to include HR related themes and has leveraged custom malware against its victims. NIMBUS MANTICORE has sought sensitive information in victims\u2019 environments to include network/IT documentation, intellectual property and emails. NIMBUS MANTICORE has also leveraged compromised organizations as pivot points to access other organizations of interest. NIMBUS MANTICORE has been active since 2021 and has targeted critical infrastructure organizations to include aviation, aerospace, telecommunications and defense and information technology related organizations within the United States, Australia, Midde East and Europe.(Citation: Mandiant_UNC1549TTPsTools_Nov2025)(Citation: CheckPoint_NimbusManticore_May2026)(Citation: CheckPoint_NimbusManticoreEurope_Sept2025)(Citation: Mandiant_UNC1549_Feb2024)"
   }
 ]

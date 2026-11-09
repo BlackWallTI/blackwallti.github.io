@@ -1,98 +1,10 @@
 [
   {
     "source": "Bleeping Computer",
-    "title": "Hackers pull off $133 million French bank heist via service provider",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "published": "2026-11-07T15:25:35+00:00",
-    "summary": "French cooperative bank Cr\u00e9dit Mutuel Ark\u00e9a was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-    "published": "2026-11-07T14:10:19+00:00",
-    "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-    "published": "2026-11-07T00:00:55+00:00",
-    "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-    "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-    "published": "2026-11-06T22:27:25+00:00",
-    "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "published": "2026-11-06T20:24:19+00:00",
-    "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Fake security tools on GitHub push backdoors and infostealers",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-    "published": "2026-11-06T18:46:52+00:00",
-    "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-    "published": "2026-11-06T17:04:23+00:00",
-    "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-    "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-    "published": "2026-11-06T15:25:31+00:00",
-    "summary": "\u200bVeeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-    "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-    "published": "2026-11-06T15:00:10+00:00",
-    "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "Chainalysis says breach exposed credentials for all customers",
-    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-    "published": "2026-11-06T14:17:07+00:00",
-    "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-    "published": "2026-11-06T12:37:22+00:00",
-    "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-    "extra": {}
-  },
-  {
-    "source": "Bleeping Computer",
-    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-    "published": "2026-11-06T09:22:28+00:00",
-    "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "published": "2026-11-08T15:43:08+00:00",
+    "summary": "Japanese manufacturer\u00a0Iris Ohyama, the operator of the Iris Plaza shopping platform,\u00a0disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
     "extra": {}
   }
 ]
